@@ -1,0 +1,828 @@
+﻿unit_id,part,variety,label,rater,source,note
+B-CHN-001,B,Chennai,B,R1,explicit,
+B-CHN-002,B,Chennai,C,R1,explicit,
+B-CHN-003,B,Chennai,C,R1,explicit,
+B-CHN-004,B,Chennai,B,R1,explicit,
+B-CHN-005,B,Chennai,A,R1,explicit,
+B-CHN-006,B,Chennai,C,R1,explicit,
+B-CHN-007,B,Chennai,C,R1,explicit,
+B-CHN-008,B,Chennai,A,R1,explicit,'நின்னாங்க' என்றும் சொல்லலாம்
+B-CHN-009,B,Chennai,B,R1,explicit,
+B-CHN-010,B,Chennai,B,R1,explicit,
+B-CHN-011,B,Chennai,B,R1,explicit,
+B-CHN-012,B,Chennai,C,R1,explicit,
+B-CHN-013,B,Chennai,B,R1,explicit,
+B-CHN-014,B,Chennai,B,R1,explicit,
+B-CHN-015,B,Chennai,C,R1,explicit,
+B-CHN-016,B,Chennai,C,R1,explicit,
+B-CHN-017,B,Chennai,B,R1,explicit,
+B-CHN-018,B,Chennai,C,R1,explicit,
+B-CHN-019,B,Chennai,B,R1,explicit,
+B-CHN-020,B,Chennai,B,R1,explicit,
+B-CHN-021,B,Chennai,C,R1,explicit,
+B-CHN-022,B,Chennai,C,R1,explicit,
+B-CHN-023,B,Chennai,C,R1,explicit,
+B-CHN-024,B,Chennai,B,R1,explicit,
+B-CHN-025,B,Chennai,B,R1,explicit,
+B-CHN-026,B,Chennai,B,R1,explicit,
+B-CHN-027,B,Chennai,B,R1,explicit,
+B-CHN-028,B,Chennai,C,R1,explicit,
+B-CHN-029,B,Chennai,B,R1,explicit,
+B-CHN-030,B,Chennai,B,R1,explicit,
+B-CHN-031,B,Chennai,C,R1,explicit,
+B-CHN-032,B,Chennai,B,R1,explicit,
+B-CHN-033,B,Chennai,C,R1,explicit,
+B-CHN-034,B,Chennai,A,R1,explicit,
+B-CHN-035,B,Chennai,A,R1,explicit,
+B-CHN-036,B,Chennai,B,R1,explicit,
+B-CHN-037,B,Chennai,C,R1,explicit,
+B-CHN-038,B,Chennai,B,R1,explicit,
+B-CHN-039,B,Chennai,C,R1,explicit,
+B-CHN-040,B,Chennai,C,R1,explicit,
+B-CHN-041,B,Chennai,C,R1,explicit,
+B-CHN-042,B,Chennai,B,R1,explicit,
+B-CHN-043,B,Chennai,C,R1,explicit,
+B-CHN-044,B,Chennai,C,R1,explicit,
+B-CHN-045,B,Chennai,C,R1,explicit,
+B-CHN-046,B,Chennai,B,R1,explicit,
+B-CHN-047,B,Chennai,A,R1,explicit,
+B-CHN-048,B,Chennai,B,R1,explicit,
+B-CHN-049,B,Chennai,B,R1,explicit,
+B-CHN-050,B,Chennai,A,R1,explicit,நல்ல மாற்று வார்த்தை
+B-CHN-051,B,Chennai,B,R1,explicit,
+B-CHN-052,B,Chennai,C,R1,explicit,
+B-CHN-053,B,Chennai,A,R1,explicit,'இருப்பார்' என்றும் பயன்படுத்தலாம்
+B-CHN-054,B,Chennai,C,R1,explicit,
+B-CHN-055,B,Chennai,B,R1,explicit,
+B-CHN-056,B,Chennai,C,R1,explicit,
+B-CHN-057,B,Chennai,B,R1,explicit,
+B-CHN-058,B,Chennai,A,R1,explicit,
+B-CHN-059,B,Chennai,B,R1,explicit,writer's message typed 'B-CHN-050 B' on line 59; read as 059 (050 has its own line)
+B-CHN-060,B,Chennai,C,R1,explicit,
+B-CHN-061,B,Chennai,B,R1,explicit,
+A-CHN-001,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-002,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-003,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-004,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-005,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-006,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-007,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-008,A,Chennai,S,R1,explicit,'அலாரம்' / 'அலாரத்த' என்றுதான் பேசுவார்கள்; 'அலாரத்தை' இலக்கண-சுத்த வடிவம் பேச்சில் வராது. AI-யின் மாற்று வடிவம் வட்டார வடிவத்தைச் சுத்தப்படுத்தியது
+A-CHN-009,A,Chennai,S,R1,explicit,'மளிகக் கட' பேச்சு வழக்கில் சரியான வடிவம்; 'மளிகக்'-ஐ மட்டும் பிழை என்று சொல்லி 'கட'-ஐ விட்டது முரண்
+A-CHN-010,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-011,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-012,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-013,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-014,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-015,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-016,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-017,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-018,A,Chennai,S,R1,explicit,"'போனாத்தான்', 'போனா தான்' இரண்டும் சரி"
+A-CHN-019,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-020,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-021,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-022,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-023,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-024,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-025,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-026,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-027,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-028,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-029,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-030,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-031,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-032,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-033,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-034,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-035,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-036,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-037,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-038,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-039,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-040,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-041,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-042,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-043,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-044,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-045,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-046,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-047,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-048,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-049,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-050,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-051,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-052,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-053,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-054,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-055,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-056,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-057,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-058,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-059,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-060,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-061,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-062,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-063,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-064,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-065,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-066,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-067,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-068,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-069,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-070,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-071,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-072,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-073,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-074,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-075,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-076,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-077,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-078,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-079,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-080,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-081,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-082,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-083,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-084,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-085,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-086,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-087,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-088,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-089,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-090,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-091,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-092,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-093,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-094,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-095,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-096,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-097,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-098,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-099,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-100,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-101,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-102,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-103,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-104,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-105,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-106,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-107,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-108,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-109,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-110,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-111,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-112,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-113,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-114,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-115,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-116,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-117,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-118,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-119,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-120,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-121,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-122,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-123,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-124,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-125,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-126,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-127,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-128,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-129,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-130,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-131,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-132,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-133,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-134,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-135,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-136,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-137,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-138,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-139,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-140,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-141,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-142,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-143,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-144,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-145,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-146,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-147,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-148,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-149,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-150,A,Chennai,S,R1,blanket,"writer's message: 'all the others that I wrote are correct; what the AI says is not' — one sentence, not a per-word answer"
+A-CHN-002,A,Chennai,S,R2,explicit,
+A-CHN-005,A,Chennai,S,R2,explicit,
+A-CHN-008,A,Chennai,S,R2,explicit,
+A-CHN-014,A,Chennai,S,R2,explicit,
+A-CHN-015,A,Chennai,S,R2,explicit,
+A-CHN-024,A,Chennai,S,R2,explicit,AI-யின் மாற்றுச் சொல்லும் நல்லது
+A-CHN-028,A,Chennai,S,R2,explicit,
+A-CHN-032,A,Chennai,S,R2,explicit,"'போயிட்டார்' ஏற்கத்தக்கது, ஆனால் secondary"
+A-CHN-033,A,Chennai,S,R2,explicit,
+A-CHN-037,A,Chennai,S,R2,explicit,
+A-CHN-039,A,Chennai,S,R2,explicit,
+A-CHN-041,A,Chennai,S,R2,explicit,
+A-CHN-043,A,Chennai,S,R2,explicit,
+A-CHN-044,A,Chennai,S,R2,explicit,
+A-CHN-047,A,Chennai,S,R2,explicit,
+A-CHN-058,A,Chennai,S,R2,explicit,
+A-CHN-060,A,Chennai,S,R2,explicit,
+A-CHN-066,A,Chennai,S,R2,explicit,"'நாள்' ஏற்கத்தக்கது, ஆனால் secondary"
+A-CHN-074,A,Chennai,S,R2,explicit,
+A-CHN-077,A,Chennai,S,R2,explicit,
+A-CHN-083,A,Chennai,S,R2,explicit,
+A-CHN-087,A,Chennai,S,R2,explicit,
+A-CHN-089,A,Chennai,S,R2,explicit,
+A-CHN-096,A,Chennai,S,R2,explicit,
+A-CHN-097,A,Chennai,S,R2,explicit,"'பண்ணிக்கிட்டு' ஏற்கத்தக்கது, ஆனால் south feel"
+A-CHN-100,A,Chennai,S,R2,explicit,
+A-CHN-111,A,Chennai,S,R2,explicit,
+A-CHN-114,A,Chennai,S,R2,explicit,
+A-CHN-116,A,Chennai,S,R2,explicit,
+A-CHN-122,A,Chennai,S,R2,explicit,
+A-CHN-123,A,Chennai,S,R2,explicit,
+A-CHN-126,A,Chennai,S,R2,explicit,
+A-CHN-128,A,Chennai,S,R2,explicit,
+A-CHN-131,A,Chennai,S,R2,explicit,
+A-CHN-133,A,Chennai,S,R2,explicit,
+A-CHN-134,A,Chennai,S,R2,explicit,
+A-CHN-135,A,Chennai,S,R2,explicit,'அண்ணன்கிட்ட' சேர்த்து எழுதுவதும் தவறில்லை
+A-CHN-138,A,Chennai,S,R2,explicit,
+A-CHN-141,A,Chennai,S,R2,explicit,
+A-CHN-147,A,Chennai,S,R2,explicit,
+B-CHN-006,B,Chennai,B,R2,explicit, | wrote that the units he marked B 'are errors' — may have read B as 'wrong'; see calibration sheet
+B-CHN-009,B,Chennai,B,R2,explicit,
+B-CHN-010,B,Chennai,B,R2,explicit,'காட்டுனான்' / 'காட்டினார்' சரி; வெறும் 'காட்டுனா' தவறு
+B-CHN-013,B,Chennai,B,R2,explicit,
+B-CHN-014,B,Chennai,B,R2,explicit,
+B-CHN-019,B,Chennai,B,R2,explicit,
+B-CHN-020,B,Chennai,B,R2,explicit,
+B-CHN-021,B,Chennai,B,R2,explicit,
+B-CHN-026,B,Chennai,B,R2,explicit,
+B-CHN-030,B,Chennai,B,R2,explicit,
+B-CHN-034,B,Chennai,B,R2,explicit,
+B-CHN-038,B,Chennai,B,R2,explicit,
+B-CHN-043,B,Chennai,A,R2,explicit,'இருந்துக்கினே இருக்கும்' சரிதான்
+B-CHN-044,B,Chennai,B,R2,explicit,
+B-CHN-045,B,Chennai,B,R2,explicit,
+B-CHN-049,B,Chennai,B,R2,explicit,
+B-CHN-051,B,Chennai,B,R2,explicit,
+B-CHN-053,B,Chennai,B,R2,explicit,
+B-CHN-057,B,Chennai,B,R2,explicit,
+B-CHN-058,B,Chennai,B,R2,explicit,
+A-KON-001,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-002,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-003,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-004,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-005,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-006,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-007,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-008,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-009,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-010,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-011,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-012,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-013,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-014,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-015,A,Kongu,S,R2,explicit,'ஏய்' / 'ஏ' இரண்டையும் பயன்படுத்துவார்கள்; இந்த இடம் சற்றுக் குழப்பம்
+A-KON-016,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-017,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-018,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-019,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-020,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-021,A,Kongu,S,R2,explicit,'விரால்' ஒரு மீன் வகை; AI 'விரல்' என்று தவறாகப் புரிந்துகொண்டது
+A-KON-022,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-023,A,Kongu,S,R2,explicit,'தொந்தரவு' / 'தொல்லை' இரண்டும் சரி; வட்டார வழக்காகச் சொன்னால் 'தொல்ல'
+A-KON-024,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-025,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-026,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-027,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-028,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-029,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-030,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-031,A,Kongu,S,R2,explicit,'அடுக்கிக்கிட்டு' என்றும் சொல்லலாம்; AI இன்னொரு சரியான சொல்லைத் தந்தது
+A-KON-032,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-033,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-034,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-035,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-036,A,Kongu,S,R2,explicit,'கசக்கிக்கிட்டு' என்று சொன்னாலும் தவறில்லை
+A-KON-037,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-038,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-039,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-040,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-041,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-042,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-043,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-044,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-045,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-046,A,Kongu,S,R2,explicit,'சேர்ந்தால்தான்' என்றும் பயன்படுத்தலாம்
+A-KON-047,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-048,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-049,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-050,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-051,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-052,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-053,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-054,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-055,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-056,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-057,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-058,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-059,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-060,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-061,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-062,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-063,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-064,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-065,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-066,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-067,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-068,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-069,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-070,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-071,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-072,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-073,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-074,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-075,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-076,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-077,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-078,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-079,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-080,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-081,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-082,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-083,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-084,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-085,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-086,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-087,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-088,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-089,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-090,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-091,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-092,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-093,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-094,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-095,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-096,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-097,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-098,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-099,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-100,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-101,A,Kongu,S,R2,explicit,"'இல்லனா' பயன்படுத்தலாம், ஆனால் வட தமிழ்நாட்டு வழக்கு; கொங்கில் குறைவு"
+A-KON-102,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-103,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-104,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-105,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-106,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-107,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-108,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-109,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-110,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-111,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-112,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-113,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-114,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-115,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-116,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-117,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-118,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-119,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-120,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-121,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-122,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-123,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-124,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-125,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-126,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-127,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-128,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-129,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-130,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-131,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-132,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-133,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-134,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-135,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-136,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-137,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-138,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-139,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-140,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-141,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-142,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-143,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-144,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-145,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-146,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-147,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-148,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-149,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+A-KON-150,A,Kongu,S,R2,blanket,"'read everything; the writer's text is correct; the AI tries to convert dialect words to standard Tamil' — one sentence, not a per-word answer"
+B-KON-001,B,Kongu,B,R2,explicit,
+B-KON-002,B,Kongu,B,R2,explicit,
+B-KON-003,B,Kongu,C,R2,explicit,
+B-KON-004,B,Kongu,B,R2,explicit,
+B-KON-005,B,Kongu,C,R2,explicit,
+B-KON-006,B,Kongu,C,R2,explicit,
+B-KON-007,B,Kongu,B,R2,explicit,
+B-KON-008,B,Kongu,C,R2,explicit,
+B-KON-009,B,Kongu,B,R2,explicit,
+B-KON-010,B,Kongu,C,R2,explicit,
+B-KON-011,B,Kongu,B,R2,explicit,
+B-KON-012,B,Kongu,B,R2,explicit,
+B-KON-013,B,Kongu,B,R2,explicit,
+B-KON-014,B,Kongu,B,R2,explicit,
+B-KON-015,B,Kongu,B,R2,explicit,
+B-KON-016,B,Kongu,B,R2,explicit,
+B-KON-017,B,Kongu,B,R2,explicit,
+B-KON-018,B,Kongu,A,R2,explicit,
+B-KON-019,B,Kongu,C,R2,explicit,
+B-KON-020,B,Kongu,C,R2,explicit,
+B-KON-021,B,Kongu,C,R2,explicit,
+B-KON-022,B,Kongu,C,R2,explicit,
+B-KON-023,B,Kongu,C,R2,explicit,
+B-KON-024,B,Kongu,B,R2,explicit,
+B-KON-025,B,Kongu,B,R2,explicit,
+B-KON-026,B,Kongu,C,R2,explicit,
+B-KON-027,B,Kongu,B,R2,explicit,
+B-KON-028,B,Kongu,C,R2,explicit,
+B-KON-029,B,Kongu,C,R2,explicit,
+B-KON-030,B,Kongu,A,R2,explicit,
+B-KON-031,B,Kongu,B,R2,explicit,
+B-KON-032,B,Kongu,C,R2,explicit,
+B-KON-033,B,Kongu,B,R2,explicit,
+B-KON-034,B,Kongu,B,R2,explicit,
+B-KON-035,B,Kongu,C,R2,explicit,
+B-KON-036,B,Kongu,B,R2,explicit,
+B-KON-037,B,Kongu,B,R2,explicit,
+B-KON-038,B,Kongu,C,R2,explicit,
+B-KON-039,B,Kongu,A,R2,explicit,
+B-KON-040,B,Kongu,A,R2,explicit,
+B-KON-041,B,Kongu,B,R2,explicit,
+B-KON-042,B,Kongu,C,R2,explicit,
+B-KON-043,B,Kongu,B,R2,explicit,
+B-KON-044,B,Kongu,A,R2,explicit,
+B-KON-045,B,Kongu,C,R2,explicit,
+B-KON-046,B,Kongu,C,R2,explicit,
+B-KON-047,B,Kongu,B,R2,explicit,
+B-KON-048,B,Kongu,B,R2,explicit,
+B-KON-049,B,Kongu,C,R2,explicit,
+B-KON-050,B,Kongu,A,R2,explicit,
+B-KON-051,B,Kongu,C,R2,explicit,
+B-KON-052,B,Kongu,C,R2,explicit,
+B-KON-053,B,Kongu,C,R2,explicit,
+B-KON-054,B,Kongu,B,R2,explicit,
+B-KON-055,B,Kongu,B,R2,explicit,
+B-KON-056,B,Kongu,C,R2,explicit,
+B-KON-057,B,Kongu,B,R2,explicit,
+B-KON-058,B,Kongu,C,R2,explicit,
+B-KON-059,B,Kongu,B,R2,explicit,
+B-KON-060,B,Kongu,B,R2,explicit,
+B-KON-061,B,Kongu,C,R2,explicit,
+B-KON-062,B,Kongu,B,R2,explicit,
+A-GEN-001,A,General,S,R5,explicit,'கலந்து கொண்டான்' என்பது நீங்கள் செருகிய ஒருமைப் பிழையாக இருக்கலாம்; AI 'மாணவர்' என்று எழுதினால் அது சரிதான்
+A-GEN-002,A,General,S,R5,explicit,
+A-GEN-003,A,General,S,R5,explicit,'பங்கேற்றவர்களுக்கு' சரி போலத் தோன்றும் ஆனால் அது past tense — AI-யின் பரிந்துரை சரியில்லை
+A-GEN-004,A,General,S,R5,explicit,
+A-GEN-005,A,General,S,R5,explicit,ஒற்றுப் பிழைகளை எழுத்தாளரே பார்க்க வேண்டும்; ஒற்று மிகுவதும் மிகாததும் எழுத்து பாணியைப் பொறுத்தது
+A-GEN-006,A,General,?,R5,explicit,
+A-GEN-007,A,General,S,R5,explicit,'அவளது' என்பதும் சரிதான்; AI சரியான மாற்றுச் சொல்லைப் பரிந்துரைத்தது
+A-GEN-008,A,General,S,R5,explicit,
+A-GEN-009,A,General,S,R5,explicit,
+A-GEN-010,A,General,S,R5,explicit,
+A-GEN-011,A,General,S,R5,explicit,'விளக்கம் அளித்தனர்' என்பதும் சரிதான்
+A-GEN-012,A,General,S,R5,explicit,
+A-GEN-013,A,General,E,R5,explicit,(E) the clean text itself has 'பகுதியைச் சென்று' — case suffix wrong; a real miss by the writer
+A-GEN-014,A,General,S,R5,explicit,'வேண்டிய' என்றும் பயன்படுத்தலாம்
+A-GEN-015,A,General,?,R5,explicit,இங்கே ஒற்று வர வேண்டிய அவசியம் இல்லை என்று நினைக்கிறேன்
+A-GEN-016,A,General,S,R5,explicit,
+A-GEN-017,A,General,S,R5,explicit,'அறைக்குள்' என்பதும் சரிதான்; AI சரியாகக் கணித்திருக்கிறது
+A-GEN-018,A,General,S,R5,explicit,
+A-GEN-019,A,General,S,R5,explicit,
+A-GEN-020,A,General,?,R5,explicit,முழு வாக்கியத்தைப் படித்தால்தான் ஆண்பாலா பெண்பாலா என்று கணிக்க முடியும்; சரி பார்த்துக் கொள்ளுங்கள் (NOTE: the passage's subject is female; our seeded error 'அடைந்தான்' made the AI doubt 'அவளுக்குத்')
+A-GEN-021,A,General,E,R5,explicit,(E) reader marked error without comment; the unit spans a seeded punctuation error and an ஒற்று question — ask to confirm
+A-GEN-022,A,General,S,R5,explicit,"ஒற்று வரலாம், வராமலும் போகலாம்"
+A-GEN-023,A,General,S,R5,explicit,
+A-GEN-024,A,General,S,R5,explicit,
+A-GEN-025,A,General,S,R5,explicit,
+A-GEN-026,A,General,S,R5,explicit,
+A-GEN-027,A,General,S,R5,explicit,
+A-GEN-028,A,General,S,R5,explicit,'தொலைநோக்கியின் மூலம்' என்பதும் சரிதான்
+B-GEN-001,B,General,A,R5,explicit,
+B-GEN-002,B,General,C,R5,explicit,
+B-GEN-003,B,General,B,R5,explicit,B: meaning unclear. Reader wrote he did not understand the A/B/C question and marked whether the bracketed text is right or wrong. AI wrote 'இருந்தார்கள்' (a valid plural)
+B-GEN-004,B,General,A,R5,explicit,'வந்தனர்' 'வந்தார்கள்' இரண்டுமே சரி
+B-GEN-005,B,General,A,R5,explicit,
+B-GEN-006,B,General,A,R5,explicit,
+B-GEN-007,B,General,A,R5,explicit,'பழுதாயிற்று' என்பதும் சரி
+B-GEN-008,B,General,A,R5,explicit,'எழுப்பினார்கள்' என்பதும் சரி
+B-GEN-009,B,General,A,R5,explicit,'பார்த்தார்' என்பதும் சரி
+B-GEN-010,B,General,A,R5,explicit,'விளக்கினார்கள்' என்பதும் சரி
+B-GEN-011,B,General,C,R5,explicit,
+B-GEN-012,B,General,C,R5,explicit,
+B-GEN-013,B,General,C,R5,explicit,
+B-GEN-014,B,General,C,R5,explicit,
+B-GEN-015,B,General,B,R5,explicit,B: meaning unclear. AI wrote 'கூறினான்' (valid)
+B-GEN-016,B,General,A,R5,explicit,'பார்த்தார்கள்' என்பதும் சரி
+B-GEN-017,B,General,A,R5,explicit,
+B-GEN-018,B,General,A,R5,explicit,'எழுப்பினார்கள்' என்பதும் சரி
+A-MDU-001,A,Madurai,S,R2,explicit,
+A-MDU-002,A,Madurai,S,R2,explicit,
+A-MDU-003,A,Madurai,S,R2,explicit,
+A-MDU-004,A,Madurai,S,R2,explicit,
+A-MDU-005,A,Madurai,S,R2,explicit,
+A-MDU-006,A,Madurai,S,R2,explicit,
+A-MDU-007,A,Madurai,?,R2,explicit,
+A-MDU-008,A,Madurai,S,R2,explicit,
+A-MDU-009,A,Madurai,S,R2,explicit,
+A-MDU-010,A,Madurai,S,R2,explicit,
+A-MDU-011,A,Madurai,S,R2,explicit,
+A-MDU-012,A,Madurai,S,R2,explicit,
+A-MDU-013,A,Madurai,S,R2,explicit,
+A-MDU-014,A,Madurai,S,R2,explicit,
+A-MDU-015,A,Madurai,S,R2,explicit,
+A-MDU-016,A,Madurai,S,R2,explicit,
+A-MDU-017,A,Madurai,S,R2,explicit,'தன்' என்ற சொல்லையும் பயன்படுத்தலாம்
+A-MDU-018,A,Madurai,S,R2,explicit,
+A-MDU-019,A,Madurai,S,R2,explicit,
+A-MDU-020,A,Madurai,S,R2,explicit,
+A-MDU-021,A,Madurai,S,R2,explicit,
+A-MDU-022,A,Madurai,S,R2,explicit,
+A-MDU-023,A,Madurai,S,R2,explicit,
+A-MDU-024,A,Madurai,S,R2,explicit,
+A-MDU-025,A,Madurai,S,R2,explicit,
+A-MDU-026,A,Madurai,S,R2,explicit,
+A-MDU-027,A,Madurai,S,R2,explicit,
+A-MDU-028,A,Madurai,S,R2,explicit,
+A-MDU-029,A,Madurai,S,R2,explicit,
+A-MDU-030,A,Madurai,S,R2,explicit,
+A-MDU-031,A,Madurai,S,R2,explicit,
+A-MDU-032,A,Madurai,S,R2,explicit,
+A-MDU-033,A,Madurai,S,R2,explicit,
+A-MDU-034,A,Madurai,S,R2,explicit,
+A-MDU-035,A,Madurai,S,R2,explicit,
+A-MDU-036,A,Madurai,S,R2,explicit,
+A-MDU-037,A,Madurai,S,R2,explicit,
+A-MDU-038,A,Madurai,S,R2,explicit,
+A-MDU-039,A,Madurai,S,R2,explicit,
+A-MDU-040,A,Madurai,S,R2,explicit,
+A-MDU-041,A,Madurai,S,R2,explicit,
+A-MDU-042,A,Madurai,S,R2,explicit,
+A-MDU-043,A,Madurai,S,R2,explicit,
+A-MDU-044,A,Madurai,S,R2,explicit,
+A-MDU-045,A,Madurai,S,R2,explicit,
+A-MDU-046,A,Madurai,S,R2,explicit,
+A-MDU-047,A,Madurai,S,R2,explicit,
+A-MDU-048,A,Madurai,S,R2,explicit,
+A-MDU-049,A,Madurai,S,R2,explicit,
+A-MDU-050,A,Madurai,S,R2,explicit,
+A-MDU-051,A,Madurai,S,R2,explicit,
+A-MDU-052,A,Madurai,S,R2,explicit,
+A-MDU-053,A,Madurai,S,R2,explicit,
+A-MDU-054,A,Madurai,S,R2,explicit,
+A-MDU-055,A,Madurai,S,R2,explicit,
+A-MDU-056,A,Madurai,S,R2,explicit,
+A-MDU-057,A,Madurai,S,R2,explicit,
+A-MDU-058,A,Madurai,S,R2,explicit,
+A-MDU-059,A,Madurai,S,R2,explicit,
+A-MDU-060,A,Madurai,S,R2,explicit,
+A-MDU-061,A,Madurai,S,R2,explicit,
+A-MDU-062,A,Madurai,S,R2,explicit,
+A-MDU-063,A,Madurai,S,R2,explicit,
+A-MDU-064,A,Madurai,S,R2,explicit,
+A-MDU-065,A,Madurai,S,R2,explicit,
+A-MDU-066,A,Madurai,S,R2,explicit,
+A-MDU-067,A,Madurai,S,R2,explicit,
+A-MDU-068,A,Madurai,S,R2,explicit,
+A-MDU-069,A,Madurai,S,R2,explicit,
+A-MDU-070,A,Madurai,S,R2,explicit,'காட்டுன' 'காட்டிய' இரண்டும் சரியான சொற்கள்
+A-MDU-071,A,Madurai,S,R2,explicit,
+A-MDU-072,A,Madurai,S,R2,explicit,
+A-MDU-073,A,Madurai,S,R2,explicit,
+A-MDU-074,A,Madurai,S,R2,explicit,
+A-MDU-075,A,Madurai,S,R2,explicit,
+A-MDU-076,A,Madurai,S,R2,explicit,
+A-MDU-077,A,Madurai,S,R2,explicit,
+A-MDU-078,A,Madurai,S,R2,explicit,his list had 'A-MDU-077 S' twice (lines 77 and 78); the second was read as 078
+A-MDU-079,A,Madurai,S,R2,explicit,typed 'A-MDU-079S' (no space)
+A-MDU-080,A,Madurai,S,R2,explicit,
+A-MDU-081,A,Madurai,S,R2,explicit,
+A-MDU-082,A,Madurai,S,R2,explicit,
+A-MDU-083,A,Madurai,S,R2,explicit,
+A-MDU-084,A,Madurai,S,R2,explicit,
+A-MDU-085,A,Madurai,S,R2,explicit,
+A-MDU-086,A,Madurai,S,R2,explicit,
+A-MDU-087,A,Madurai,S,R2,explicit,
+A-MDU-088,A,Madurai,S,R2,explicit,
+A-MDU-089,A,Madurai,S,R2,explicit,
+A-MDU-090,A,Madurai,S,R2,explicit,'அண்ணச்சி' / 'அண்ணாச்சி' என இரண்டு விதமாகவும் கூப்பிடுவார்கள்
+A-MDU-091,A,Madurai,S,R2,explicit,
+A-MDU-092,A,Madurai,S,R2,explicit,
+A-MDU-093,A,Madurai,S,R2,explicit,
+A-MDU-094,A,Madurai,S,R2,explicit,
+A-MDU-095,A,Madurai,S,R2,explicit,
+A-MDU-096,A,Madurai,S,R2,explicit,
+A-MDU-097,A,Madurai,S,R2,explicit,
+A-MDU-098,A,Madurai,S,R2,explicit,
+A-MDU-099,A,Madurai,S,R2,explicit,
+A-MDU-100,A,Madurai,S,R2,explicit,
+A-MDU-101,A,Madurai,S,R2,explicit,
+A-MDU-102,A,Madurai,S,R2,explicit,
+A-MDU-103,A,Madurai,S,R2,explicit,
+A-MDU-104,A,Madurai,S,R2,explicit,
+A-MDU-105,A,Madurai,S,R2,explicit,
+A-MDU-106,A,Madurai,S,R2,explicit,
+A-MDU-107,A,Madurai,S,R2,explicit,
+A-MDU-108,A,Madurai,S,R2,explicit,
+A-MDU-109,A,Madurai,S,R2,explicit,
+A-MDU-110,A,Madurai,S,R2,explicit,
+A-MDU-111,A,Madurai,S,R2,explicit,
+A-MDU-112,A,Madurai,S,R2,explicit,
+A-MDU-113,A,Madurai,S,R2,explicit,
+A-MDU-114,A,Madurai,S,R2,explicit,
+A-MDU-115,A,Madurai,S,R2,explicit,
+A-MDU-116,A,Madurai,S,R2,explicit,
+A-MDU-117,A,Madurai,S,R2,explicit,
+A-MDU-118,A,Madurai,S,R2,explicit,
+A-MDU-119,A,Madurai,S,R2,explicit,
+A-MDU-120,A,Madurai,S,R2,explicit,
+A-MDU-121,A,Madurai,S,R2,explicit,
+A-MDU-122,A,Madurai,S,R2,explicit,
+A-MDU-123,A,Madurai,S,R2,explicit,
+A-MDU-124,A,Madurai,S,R2,explicit,
+A-MDU-125,A,Madurai,S,R2,explicit,
+A-MDU-126,A,Madurai,S,R2,explicit,
+A-MDU-127,A,Madurai,S,R2,explicit,
+A-MDU-128,A,Madurai,S,R2,explicit,
+A-MDU-129,A,Madurai,S,R2,explicit,
+A-MDU-130,A,Madurai,S,R2,explicit,
+A-MDU-131,A,Madurai,S,R2,explicit,
+A-MDU-132,A,Madurai,S,R2,explicit,
+A-MDU-133,A,Madurai,S,R2,explicit,
+A-MDU-134,A,Madurai,S,R2,explicit,
+A-MDU-135,A,Madurai,S,R2,explicit,
+A-MDU-136,A,Madurai,S,R2,explicit,
+A-MDU-137,A,Madurai,S,R2,explicit,
+A-MDU-138,A,Madurai,S,R2,explicit,
+A-MDU-139,A,Madurai,S,R2,explicit,
+A-MDU-140,A,Madurai,S,R2,explicit,
+A-MDU-141,A,Madurai,S,R2,explicit,
+A-MDU-142,A,Madurai,S,R2,explicit,
+A-MDU-143,A,Madurai,S,R2,explicit,
+A-MDU-144,A,Madurai,S,R2,explicit,
+A-MDU-145,A,Madurai,S,R2,explicit,
+A-MDU-146,A,Madurai,S,R2,explicit,
+A-MDU-147,A,Madurai,S,R2,explicit,
+A-MDU-148,A,Madurai,S,R2,explicit,
+A-MDU-149,A,Madurai,S,R2,explicit,
+A-MDU-150,A,Madurai,S,R2,explicit,
+B-MDU-001,B,Madurai,C,R2,explicit,
+B-MDU-002,B,Madurai,B,R2,explicit,
+B-MDU-003,B,Madurai,C,R2,explicit,
+B-MDU-004,B,Madurai,A,R2,explicit,
+B-MDU-005,B,Madurai,C,R2,explicit,
+B-MDU-006,B,Madurai,B,R2,explicit,
+B-MDU-007,B,Madurai,C,R2,explicit,
+B-MDU-008,B,Madurai,B,R2,explicit,
+B-MDU-009,B,Madurai,C,R2,explicit,
+B-MDU-010,B,Madurai,C,R2,explicit,
+B-MDU-011,B,Madurai,C,R2,explicit,
+B-MDU-012,B,Madurai,B,R2,explicit,
+B-MDU-013,B,Madurai,C,R2,explicit,
+B-MDU-014,B,Madurai,C,R2,explicit,
+B-MDU-015,B,Madurai,B,R2,explicit,
+B-MDU-016,B,Madurai,B,R2,explicit,
+B-MDU-017,B,Madurai,C,R2,explicit,
+B-MDU-018,B,Madurai,B,R2,explicit,
+B-MDU-019,B,Madurai,B,R2,explicit,
+B-MDU-020,B,Madurai,B,R2,explicit,
+B-MDU-021,B,Madurai,C,R2,explicit,
+B-MDU-022,B,Madurai,B,R2,explicit,
+B-MDU-023,B,Madurai,C,R2,explicit,
+B-MDU-024,B,Madurai,C,R2,explicit,
+B-MDU-025,B,Madurai,C,R2,explicit,
+B-MDU-026,B,Madurai,C,R2,explicit,
+B-MDU-027,B,Madurai,C,R2,explicit,
+B-MDU-028,B,Madurai,B,R2,explicit,
+B-MDU-029,B,Madurai,C,R2,explicit,
+B-MDU-030,B,Madurai,C,R2,explicit,
+B-MDU-031,B,Madurai,C,R2,explicit,
+B-MDU-032,B,Madurai,A,R2,explicit,
+B-MDU-033,B,Madurai,B,R2,explicit,
+B-MDU-034,B,Madurai,C,R2,explicit,
+B-MDU-035,B,Madurai,C,R2,explicit,
+B-MDU-036,B,Madurai,B,R2,explicit,
+B-MDU-037,B,Madurai,C,R2,explicit,
+B-MDU-038,B,Madurai,C,R2,explicit,
+B-MDU-039,B,Madurai,C,R2,explicit,
+B-MDU-040,B,Madurai,C,R2,explicit,
+B-MDU-041,B,Madurai,C,R2,explicit,
+B-MDU-042,B,Madurai,B,R2,explicit,
+A-MDU-003,A,Madurai,S,R3,explicit,
+A-MDU-006,A,Madurai,S,R3,explicit,
+A-MDU-007,A,Madurai,S,R3,explicit,
+A-MDU-020,A,Madurai,S,R3,explicit,
+A-MDU-021,A,Madurai,S,R3,explicit,
+A-MDU-024,A,Madurai,S,R3,explicit,
+A-MDU-025,A,Madurai,S,R3,explicit,
+A-MDU-028,A,Madurai,S,R3,explicit,
+A-MDU-029,A,Madurai,S,R3,explicit,
+A-MDU-034,A,Madurai,S,R3,explicit,
+A-MDU-036,A,Madurai,S,R3,explicit,
+A-MDU-038,A,Madurai,S,R3,explicit,
+A-MDU-039,A,Madurai,S,R3,explicit,
+A-MDU-040,A,Madurai,S,R3,explicit,
+A-MDU-049,A,Madurai,S,R3,explicit,
+A-MDU-059,A,Madurai,S,R3,explicit,
+A-MDU-067,A,Madurai,S,R3,explicit,
+A-MDU-071,A,Madurai,S,R3,explicit,
+A-MDU-073,A,Madurai,S,R3,explicit,
+A-MDU-074,A,Madurai,S,R3,explicit,
+A-MDU-076,A,Madurai,S,R3,explicit,
+A-MDU-079,A,Madurai,S,R3,explicit,
+A-MDU-092,A,Madurai,S,R3,explicit,
+A-MDU-094,A,Madurai,S,R3,explicit,
+A-MDU-095,A,Madurai,S,R3,explicit,
+A-MDU-098,A,Madurai,S,R3,explicit,
+A-MDU-099,A,Madurai,S,R3,explicit,
+A-MDU-103,A,Madurai,S,R3,explicit,
+A-MDU-104,A,Madurai,S,R3,explicit,
+A-MDU-106,A,Madurai,S,R3,explicit,
+A-MDU-114,A,Madurai,S,R3,explicit,
+A-MDU-121,A,Madurai,S,R3,explicit,
+A-MDU-127,A,Madurai,S,R3,explicit,
+A-MDU-134,A,Madurai,S,R3,explicit,
+A-MDU-136,A,Madurai,S,R3,explicit,
+A-MDU-138,A,Madurai,S,R3,explicit,
+A-MDU-140,A,Madurai,S,R3,explicit,
+A-MDU-142,A,Madurai,S,R3,explicit,
+A-MDU-143,A,Madurai,S,R3,explicit,
+A-MDU-146,A,Madurai,S,R3,explicit,
+B-MDU-001,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-002,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-003,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-009,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-012,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-014,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-015,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-016,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-020,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-021,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-024,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-026,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-028,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-030,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-031,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-032,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-034,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-036,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-038,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+B-MDU-040,B,Madurai,notA,R3,holistic,"one paragraph for all 20: 'close to dialect, a somewhat more refined form, but not pure dialect — like dialect speakers who moved to the city and speak more politely'. Says the dialect is NOT kept; does not say whether the error was fixed (B vs C)"
+A-GEN-001,A,General,S,R4,explicit,
+A-GEN-002,A,General,S,R4,explicit,
+A-GEN-003,A,General,S,R4,explicit,
+A-GEN-004,A,General,S,R4,explicit,
+A-GEN-005,A,General,S,R4,explicit,
+A-GEN-006,A,General,S,R4,explicit,
+A-GEN-007,A,General,S,R4,explicit,
+A-GEN-008,A,General,S,R4,explicit,
+A-GEN-009,A,General,S,R4,explicit,
+A-GEN-010,A,General,S,R4,explicit,
+A-GEN-011,A,General,S,R4,explicit,
+A-GEN-012,A,General,S,R4,explicit,
+A-GEN-013,A,General,E,R4,explicit,agrees the clean text itself has a real error here
+A-GEN-014,A,General,S,R4,explicit,
+A-GEN-015,A,General,S,R4,explicit,
+A-GEN-016,A,General,S,R4,explicit,
+A-GEN-017,A,General,S,R4,explicit,
+A-GEN-018,A,General,S,R4,explicit,
+A-GEN-019,A,General,S,R4,explicit,
+A-GEN-020,A,General,S,R4,explicit,
+A-GEN-021,A,General,S,R4,explicit,
+A-GEN-022,A,General,S,R4,explicit,
+A-GEN-023,A,General,S,R4,explicit,
+A-GEN-024,A,General,S,R4,explicit,
+A-GEN-025,A,General,S,R4,explicit,
+A-GEN-026,A,General,S,R4,explicit,
+A-GEN-027,A,General,S,R4,explicit,
+A-GEN-028,A,General,S,R4,explicit,
+B-GEN-001,B,General,C,R4,explicit,
+B-GEN-002,B,General,C,R4,explicit,
+B-GEN-003,B,General,A,R4,explicit,
+B-GEN-004,B,General,A,R4,explicit,
+B-GEN-005,B,General,A,R4,explicit,
+B-GEN-006,B,General,A,R4,explicit,
+B-GEN-007,B,General,A,R4,explicit,
+B-GEN-008,B,General,A,R4,explicit,
+B-GEN-009,B,General,C,R4,explicit,"'பார்த்தார்' is fine, but then 'மிக்ஸி' must become 'மிக்ஸியை' — left alone it is wrong"
+B-GEN-010,B,General,A,R4,explicit,
+B-GEN-011,B,General,C,R4,explicit,
+B-GEN-012,B,General,C,R4,explicit,
+B-GEN-013,B,General,C,R4,explicit,
+B-GEN-014,B,General,C,R4,explicit,
+B-GEN-015,B,General,C,R4,explicit,
+B-GEN-016,B,General,A,R4,explicit,
+B-GEN-017,B,General,A,R4,explicit,
+B-GEN-018,B,General,A,R4,explicit,

@@ -1,0 +1,1765 @@
+﻿item_id,variety,model_code,task,code,wrong,correct,outcome,ambiguous,error_form,reference_form,model_form,form_similarity,fix_matches
+CHN-01,Chennai,M1,correct,ப1,ன்னாள்,ன்னாரு,changed_other,False,போயிட்டான்”ன்னாள்.,போயிட்டான்ன்னாரு,போயிட்டான்ன்னார்,0.94,
+CHN-01,Chennai,M1,correct,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",unchanged,False,பண்ணி,"(adds ,)",பண்ணி,0.0,
+CHN-01,Chennai,M1,correct,க1,சொல்லுவான்,சொன்னான்,fixed_exact,False,சொல்லுவான்.,சொன்னான்,சொன்னான்,1.0,
+CHN-01,Chennai,M1,correct,இ1,வச்சுட்டான்,வச்சுட்டன்,changed_other,False,வச்சுட்டான்.,வச்சுட்டன்,வச்சுட்டேன்,0.95,
+CHN-01,Chennai,M1,detect,ப1,ன்னாள்,ன்னாரு,missed,False,,,,,
+CHN-01,Chennai,M1,detect,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",missed,False,,,,,
+CHN-01,Chennai,M1,detect,க1,சொல்லுவான்,சொன்னான்,caught,False,,,,,True
+CHN-01,Chennai,M1,detect,இ1,வச்சுட்டான்,வச்சுட்டன்,caught,False,,,,,False
+CHN-01,Chennai,M2,correct,ப1,ன்னாள்,ன்னாரு,unchanged,False,போயிட்டான்”ன்னாள்.,போயிட்டான்ன்னாரு,போயிட்டான்ன்னாள்,0.88,
+CHN-01,Chennai,M2,correct,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",unchanged,False,பண்ணி,"(adds ,)",பண்ணி,0.0,
+CHN-01,Chennai,M2,correct,க1,சொல்லுவான்,சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+CHN-01,Chennai,M2,correct,இ1,வச்சுட்டான்,வச்சுட்டன்,unchanged,False,வச்சுட்டான்.,வச்சுட்டன்,வச்சுட்டான்,0.95,
+CHN-01,Chennai,M2,detect,ப1,ன்னாள்,ன்னாரு,missed,False,,,,,
+CHN-01,Chennai,M2,detect,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",missed,False,,,,,
+CHN-01,Chennai,M2,detect,க1,சொல்லுவான்,சொன்னான்,missed,False,,,,,
+CHN-01,Chennai,M2,detect,இ1,வச்சுட்டான்,வச்சுட்டன்,caught,False,,,,,False
+CHN-01,Chennai,M3,correct,ப1,ன்னாள்,ன்னாரு,changed_other,False,போயிட்டான்”ன்னாள்.,போயிட்டான்ன்னாரு,போயிட்டான் என்றான்,0.79,
+CHN-01,Chennai,M3,correct,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",unchanged,False,பண்ணி,"(adds ,)",பண்ணி,0.0,
+CHN-01,Chennai,M3,correct,க1,சொல்லுவான்,சொன்னான்,changed_other,False,சொல்லுவான்.,சொன்னான்,என்று சொல்வான்,0.57,
+CHN-01,Chennai,M3,correct,இ1,வச்சுட்டான்,வச்சுட்டன்,changed_other,False,வச்சுட்டான்.,வச்சுட்டன்,வைத்துவிட்டான்,0.67,
+CHN-01,Chennai,M3,detect,ப1,ன்னாள்,ன்னாரு,caught,False,,,,,False
+CHN-01,Chennai,M3,detect,ந1,பண்ணி “இன்னாடா,"பண்ணி, “இன்னாடா",listed_no_change,False,,,,,
+CHN-01,Chennai,M3,detect,க1,சொல்லுவான்,சொன்னான்,caught,False,,,,,False
+CHN-01,Chennai,M3,detect,இ1,வச்சுட்டான்,வச்சுட்டன்,caught,False,,,,,False
+CHN-02,Chennai,M1,correct,த1,இருந்தாரு,இருந்துச்சி,changed_other,False,இருந்தாரு.,இருந்துச்சி,இருந்தது,0.74,
+CHN-02,Chennai,M1,correct,எ1,இருந்தான்,இருந்தாங்க,fixed_exact,False,இருந்தான்.,இருந்தாங்க,இருந்தாங்க,1.0,
+CHN-02,Chennai,M1,correct,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,completed,True,இறங்கி.,இறங்கிட்டான்,இறங்கினான்,0.82,
+CHN-02,Chennai,M1,detect,த1,இருந்தாரு,இருந்துச்சி,caught,False,,,,,False
+CHN-02,Chennai,M1,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,True
+CHN-02,Chennai,M1,detect,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,caught,True,,,,,False
+CHN-02,Chennai,M2,correct,த1,இருந்தாரு,இருந்துச்சி,unchanged,False,இருந்தாரு.,இருந்துச்சி,இருந்தாரு,0.7,
+CHN-02,Chennai,M2,correct,எ1,இருந்தான்,இருந்தாங்க,unchanged,False,இருந்தான்.,இருந்தாங்க,இருந்தான்,0.84,
+CHN-02,Chennai,M2,correct,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,completed,True,இறங்கி.,இறங்கிட்டான்,இறங்கினான்,0.82,
+CHN-02,Chennai,M2,detect,த1,இருந்தாரு,இருந்துச்சி,missed,False,,,,,
+CHN-02,Chennai,M2,detect,எ1,இருந்தான்,இருந்தாங்க,missed,False,,,,,
+CHN-02,Chennai,M2,detect,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,missed,True,,,,,
+CHN-02,Chennai,M3,correct,த1,இருந்தாரு,இருந்துச்சி,changed_other,False,இருந்தாரு.,இருந்துச்சி,இருந்தது,0.74,
+CHN-02,Chennai,M3,correct,எ1,இருந்தான்,இருந்தாங்க,changed_other,False,இருந்தான்.,இருந்தாங்க,இருந்தார்கள்,0.82,
+CHN-02,Chennai,M3,correct,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,completed,True,இறங்கி.,இறங்கிட்டான்,இறங்கினான்,0.82,
+CHN-02,Chennai,M3,detect,த1,இருந்தாரு,இருந்துச்சி,caught,False,,,,,False
+CHN-02,Chennai,M3,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,False
+CHN-02,Chennai,M3,detect,ச1,தண்ணிக்குள்ள இறங்கி.,தண்ணிக்குள்ள இறங்கிட்டான்.,caught,True,,,,,False
+CHN-03,Chennai,M1,correct,ஒ1,போட்டிகு,போட்டிக்கு,changed_other,False,போட்டிகு,போட்டிக்கு,போட்டிக்குப்,0.91,
+CHN-03,Chennai,M1,correct,ப1,மாட்டன்றா,மாட்டன்றான்,changed_other,False,மாட்டன்றா”ன்னு,மாட்டன்றான்ன்னு,மாட்டென்றான்னு,0.9,
+CHN-03,Chennai,M1,correct,க1,சொல்லுவான்,சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+CHN-03,Chennai,M1,correct,ந1,“சரி இனிமே,"“சரி, இனிமே",fixed_exact,False,“சரி,"(adds ,)","“சரி,",0.17,
+CHN-03,Chennai,M1,detect,ஒ1,போட்டிகு,போட்டிக்கு,caught,False,,,,,True
+CHN-03,Chennai,M1,detect,ப1,மாட்டன்றா,மாட்டன்றான்,caught,False,,,,,False
+CHN-03,Chennai,M1,detect,க1,சொல்லுவான்,சொன்னான்,caught,False,,,,,True
+CHN-03,Chennai,M1,detect,ந1,“சரி இனிமே,"“சரி, இனிமே",missed,False,,,,,
+CHN-03,Chennai,M2,correct,ஒ1,போட்டிகு,போட்டிக்கு,unchanged,False,போட்டிகு,போட்டிக்கு,போட்டிகு,0.89,
+CHN-03,Chennai,M2,correct,ப1,மாட்டன்றா,மாட்டன்றான்,unchanged,False,மாட்டன்றா”ன்னு,மாட்டன்றான்ன்னு,மாட்டன்றான்னு,0.93,
+CHN-03,Chennai,M2,correct,க1,சொல்லுவான்,சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+CHN-03,Chennai,M2,correct,ந1,“சரி இனிமே,"“சரி, இனிமே",unchanged,False,“சரி,"(adds ,)",“சரி,0.0,
+CHN-03,Chennai,M2,detect,ஒ1,போட்டிகு,போட்டிக்கு,caught,False,,,,,True
+CHN-03,Chennai,M2,detect,ப1,மாட்டன்றா,மாட்டன்றான்,listed_no_change,False,,,,,
+CHN-03,Chennai,M2,detect,க1,சொல்லுவான்,சொன்னான்,listed_no_change,False,,,,,
+CHN-03,Chennai,M2,detect,ந1,“சரி இனிமே,"“சரி, இனிமே",listed_no_change,False,,,,,
+CHN-03,Chennai,M3,correct,ஒ1,போட்டிகு,போட்டிக்கு,changed_other,False,போட்டிகு,போட்டிக்கு,போட்டிக்குப்,0.91,
+CHN-03,Chennai,M3,correct,ப1,மாட்டன்றா,மாட்டன்றான்,changed_other,False,மாட்டன்றா”ன்னு,மாட்டன்றான்ன்னு,மாட்டேன்றான்னு,0.9,
+CHN-03,Chennai,M3,correct,க1,சொல்லுவான்,சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+CHN-03,Chennai,M3,correct,ந1,“சரி இனிமே,"“சரி, இனிமே",unchanged,False,“சரி,"(adds ,)",“சரி,0.0,
+CHN-03,Chennai,M3,detect,ஒ1,போட்டிகு,போட்டிக்கு,caught,False,,,,,True
+CHN-03,Chennai,M3,detect,ப1,மாட்டன்றா,மாட்டன்றான்,caught,False,,,,,False
+CHN-03,Chennai,M3,detect,க1,சொல்லுவான்,சொன்னான்,caught,False,,,,,False
+CHN-03,Chennai,M3,detect,ந1,“சரி இனிமே,"“சரி, இனிமே",listed_no_change,False,,,,,
+CHN-04,Chennai,M1,correct,எ1,நின்னான்,நின்னானுங்க,changed_other,False,நின்னான்.,நின்னானுங்க,நிக்கறாங்க,0.67,
+CHN-04,Chennai,M1,correct,இ1,போயிடுவான்,போயிடுவேன்,changed_other,False,போயிடுவான்”ன்னு,போயிடுவேன்ன்னு,போயிடுறேன்ன்னு,0.93,
+CHN-04,Chennai,M1,correct,க1,வெளிய போவான்,வெளிய போனான்,changed_other,False,போவான்.,போனான்,போய்விட்றான்,0.56,
+CHN-04,Chennai,M1,correct,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",fixed_exact,False,அவன்,"(adds ,)","அவன்,",0.17,
+CHN-04,Chennai,M1,detect,எ1,நின்னான்,நின்னானுங்க,caught,False,,,,,False
+CHN-04,Chennai,M1,detect,இ1,போயிடுவான்,போயிடுவேன்,caught,False,,,,,True
+CHN-04,Chennai,M1,detect,க1,வெளிய போவான்,வெளிய போனான்,caught,False,,,,,False
+CHN-04,Chennai,M1,detect,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",missed,False,,,,,
+CHN-04,Chennai,M2,correct,எ1,நின்னான்,நின்னானுங்க,changed_other,False,நின்னான்.,நின்னானுங்க,நின்னாங்க,0.9,
+CHN-04,Chennai,M2,correct,இ1,போயிடுவான்,போயிடுவேன்,unchanged,False,போயிடுவான்”ன்னு,போயிடுவேன்ன்னு,போயிடுவான்ன்னு,0.93,
+CHN-04,Chennai,M2,correct,க1,வெளிய போவான்,வெளிய போனான்,changed_other,False,போவான்.,போனான்,போனாரு,0.67,
+CHN-04,Chennai,M2,correct,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",changed_other,False,அவன்,"(adds ,)",,,
+CHN-04,Chennai,M2,detect,எ1,நின்னான்,நின்னானுங்க,caught,False,,,,,False
+CHN-04,Chennai,M2,detect,இ1,போயிடுவான்,போயிடுவேன்,missed,False,,,,,
+CHN-04,Chennai,M2,detect,க1,வெளிய போவான்,வெளிய போனான்,caught,False,,,,,True
+CHN-04,Chennai,M2,detect,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",missed,False,,,,,
+CHN-04,Chennai,M3,correct,எ1,நின்னான்,நின்னானுங்க,changed_other,False,நின்னான்.,நின்னானுங்க,நின்றனர்,0.63,
+CHN-04,Chennai,M3,correct,இ1,போயிடுவான்,போயிடுவேன்,changed_other,False,போயிடுவான்”ன்னு,போயிடுவேன்ன்னு,போய்விடுவேன் என்று,0.84,
+CHN-04,Chennai,M3,correct,க1,வெளிய போவான்,வெளிய போனான்,fixed_exact,False,போவான்.,போனான்,போனான்,1.0,
+CHN-04,Chennai,M3,correct,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",unchanged,False,அவன்,"(adds ,)",அவன்,0.0,
+CHN-04,Chennai,M3,detect,எ1,நின்னான்,நின்னானுங்க,caught,False,,,,,False
+CHN-04,Chennai,M3,detect,இ1,போயிடுவான்,போயிடுவேன்,caught,False,,,,,False
+CHN-04,Chennai,M3,detect,க1,வெளிய போவான்,வெளிய போனான்,caught,False,,,,,True
+CHN-04,Chennai,M3,detect,ந1,அவன் “எதுக்குடா,"அவன், “எதுக்குடா",missed,False,,,,,
+CHN-05,Chennai,M1,correct,ப1,காட்டுனா,காட்டுனான்,changed_other,False,காட்டுனா.,காட்டுனான்,காட்டினான்,0.9,
+CHN-05,Chennai,M1,correct,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,changed_other,False,பஸ்ஸுக்கு,பஸ்ஸ,பஸ்ஸை,0.89,
+CHN-05,Chennai,M1,correct,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,unchanged,False,இருப்பான்.,இருந்தான்,இருப்பான்,0.78,
+CHN-05,Chennai,M1,detect,ப1,காட்டுனா,காட்டுனான்,caught,False,,,,,False
+CHN-05,Chennai,M1,detect,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,caught,False,,,,,False
+CHN-05,Chennai,M1,detect,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,caught,False,,,,,True
+CHN-05,Chennai,M2,correct,ப1,காட்டுனா,காட்டுனான்,changed_other,False,காட்டுனா.,காட்டுனான்,காட்டினா,0.78,
+CHN-05,Chennai,M2,correct,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,unchanged,False,பஸ்ஸுக்கு,பஸ்ஸ,பஸ்ஸுக்கு,0.62,
+CHN-05,Chennai,M2,correct,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,unchanged,False,இருப்பான்.,இருந்தான்,இருப்பான்,0.78,
+CHN-05,Chennai,M2,detect,ப1,காட்டுனா,காட்டுனான்,caught,False,,,,,False
+CHN-05,Chennai,M2,detect,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,listed_no_change,False,,,,,
+CHN-05,Chennai,M2,detect,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,listed_no_change,False,,,,,
+CHN-05,Chennai,M3,correct,ப1,காட்டுனா,காட்டுனான்,changed_other,False,காட்டுனா.,காட்டுனான்,காட்டினான்,0.9,
+CHN-05,Chennai,M3,correct,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,changed_other,False,பஸ்ஸுக்கு,பஸ்ஸ,பஸ்ஸை,0.89,
+CHN-05,Chennai,M3,correct,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,changed_other,False,இருப்பான்.,இருந்தான்,,,
+CHN-05,Chennai,M3,detect,ப1,காட்டுனா,காட்டுனான்,missed,False,,,,,
+CHN-05,Chennai,M3,detect,வ1,பஸ்ஸுக்கு நிறுத்தாம,பஸ்ஸ நிறுத்தாம,missed,False,,,,,
+CHN-05,Chennai,M3,detect,க1,புலம்பிக்கினு இருப்பான்,புலம்பிக்கினு இருந்தான்,caught,False,,,,,True
+CHN-06,Chennai,M1,correct,த1,இருந்தாங்க,இருந்துச்சி,unchanged,False,இருந்தாங்க.,இருந்துச்சி,இருந்தாங்க,0.67,
+CHN-06,Chennai,M1,correct,ஒ1,நேரதுல,நேரத்துல,fixed_exact,False,நேரதுல,நேரத்துல,நேரத்துல,1.0,
+CHN-06,Chennai,M1,correct,எ1,கெளம்புனான்,கெளம்புனாங்க,changed_other,False,கெளம்புனான்.,கெளம்புனாங்க,கிளம்பினாங்க,0.83,
+CHN-06,Chennai,M1,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-06,Chennai,M1,detect,ஒ1,நேரதுல,நேரத்துல,caught,False,,,,,True
+CHN-06,Chennai,M1,detect,எ1,கெளம்புனான்,கெளம்புனாங்க,caught,False,,,,,False
+CHN-06,Chennai,M2,correct,த1,இருந்தாங்க,இருந்துச்சி,unchanged,False,இருந்தாங்க.,இருந்துச்சி,இருந்தாங்க,0.67,
+CHN-06,Chennai,M2,correct,ஒ1,நேரதுல,நேரத்துல,fixed_exact,False,நேரதுல,நேரத்துல,நேரத்துல,1.0,
+CHN-06,Chennai,M2,correct,எ1,கெளம்புனான்,கெளம்புனாங்க,unchanged,False,கெளம்புனான்.,கெளம்புனாங்க,கெளம்புனான்,0.87,
+CHN-06,Chennai,M2,detect,த1,இருந்தாங்க,இருந்துச்சி,listed_no_change,False,,,,,
+CHN-06,Chennai,M2,detect,ஒ1,நேரதுல,நேரத்துல,caught,False,,,,,True
+CHN-06,Chennai,M2,detect,எ1,கெளம்புனான்,கெளம்புனாங்க,caught,False,,,,,False
+CHN-06,Chennai,M3,correct,த1,இருந்தாங்க,இருந்துச்சி,changed_other,False,இருந்தாங்க.,இருந்துச்சி,,,
+CHN-06,Chennai,M3,correct,ஒ1,நேரதுல,நேரத்துல,changed_other,False,நேரதுல,நேரத்துல,நேரத்தில்,0.82,
+CHN-06,Chennai,M3,correct,எ1,கெளம்புனான்,கெளம்புனாங்க,changed_other,False,கெளம்புனான்.,கெளம்புனாங்க,கிளம்பினார்கள்,0.69,
+CHN-06,Chennai,M3,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-06,Chennai,M3,detect,ஒ1,நேரதுல,நேரத்துல,caught,False,,,,,False
+CHN-06,Chennai,M3,detect,எ1,கெளம்புனான்,கெளம்புனாங்க,caught,False,,,,,False
+CHN-07,Chennai,M1,correct,ப1,இருந்தான்,இருந்தா,changed_other,False,இருந்தான்.,இருந்தா,,,
+CHN-07,Chennai,M1,correct,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,unchanged,False,இடத்தப்,இடத்துக்குப்,இடத்தப்,0.74,
+CHN-07,Chennai,M1,correct,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+CHN-07,Chennai,M1,detect,ப1,இருந்தான்,இருந்தா,caught,False,,,,,True
+CHN-07,Chennai,M1,detect,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,listed_no_change,False,,,,,
+CHN-07,Chennai,M1,detect,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",missed,False,,,,,
+CHN-07,Chennai,M2,correct,ப1,இருந்தான்,இருந்தா,fixed_exact,False,இருந்தான்.,இருந்தா,இருந்தா,1.0,
+CHN-07,Chennai,M2,correct,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,unchanged,False,இடத்தப்,இடத்துக்குப்,இடத்தப்,0.74,
+CHN-07,Chennai,M2,correct,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+CHN-07,Chennai,M2,detect,ப1,இருந்தான்,இருந்தா,listed_no_change,False,,,,,
+CHN-07,Chennai,M2,detect,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,missed,False,,,,,
+CHN-07,Chennai,M2,detect,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",missed,False,,,,,
+CHN-07,Chennai,M3,correct,ப1,இருந்தான்,இருந்தா,changed_other,False,இருந்தான்.,இருந்தா,,,
+CHN-07,Chennai,M3,correct,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,changed_other,False,இடத்தப்,இடத்துக்குப்,இடத்தின்,0.6,
+CHN-07,Chennai,M3,correct,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+CHN-07,Chennai,M3,detect,ப1,இருந்தான்,இருந்தா,missed,False,,,,,
+CHN-07,Chennai,M3,detect,வ1,இடத்தப் பக்கத்தில,இடத்துக்குப் பக்கத்தில,caught,False,,,,,False
+CHN-07,Chennai,M3,detect,ந1,“அட இதுக்குத்தான்,"“அட, இதுக்குத்தான்",missed,False,,,,,
+CHN-08,Chennai,M1,correct,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,changed_other,False,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,கூப்பிட்டுக்கிட்டு,0.88,
+CHN-08,Chennai,M1,correct,க1,வருவாங்க,வந்தாங்க,unchanged,False,வருவாங்க.,வந்தாங்க,வருவாங்க,0.62,
+CHN-08,Chennai,M1,correct,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,changed_other,False,இருந்தேன்”ன்னு,இருக்கறம்ன்னு,இருப்போம்ன்னு,0.77,
+CHN-08,Chennai,M1,detect,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,caught,False,,,,,False
+CHN-08,Chennai,M1,detect,க1,வருவாங்க,வந்தாங்க,missed,False,,,,,
+CHN-08,Chennai,M1,detect,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,caught,False,,,,,False
+CHN-08,Chennai,M2,correct,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,fixed_exact,False,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,கூப்பிட்டுக்கினு,1.0,
+CHN-08,Chennai,M2,correct,க1,வருவாங்க,வந்தாங்க,unchanged,False,வருவாங்க.,வந்தாங்க,வருவாங்க,0.62,
+CHN-08,Chennai,M2,correct,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,changed_other,False,இருந்தேன்”ன்னு,இருக்கறம்ன்னு,இருக்கோம்ன்னு,0.92,
+CHN-08,Chennai,M2,detect,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,caught,False,,,,,False
+CHN-08,Chennai,M2,detect,க1,வருவாங்க,வந்தாங்க,caught,False,,,,,False
+CHN-08,Chennai,M2,detect,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,caught,False,,,,,False
+CHN-08,Chennai,M3,correct,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,changed_other,False,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,கூப்பிட்டுக்கொண்டு,0.82,
+CHN-08,Chennai,M3,correct,க1,வருவாங்க,வந்தாங்க,changed_other,False,வருவாங்க.,வந்தாங்க,வருவார்,0.27,
+CHN-08,Chennai,M3,correct,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,changed_other,False,இருந்தேன்”ன்னு,இருக்கறம்ன்னு,இருந்தோம் என்று,0.67,
+CHN-08,Chennai,M3,detect,ஒ1,கூபிட்டுக்கினு,கூப்பிட்டுக்கினு,caught,False,,,,,False
+CHN-08,Chennai,M3,detect,க1,வருவாங்க,வந்தாங்க,missed,False,,,,,
+CHN-08,Chennai,M3,detect,இ1,இங்கயே இருந்தேன்,இங்கயே இருக்கறம்,caught,False,,,,,False
+CHN-09,Chennai,M1,correct,த1,வந்துச்சி,வந்ததும்,changed_other,False,"வந்துச்சி,",வந்ததும்,வந்துட்டு,0.71,
+CHN-09,Chennai,M1,correct,ப1,கேட்டாள்,கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,கேட்டான்,0.75,
+CHN-09,Chennai,M1,correct,க1,போவாரு,போனாரு,fixed_exact,False,போவாரு.,போனாரு,போனாரு,1.0,
+CHN-09,Chennai,M1,detect,த1,வந்துச்சி,வந்ததும்,caught,False,,,,,False
+CHN-09,Chennai,M1,detect,ப1,கேட்டாள்,கேட்டாரு,caught,False,,,,,False
+CHN-09,Chennai,M1,detect,க1,போவாரு,போனாரு,caught,False,,,,,False
+CHN-09,Chennai,M2,correct,த1,வந்துச்சி,வந்ததும்,changed_other,False,"வந்துச்சி,",வந்ததும்,வந்துச்சு,0.71,
+CHN-09,Chennai,M2,correct,ப1,கேட்டாள்,கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,கேட்டான்,0.75,
+CHN-09,Chennai,M2,correct,க1,போவாரு,போனாரு,unchanged,False,போவாரு.,போனாரு,போவாரு,0.83,
+CHN-09,Chennai,M2,detect,த1,வந்துச்சி,வந்ததும்,caught,False,,,,,False
+CHN-09,Chennai,M2,detect,ப1,கேட்டாள்,கேட்டாரு,missed,False,,,,,
+CHN-09,Chennai,M2,detect,க1,போவாரு,போனாரு,caught,False,,,,,False
+CHN-09,Chennai,M3,correct,த1,வந்துச்சி,வந்ததும்,changed_other,False,"வந்துச்சி,",வந்ததும்,வந்தான்,0.67,
+CHN-09,Chennai,M3,correct,ப1,கேட்டாள்,கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,என்று கேட்டார் ஆசிரியர்,0.48,
+CHN-09,Chennai,M3,correct,க1,போவாரு,போனாரு,changed_other,False,போவாரு.,போனாரு,போனார்,0.83,
+CHN-09,Chennai,M3,detect,த1,வந்துச்சி,வந்ததும்,caught,False,,,,,False
+CHN-09,Chennai,M3,detect,ப1,கேட்டாள்,கேட்டாரு,caught,False,,,,,False
+CHN-09,Chennai,M3,detect,க1,போவாரு,போனாரு,caught,False,,,,,False
+CHN-10,Chennai,M1,correct,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",unchanged,False,கேட்டதும்,"(adds ,)",கேட்டதும்,0.0,
+CHN-10,Chennai,M1,correct,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,changed_other,False,முடிச்சுட்றான்,முடிச்சுட்றன்,முடிச்சுட்றேன்,0.96,
+CHN-10,Chennai,M1,correct,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,completed,False,முன்னாடி.,உக்காந்தான்,போனான்,0.35,
+CHN-10,Chennai,M1,detect,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",missed,False,,,,,
+CHN-10,Chennai,M1,detect,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,caught,False,,,,,False
+CHN-10,Chennai,M1,detect,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,listed_no_change,False,,,,,
+CHN-10,Chennai,M2,correct,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",unchanged,False,கேட்டதும்,"(adds ,)",கேட்டதும்,0.0,
+CHN-10,Chennai,M2,correct,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,unchanged,False,முடிச்சுட்றான்,முடிச்சுட்றன்,முடிச்சுட்றான்,0.96,
+CHN-10,Chennai,M2,correct,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,unchanged,False,முன்னாடி.,உக்காந்தான்,,,
+CHN-10,Chennai,M2,detect,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",listed_no_change,False,,,,,
+CHN-10,Chennai,M2,detect,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,missed,False,,,,,
+CHN-10,Chennai,M2,detect,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,listed_no_change,False,,,,,
+CHN-10,Chennai,M3,correct,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",unchanged,False,கேட்டதும்,"(adds ,)",கேட்டதும்,0.0,
+CHN-10,Chennai,M3,correct,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,changed_other,False,முடிச்சுட்றான்,முடிச்சுட்றன்,முடிச்சுடுறான்,0.89,
+CHN-10,Chennai,M3,correct,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,unchanged,False,முன்னாடி.,உக்காந்தான்,,,
+CHN-10,Chennai,M3,detect,ந1,கேட்டதும் ஒருத்தன்,"கேட்டதும், ஒருத்தன்",caught,False,,,,,True
+CHN-10,Chennai,M3,detect,இ1,முடிச்சுட்றான்,முடிச்சுட்றன்,caught,False,,,,,False
+CHN-10,Chennai,M3,detect,ச1,கம்ப்யூட்டர் முன்னாடி.,கம்ப்யூட்டர் முன்னாடி உக்காந்தான்.,missed,False,,,,,
+CHN-11,Chennai,M1,correct,எ1,இருந்தான்,இருந்தாங்க,fixed_exact,False,இருந்தான்.,இருந்தாங்க,இருந்தாங்க,1.0,
+CHN-11,Chennai,M1,correct,இ1,இருந்தாங்க!,இருந்தோம்!,unchanged,False,இருந்தாங்க!”ன்னு,இருந்தோம்ன்னு,இருந்தாங்கன்னு,0.81,
+CHN-11,Chennai,M1,correct,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,changed_other,False,அதுக்கு,அதை,அதைக்,0.75,
+CHN-11,Chennai,M1,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,True
+CHN-11,Chennai,M1,detect,இ1,இருந்தாங்க!,இருந்தோம்!,listed_no_change,False,,,,,
+CHN-11,Chennai,M1,detect,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,caught,False,,,,,True
+CHN-11,Chennai,M2,correct,எ1,இருந்தான்,இருந்தாங்க,fixed_exact,False,இருந்தான்.,இருந்தாங்க,இருந்தாங்க,1.0,
+CHN-11,Chennai,M2,correct,இ1,இருந்தாங்க!,இருந்தோம்!,unchanged,False,இருந்தாங்க!”ன்னு,இருந்தோம்ன்னு,இருந்தாங்கன்னு,0.81,
+CHN-11,Chennai,M2,correct,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,unchanged,False,அதுக்கு,அதை,அதுக்கு,0.4,
+CHN-11,Chennai,M2,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,True
+CHN-11,Chennai,M2,detect,இ1,இருந்தாங்க!,இருந்தோம்!,listed_no_change,False,,,,,
+CHN-11,Chennai,M2,detect,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,missed,False,,,,,
+CHN-11,Chennai,M3,correct,எ1,இருந்தான்,இருந்தாங்க,changed_other,False,இருந்தான்.,இருந்தாங்க,,,
+CHN-11,Chennai,M3,correct,இ1,இருந்தாங்க!,இருந்தோம்!,changed_other,False,இருந்தாங்க!”ன்னு,இருந்தோம்ன்னு,தேடிக்கொண்டிருந்தார்கள்ன்னு,0.5,
+CHN-11,Chennai,M3,correct,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,unchanged,False,அதுக்கு,அதை,அதுக்கு,0.4,
+CHN-11,Chennai,M3,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,False
+CHN-11,Chennai,M3,detect,இ1,இருந்தாங்க!,இருந்தோம்!,caught,False,,,,,False
+CHN-11,Chennai,M3,detect,வ1,அதுக்கு எடுத்துக்கினு,அதை எடுத்துக்கினு,caught,False,,,,,True
+CHN-12,Chennai,M1,correct,இ1,இருக்கறான்,இருக்கறன்,changed_other,False,இருக்கறான்”ன்னாரு.,இருக்கறன்ன்னாரு,இருக்கேன்ன்னாரு,0.93,
+CHN-12,Chennai,M1,correct,ந1,“சரி உள்ள,"“சரி, உள்ள",fixed_exact,False,“சரி,"(adds ,)","“சரி,",0.17,
+CHN-12,Chennai,M1,correct,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,unchanged,False,இருப்பாங்க.,இருந்தாங்க,இருப்பாங்க,0.8,
+CHN-12,Chennai,M1,detect,இ1,இருக்கறான்,இருக்கறன்,caught,False,,,,,False
+CHN-12,Chennai,M1,detect,ந1,“சரி உள்ள,"“சரி, உள்ள",caught,False,,,,,True
+CHN-12,Chennai,M1,detect,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,missed,False,,,,,
+CHN-12,Chennai,M2,correct,இ1,இருக்கறான்,இருக்கறன்,changed_other,False,இருக்கறான்”ன்னாரு.,இருக்கறன்ன்னாரு,இருக்கான்ன்னாரு,0.93,
+CHN-12,Chennai,M2,correct,ந1,“சரி உள்ள,"“சரி, உள்ள",unchanged,False,“சரி,"(adds ,)",“சரி,0.0,
+CHN-12,Chennai,M2,correct,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,unchanged,False,இருப்பாங்க.,இருந்தாங்க,இருப்பாங்க,0.8,
+CHN-12,Chennai,M2,detect,இ1,இருக்கறான்,இருக்கறன்,missed,False,,,,,
+CHN-12,Chennai,M2,detect,ந1,“சரி உள்ள,"“சரி, உள்ள",missed,False,,,,,
+CHN-12,Chennai,M2,detect,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,caught,False,,,,,False
+CHN-12,Chennai,M3,correct,இ1,இருக்கறான்,இருக்கறன்,changed_other,False,இருக்கறான்”ன்னாரு.,இருக்கறன்ன்னாரு,இருக்கிறேன் என்றார்,0.79,
+CHN-12,Chennai,M3,correct,ந1,“சரி உள்ள,"“சரி, உள்ள",unchanged,False,“சரி,"(adds ,)","""சரி",0.0,
+CHN-12,Chennai,M3,correct,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,changed_other,False,இருப்பாங்க.,இருந்தாங்க,இருப்பார்கள்,0.64,
+CHN-12,Chennai,M3,detect,இ1,இருக்கறான்,இருக்கறன்,caught,False,,,,,False
+CHN-12,Chennai,M3,detect,ந1,“சரி உள்ள,"“சரி, உள்ள",missed,False,,,,,
+CHN-12,Chennai,M3,detect,க1,நின்னுகினு இருப்பாங்க,நின்னுகினு இருந்தாங்க,caught,False,,,,,False
+CHN-13,Chennai,M1,correct,த1,இருந்துச்சி,இருந்தாரு,unchanged,False,இருந்துச்சி.,இருந்தாரு,இருந்துச்சி,0.7,
+CHN-13,Chennai,M1,correct,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",changed_other,False,தேய்க்கறேன்,"(adds ,)",,,
+CHN-13,Chennai,M1,correct,இ1,பாக்கறான்,பாக்கறன்,changed_other,False,பாக்கறான்”ன்னு,பாக்கறன்ன்னு,பார்க்கறேன்ன்னு,0.89,
+CHN-13,Chennai,M1,detect,த1,இருந்துச்சி,இருந்தாரு,caught,False,,,,,False
+CHN-13,Chennai,M1,detect,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",missed,False,,,,,
+CHN-13,Chennai,M1,detect,இ1,பாக்கறான்,பாக்கறன்,caught,False,,,,,False
+CHN-13,Chennai,M2,correct,த1,இருந்துச்சி,இருந்தாரு,unchanged,False,இருந்துச்சி.,இருந்தாரு,இருந்துச்சி,0.7,
+CHN-13,Chennai,M2,correct,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",unchanged,False,தேய்க்கறேன்,"(adds ,)",தேய்க்கறேன்,0.0,
+CHN-13,Chennai,M2,correct,இ1,பாக்கறான்,பாக்கறன்,changed_other,False,பாக்கறான்”ன்னு,பாக்கறன்ன்னு,பாக்கறேன்ன்னு,0.96,
+CHN-13,Chennai,M2,detect,த1,இருந்துச்சி,இருந்தாரு,caught,False,,,,,False
+CHN-13,Chennai,M2,detect,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",missed,False,,,,,
+CHN-13,Chennai,M2,detect,இ1,பாக்கறான்,பாக்கறன்,missed,False,,,,,
+CHN-13,Chennai,M3,correct,த1,இருந்துச்சி,இருந்தாரு,changed_other,False,இருந்துச்சி.,இருந்தாரு,,,
+CHN-13,Chennai,M3,correct,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",changed_other,False,தேய்க்கறேன்,"(adds ,)",,,
+CHN-13,Chennai,M3,correct,இ1,பாக்கறான்,பாக்கறன்,changed_other,False,பாக்கறான்”ன்னு,பாக்கறன்ன்னு,பார்க்கிறேன் என்று,0.76,
+CHN-13,Chennai,M3,detect,த1,இருந்துச்சி,இருந்தாரு,caught,False,,,,,False
+CHN-13,Chennai,M3,detect,ந1,தேய்க்கறேன் கதவு,"தேய்க்கறேன், கதவு",missed,False,,,,,
+CHN-13,Chennai,M3,detect,இ1,பாக்கறான்,பாக்கறன்,caught,False,,,,,False
+CHN-14,Chennai,M1,correct,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,unchanged,False,அவன் நின்னுட்டான்.,அது நின்னுடுச்சி,அவன் நின்னுட்டான்,0.58,
+CHN-14,Chennai,M1,correct,எ1,இருந்தான்,இருந்தாங்க,fixed_exact,False,இருந்தான்;,இருந்தாங்க,இருந்தாங்க,1.0,
+CHN-14,Chennai,M1,correct,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,completed,False,கூட்டிக்கினு.,வந்தாரு,கூட்டிக்கிட்டான்,0.17,
+CHN-14,Chennai,M1,detect,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,caught,False,,,,,False
+CHN-14,Chennai,M1,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,True
+CHN-14,Chennai,M1,detect,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,caught,False,,,,,False
+CHN-14,Chennai,M2,correct,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,unchanged,False,அவன் நின்னுட்டான்.,அது நின்னுடுச்சி,அவன் நின்னுட்டான்,0.58,
+CHN-14,Chennai,M2,correct,எ1,இருந்தான்,இருந்தாங்க,unchanged,False,இருந்தான்;,இருந்தாங்க,இருந்தான்,0.84,
+CHN-14,Chennai,M2,correct,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,unchanged,False,கூட்டிக்கினு.,வந்தாரு,,,
+CHN-14,Chennai,M2,detect,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,caught,False,,,,,False
+CHN-14,Chennai,M2,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,True
+CHN-14,Chennai,M2,detect,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,caught,False,,,,,False
+CHN-14,Chennai,M3,correct,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,changed_other,False,அவன் நின்னுட்டான்.,அது நின்னுடுச்சி,அவன் நின்றுவிட்டான்,0.42,
+CHN-14,Chennai,M3,correct,எ1,இருந்தான்,இருந்தாங்க,changed_other,False,இருந்தான்;,இருந்தாங்க,,,
+CHN-14,Chennai,M3,correct,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,completed,False,கூட்டிக்கினு.,வந்தாரு,போனார்,0.31,
+CHN-14,Chennai,M3,detect,த1,அவன் நின்னுட்டான்,அது நின்னுடுச்சி,missed,False,,,,,
+CHN-14,Chennai,M3,detect,எ1,இருந்தான்,இருந்தாங்க,caught,False,,,,,False
+CHN-14,Chennai,M3,detect,ச1,கூட்டிக்கினு.,கூட்டிக்கினு வந்தாரு.,caught,False,,,,,False
+CHN-15,Chennai,M1,correct,த1,இருந்தாங்க,இருந்துச்சி,changed_other,False,இருந்தாங்க.,இருந்துச்சி,இருந்தது,0.74,
+CHN-15,Chennai,M1,correct,த1,நின்னான்,நின்னுச்சி,changed_other,False,நின்னான்.,நின்னுச்சி,நின்னது,0.71,
+CHN-15,Chennai,M1,correct,ந1,திறந்ததும் அது,"திறந்ததும், அது",unchanged,False,திறந்ததும்,"(adds ,)",திறந்ததும்,0.0,
+CHN-15,Chennai,M1,detect,த1,இருந்தாங்க,இருந்துச்சி,missed,False,,,,,
+CHN-15,Chennai,M1,detect,த1,நின்னான்,நின்னுச்சி,caught,False,,,,,False
+CHN-15,Chennai,M1,detect,ந1,திறந்ததும் அது,"திறந்ததும், அது",missed,False,,,,,
+CHN-15,Chennai,M2,correct,த1,இருந்தாங்க,இருந்துச்சி,changed_other,False,இருந்தாங்க.,இருந்துச்சி,இருந்துச்சு,0.91,
+CHN-15,Chennai,M2,correct,த1,நின்னான்,நின்னுச்சி,changed_other,False,நின்னான்.,நின்னுச்சி,நின்னுச்சு,0.9,
+CHN-15,Chennai,M2,correct,ந1,திறந்ததும் அது,"திறந்ததும், அது",unchanged,False,திறந்ததும்,"(adds ,)",திறந்ததும்,0.0,
+CHN-15,Chennai,M2,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-15,Chennai,M2,detect,த1,நின்னான்,நின்னுச்சி,caught,False,,,,,False
+CHN-15,Chennai,M2,detect,ந1,திறந்ததும் அது,"திறந்ததும், அது",listed_no_change,False,,,,,
+CHN-15,Chennai,M3,correct,த1,இருந்தாங்க,இருந்துச்சி,changed_other,False,இருந்தாங்க.,இருந்துச்சி,இருந்தது,0.74,
+CHN-15,Chennai,M3,correct,த1,நின்னான்,நின்னுச்சி,changed_other,False,நின்னான்.,நின்னுச்சி,நின்றது,0.59,
+CHN-15,Chennai,M3,correct,ந1,திறந்ததும் அது,"திறந்ததும், அது",unchanged,False,திறந்ததும்,"(adds ,)",திறந்ததும்,0.0,
+CHN-15,Chennai,M3,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-15,Chennai,M3,detect,த1,நின்னான்,நின்னுச்சி,caught,False,,,,,False
+CHN-15,Chennai,M3,detect,ந1,திறந்ததும் அது,"திறந்ததும், அது",missed,False,,,,,
+CHN-16,Chennai,M1,correct,க1,இருந்துச்சி,இருக்கும்,changed_other,False,இருந்துச்சி.,இருக்கும்,இருக்கு,0.88,
+CHN-16,Chennai,M1,correct,ஒ1,வீட்டுகு,வீட்டுக்குப்,changed_other,False,வீட்டுகு,வீட்டுக்குப்,வீட்டுக்கு,0.91,
+CHN-16,Chennai,M1,correct,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,changed_other,False,வேண்டியிருந்துச்சி.,வேண்டியிருக்கும்,வேண்டி இருக்கும்,0.9,
+CHN-16,Chennai,M1,detect,க1,இருந்துச்சி,இருக்கும்,missed,False,,,,,
+CHN-16,Chennai,M1,detect,ஒ1,வீட்டுகு,வீட்டுக்குப்,missed,False,,,,,
+CHN-16,Chennai,M1,detect,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,missed,False,,,,,
+CHN-16,Chennai,M2,correct,க1,இருந்துச்சி,இருக்கும்,changed_other,False,இருந்துச்சி.,இருக்கும்,இருந்துச்சு,0.6,
+CHN-16,Chennai,M2,correct,ஒ1,வீட்டுகு,வீட்டுக்குப்,changed_other,False,வீட்டுகு,வீட்டுக்குப்,வீட்டுக்கு,0.91,
+CHN-16,Chennai,M2,correct,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,changed_other,False,வேண்டியிருந்துச்சி.,வேண்டியிருக்கும்,வேண்டியிருந்துச்சு,0.76,
+CHN-16,Chennai,M2,detect,க1,இருந்துச்சி,இருக்கும்,caught,False,,,,,False
+CHN-16,Chennai,M2,detect,ஒ1,வீட்டுகு,வீட்டுக்குப்,caught,False,,,,,False
+CHN-16,Chennai,M2,detect,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,caught,False,,,,,False
+CHN-16,Chennai,M3,correct,க1,இருந்துச்சி,இருக்கும்,fixed_exact,False,இருந்துச்சி.,இருக்கும்,இருக்கும்,1.0,
+CHN-16,Chennai,M3,correct,ஒ1,வீட்டுகு,வீட்டுக்குப்,fixed_exact,False,வீட்டுகு,வீட்டுக்குப்,வீட்டுக்குப்,1.0,
+CHN-16,Chennai,M3,correct,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,fixed_exact,False,வேண்டியிருந்துச்சி.,வேண்டியிருக்கும்,வேண்டியிருக்கும்,1.0,
+CHN-16,Chennai,M3,detect,க1,இருந்துச்சி,இருக்கும்,caught,False,,,,,False
+CHN-16,Chennai,M3,detect,ஒ1,வீட்டுகு,வீட்டுக்குப்,caught,False,,,,,False
+CHN-16,Chennai,M3,detect,க1,வேண்டியிருந்துச்சி,வேண்டியிருக்கும்,missed,False,,,,,
+CHN-17,Chennai,M1,correct,த1,இருக்கிறாரு,இருக்குது,changed_other,False,இருக்கிறாரு.,இருக்குது,இருக்கிறுது,0.9,
+CHN-17,Chennai,M1,correct,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,completed,False,சகதியுமா.,ஆயிடும்,ஆகுது,0.33,
+CHN-17,Chennai,M1,correct,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,fixed_exact,False,இருக்கும்,(adds ;),இருக்கும்;,0.12,
+CHN-17,Chennai,M1,detect,த1,இருக்கிறாரு,இருக்குது,caught,False,,,,,True
+CHN-17,Chennai,M1,detect,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,listed_no_change,False,,,,,
+CHN-17,Chennai,M1,detect,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,missed,False,,,,,
+CHN-17,Chennai,M2,correct,த1,இருக்கிறாரு,இருக்குது,changed_other,False,இருக்கிறாரு.,இருக்குது,,,
+CHN-17,Chennai,M2,correct,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,completed,False,சகதியுமா.,ஆயிடும்,இருக்கு,0.29,
+CHN-17,Chennai,M2,correct,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,fixed_exact,False,இருக்கும்,(adds ;),"இருக்கும்,",0.0,
+CHN-17,Chennai,M2,detect,த1,இருக்கிறாரு,இருக்குது,missed,False,,,,,
+CHN-17,Chennai,M2,detect,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,missed,False,,,,,
+CHN-17,Chennai,M2,detect,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,missed,False,,,,,
+CHN-17,Chennai,M3,correct,த1,இருக்கிறாரு,இருக்குது,changed_other,False,இருக்கிறாரு.,இருக்குது,,,
+CHN-17,Chennai,M3,correct,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,completed,False,சகதியுமா.,ஆயிடும்,இருக்கிறது,0.24,
+CHN-17,Chennai,M3,correct,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,fixed_exact,False,இருக்கும்,(adds ;),"இருக்கும்,",0.0,
+CHN-17,Chennai,M3,detect,த1,இருக்கிறாரு,இருக்குது,caught,False,,,,,False
+CHN-17,Chennai,M3,detect,ச1,சேறும் சகதியுமா.,சேறும் சகதியுமா ஆயிடும்.,caught,False,,,,,False
+CHN-17,Chennai,M3,detect,ந1,இருக்கும் இப்ப,இருக்கும்; இப்ப,missed,False,,,,,
+CHN-18,Chennai,M1,correct,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,fixed_exact,False,சந்தைகுள்ள,சந்தைக்குள்ள,சந்தைக்குள்ள,1.0,
+CHN-18,Chennai,M1,correct,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,fixed_exact,False,வச்சிருப்பான்.,வச்சிருப்பாங்க,வச்சிருப்பாங்க,1.0,
+CHN-18,Chennai,M1,correct,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,unchanged,False,மீனுங்களுக்கு விட,மீனுங்களவிட,மீனுங்களுக்கு விட,0.81,
+CHN-18,Chennai,M1,detect,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,caught,False,,,,,True
+CHN-18,Chennai,M1,detect,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,caught,False,,,,,False
+CHN-18,Chennai,M1,detect,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,caught,False,,,,,False
+CHN-18,Chennai,M2,correct,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,fixed_exact,False,சந்தைகுள்ள,சந்தைக்குள்ள,சந்தைக்குள்ள,1.0,
+CHN-18,Chennai,M2,correct,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,unchanged,False,வச்சிருப்பான்.,வச்சிருப்பாங்க,வச்சிருப்பான்,0.89,
+CHN-18,Chennai,M2,correct,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,unchanged,False,மீனுங்களுக்கு விட,மீனுங்களவிட,மீனுங்களுக்கு விட,0.81,
+CHN-18,Chennai,M2,detect,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,caught,False,,,,,True
+CHN-18,Chennai,M2,detect,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,caught,False,,,,,False
+CHN-18,Chennai,M2,detect,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,caught,False,,,,,False
+CHN-18,Chennai,M3,correct,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,fixed_exact,False,சந்தைகுள்ள,சந்தைக்குள்ள,சந்தைக்குள்ள,1.0,
+CHN-18,Chennai,M3,correct,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,fixed_exact,False,வச்சிருப்பான்.,வச்சிருப்பாங்க,வச்சிருப்பாங்க,1.0,
+CHN-18,Chennai,M3,correct,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,unchanged,False,மீனுங்களுக்கு விட,மீனுங்களவிட,மீனுங்களுக்கு விட,0.81,
+CHN-18,Chennai,M3,detect,ஒ1,சந்தைகுள்ள,சந்தைக்குள்ள,caught,False,,,,,True
+CHN-18,Chennai,M3,detect,எ1,வச்சிருப்பான்,வச்சிருப்பாங்க,caught,False,,,,,False
+CHN-18,Chennai,M3,detect,வ1,மீனுங்களுக்கு விட,மீனுங்களவிட,caught,False,,,,,False
+CHN-19,Chennai,M1,correct,இ1,இருந்தான்,இருந்தேன்,unchanged,False,இருந்தான்.,இருந்தேன்,இருந்தான்,0.89,
+CHN-19,Chennai,M1,correct,த1,இருந்தாரு,இருந்துச்சி,changed_other,False,இருந்தாரு.,இருந்துச்சி,இருந்தது,0.74,
+CHN-19,Chennai,M1,correct,இ1,போறான்,போறேன்,unchanged,False,போறான்;,போறேன்,போறான்,0.83,
+CHN-19,Chennai,M1,detect,இ1,இருந்தான்,இருந்தேன்,missed,False,,,,,
+CHN-19,Chennai,M1,detect,த1,இருந்தாரு,இருந்துச்சி,caught,False,,,,,False
+CHN-19,Chennai,M1,detect,இ1,போறான்,போறேன்,missed,False,,,,,
+CHN-19,Chennai,M2,correct,இ1,இருந்தான்,இருந்தேன்,unchanged,False,இருந்தான்.,இருந்தேன்,இருந்தான்,0.89,
+CHN-19,Chennai,M2,correct,த1,இருந்தாரு,இருந்துச்சி,unchanged,False,இருந்தாரு.,இருந்துச்சி,இருந்தாரு,0.7,
+CHN-19,Chennai,M2,correct,இ1,போறான்,போறேன்,unchanged,False,போறான்;,போறேன்,போறான்,0.83,
+CHN-19,Chennai,M2,detect,இ1,இருந்தான்,இருந்தேன்,missed,False,,,,,
+CHN-19,Chennai,M2,detect,த1,இருந்தாரு,இருந்துச்சி,caught,False,,,,,False
+CHN-19,Chennai,M2,detect,இ1,போறான்,போறேன்,caught,False,,,,,False
+CHN-19,Chennai,M3,correct,இ1,இருந்தான்,இருந்தேன்,unchanged,False,இருந்தான்.,இருந்தேன்,இருந்தான்,0.89,
+CHN-19,Chennai,M3,correct,த1,இருந்தாரு,இருந்துச்சி,changed_other,False,இருந்தாரு.,இருந்துச்சி,இருந்தது,0.74,
+CHN-19,Chennai,M3,correct,இ1,போறான்,போறேன்,changed_other,False,போறான்;,போறேன்,போகிறான்,0.71,
+CHN-19,Chennai,M3,detect,இ1,இருந்தான்,இருந்தேன்,missed,False,,,,,
+CHN-19,Chennai,M3,detect,த1,இருந்தாரு,இருந்துச்சி,caught,False,,,,,False
+CHN-19,Chennai,M3,detect,இ1,போறான்,போறேன்,missed,False,,,,,
+CHN-20,Chennai,M1,correct,த1,கெடக்கிறாரு,கெடக்குது,changed_other,False,கெடக்கிறாரு.,கெடக்குது,இருக்குது,0.67,
+CHN-20,Chennai,M1,correct,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,fixed_exact,False,மாசத்த,மாசத்துக்கு,மாசத்துக்கு,1.0,
+CHN-20,Chennai,M1,correct,க1,இருந்தோம்,இருக்கறம்,unchanged,False,இருந்தோம்.,இருக்கறம்,இருந்தோம்,0.67,
+CHN-20,Chennai,M1,detect,த1,கெடக்கிறாரு,கெடக்குது,caught,False,,,,,False
+CHN-20,Chennai,M1,detect,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,caught,False,,,,,False
+CHN-20,Chennai,M1,detect,க1,இருந்தோம்,இருக்கறம்,missed,False,,,,,
+CHN-20,Chennai,M2,correct,த1,கெடக்கிறாரு,கெடக்குது,changed_other,False,கெடக்கிறாரு.,கெடக்குது,கெடக்கிறது,0.84,
+CHN-20,Chennai,M2,correct,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,fixed_exact,False,மாசத்த,மாசத்துக்கு,மாசத்துக்கு,1.0,
+CHN-20,Chennai,M2,correct,க1,இருந்தோம்,இருக்கறம்,unchanged,False,இருந்தோம்.,இருக்கறம்,இருந்தோம்,0.67,
+CHN-20,Chennai,M2,detect,த1,கெடக்கிறாரு,கெடக்குது,missed,False,,,,,
+CHN-20,Chennai,M2,detect,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,caught,False,,,,,False
+CHN-20,Chennai,M2,detect,க1,இருந்தோம்,இருக்கறம்,caught,False,,,,,False
+CHN-20,Chennai,M3,correct,த1,கெடக்கிறாரு,கெடக்குது,changed_other,False,கெடக்கிறாரு.,கெடக்குது,கிடக்கின்றது,0.67,
+CHN-20,Chennai,M3,correct,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,changed_other,False,மாசத்த,மாசத்துக்கு,மாதத்தில்,0.6,
+CHN-20,Chennai,M3,correct,க1,இருந்தோம்,இருக்கறம்,changed_other,False,இருந்தோம்.,இருக்கறம்,என்று இருந்தோம்,0.52,
+CHN-20,Chennai,M3,detect,த1,கெடக்கிறாரு,கெடக்குது,caught,False,,,,,False
+CHN-20,Chennai,M3,detect,வ1,மாசத்த ஒருதடவ,மாசத்துக்கு ஒருதடவ,missed,False,,,,,
+CHN-20,Chennai,M3,detect,க1,இருந்தோம்,இருக்கறம்,missed,False,,,,,
+CHN-21,Chennai,M1,correct,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",fixed_exact,False,பாக்கெட்,"(adds ,)","பாக்கெட்,",0.12,
+CHN-21,Chennai,M1,correct,த1,கெடப்பாரு,கெடக்கும்,changed_other,False,கெடப்பாரு;,கெடக்கும்,கிடப்பாரு,0.44,
+CHN-21,Chennai,M1,correct,ப1,இருப்பாள்,இருப்பாரு,unchanged,False,இருப்பாள்.,இருப்பாரு,இருப்பாள்,0.78,
+CHN-21,Chennai,M1,detect,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",missed,False,,,,,
+CHN-21,Chennai,M1,detect,த1,கெடப்பாரு,கெடக்கும்,caught,False,,,,,False
+CHN-21,Chennai,M1,detect,ப1,இருப்பாள்,இருப்பாரு,caught,False,,,,,False
+CHN-21,Chennai,M2,correct,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",unchanged,False,பாக்கெட்,"(adds ,)",பாக்கெட்,0.0,
+CHN-21,Chennai,M2,correct,த1,கெடப்பாரு,கெடக்கும்,unchanged,False,கெடப்பாரு;,கெடக்கும்,கெடப்பாரு,0.56,
+CHN-21,Chennai,M2,correct,ப1,இருப்பாள்,இருப்பாரு,fixed_exact,False,இருப்பாள்.,இருப்பாரு,இருப்பாரு,1.0,
+CHN-21,Chennai,M2,detect,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",missed,False,,,,,
+CHN-21,Chennai,M2,detect,த1,கெடப்பாரு,கெடக்கும்,caught,False,,,,,False
+CHN-21,Chennai,M2,detect,ப1,இருப்பாள்,இருப்பாரு,caught,False,,,,,False
+CHN-21,Chennai,M3,correct,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",fixed_exact,False,பாக்கெட்,"(adds ,)","பாக்கெட்,",0.12,
+CHN-21,Chennai,M3,correct,த1,கெடப்பாரு,கெடக்கும்,changed_other,False,கெடப்பாரு;,கெடக்கும்,கிடக்கும்,0.89,
+CHN-21,Chennai,M3,correct,ப1,இருப்பாள்,இருப்பாரு,changed_other,False,இருப்பாள்.,இருப்பாரு,,,
+CHN-21,Chennai,M3,detect,ந1,பாக்கெட் பேப்பர்,"பாக்கெட், பேப்பர்",missed,False,,,,,
+CHN-21,Chennai,M3,detect,த1,கெடப்பாரு,கெடக்கும்,caught,False,,,,,False
+CHN-21,Chennai,M3,detect,ப1,இருப்பாள்,இருப்பாரு,caught,False,,,,,False
+CHN-22,Chennai,M1,correct,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,fixed_exact,False,ஜன்னலுகு,ஜன்னலுக்கு,ஜன்னலுக்கு,1.0,
+CHN-22,Chennai,M1,correct,த1,இருந்தாங்க,இருந்துச்சி,unchanged,False,இருந்தாங்க.,இருந்துச்சி,இருந்தாங்க,0.67,
+CHN-22,Chennai,M1,correct,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,changed_other,False,காய்ஞ்சு.,போயிடும்,காயஞ்சு,0.27,
+CHN-22,Chennai,M1,detect,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,caught,False,,,,,True
+CHN-22,Chennai,M1,detect,த1,இருந்தாங்க,இருந்துச்சி,missed,False,,,,,
+CHN-22,Chennai,M1,detect,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,caught,False,,,,,False
+CHN-22,Chennai,M2,correct,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,changed_other,False,ஜன்னலுகு,ஜன்னலுக்கு,ஜன்னல்களுக்கு,0.87,
+CHN-22,Chennai,M2,correct,த1,இருந்தாங்க,இருந்துச்சி,unchanged,False,இருந்தாங்க.,இருந்துச்சி,இருந்தாங்க,0.67,
+CHN-22,Chennai,M2,correct,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,unchanged,False,காய்ஞ்சு.,போயிடும்,,,
+CHN-22,Chennai,M2,detect,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,caught,False,,,,,True
+CHN-22,Chennai,M2,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-22,Chennai,M2,detect,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,caught,False,,,,,False
+CHN-22,Chennai,M3,correct,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,fixed_exact,False,ஜன்னலுகு,ஜன்னலுக்கு,ஜன்னலுக்கு,1.0,
+CHN-22,Chennai,M3,correct,த1,இருந்தாங்க,இருந்துச்சி,changed_other,False,இருந்தாங்க.,இருந்துச்சி,,,
+CHN-22,Chennai,M3,correct,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,completed,False,காய்ஞ்சு.,போயிடும்,காய்ந்தது,0.24,
+CHN-22,Chennai,M3,detect,ஒ1,ஜன்னலுகு,ஜன்னலுக்கு,caught,False,,,,,True
+CHN-22,Chennai,M3,detect,த1,இருந்தாங்க,இருந்துச்சி,caught,False,,,,,False
+CHN-22,Chennai,M3,detect,ச1,மெதுவா காய்ஞ்சு.,மெதுவா காய்ஞ்சு போயிடும்.,caught,False,,,,,False
+CHN-23,Chennai,M1,correct,த1,இருப்பாரு,இருக்கும்,changed_other,False,இருப்பாரு.,இருக்கும்,இருப்பான்,0.56,
+CHN-23,Chennai,M1,correct,வ1,புல்லுக்கு,புல்ல,changed_other,False,புல்லுக்கு,புல்ல,புல்லை,0.91,
+CHN-23,Chennai,M1,correct,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,changed_other,False,அவரு இருந்தாரு.,அது,அவன்,0.29,
+CHN-23,Chennai,M1,detect,த1,இருப்பாரு,இருக்கும்,missed,False,,,,,
+CHN-23,Chennai,M1,detect,வ1,புல்லுக்கு,புல்ல,missed,False,,,,,
+CHN-23,Chennai,M1,detect,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,caught,False,,,,,False
+CHN-23,Chennai,M2,correct,த1,இருப்பாரு,இருக்கும்,fixed_exact,False,இருப்பாரு.,இருக்கும்,இருக்கும்,1.0,
+CHN-23,Chennai,M2,correct,வ1,புல்லுக்கு,புல்ல,unchanged,False,புல்லுக்கு,புல்ல,புல்லுக்கு,0.67,
+CHN-23,Chennai,M2,correct,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,unchanged,False,அவரு இருந்தாரு.,அது,அவரு,0.57,
+CHN-23,Chennai,M2,detect,த1,இருப்பாரு,இருக்கும்,caught,False,,,,,False
+CHN-23,Chennai,M2,detect,வ1,புல்லுக்கு,புல்ல,listed_no_change,False,,,,,
+CHN-23,Chennai,M2,detect,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,listed_no_change,False,,,,,
+CHN-23,Chennai,M3,correct,த1,இருப்பாரு,இருக்கும்,changed_other,False,இருப்பாரு.,இருக்கும்,,,
+CHN-23,Chennai,M3,correct,வ1,புல்லுக்கு,புல்ல,changed_other,False,புல்லுக்கு,புல்ல,புல்லை,0.91,
+CHN-23,Chennai,M3,correct,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,fixed_exact,False,அவரு இருந்தாரு.,அது,அது,1.0,
+CHN-23,Chennai,M3,detect,த1,இருப்பாரு,இருக்கும்,caught,False,,,,,True
+CHN-23,Chennai,M3,detect,வ1,புல்லுக்கு,புல்ல,missed,False,,,,,
+CHN-23,Chennai,M3,detect,த1,அவரு ரோட்டோரமா நின்னுகினு இருந்தாரு,அது ரோட்டோரமா நின்னுகினு இருந்திச்சி,caught,False,,,,,False
+CHN-24,Chennai,M1,correct,ஒ1,வீட்டுகு,வீட்டுக்கு,fixed_exact,False,வீட்டுகு,வீட்டுக்கு,வீட்டுக்கு,1.0,
+CHN-24,Chennai,M1,correct,இ1,இருக்கறாங்க,இருக்கறம்,changed_other,False,இருக்கறாங்க.,இருக்கறம்,இருக்காங்க,0.74,
+CHN-24,Chennai,M1,correct,க1,வந்துச்சின்னு,வருன்னு,unchanged,False,வந்துச்சின்னு,வருன்னு,வந்துச்சின்னு,0.6,
+CHN-24,Chennai,M1,detect,ஒ1,வீட்டுகு,வீட்டுக்கு,caught,False,,,,,True
+CHN-24,Chennai,M1,detect,இ1,இருக்கறாங்க,இருக்கறம்,caught,False,,,,,False
+CHN-24,Chennai,M1,detect,க1,வந்துச்சின்னு,வருன்னு,caught,False,,,,,False
+CHN-24,Chennai,M2,correct,ஒ1,வீட்டுகு,வீட்டுக்கு,fixed_exact,False,வீட்டுகு,வீட்டுக்கு,வீட்டுக்கு,1.0,
+CHN-24,Chennai,M2,correct,இ1,இருக்கறாங்க,இருக்கறம்,changed_other,False,இருக்கறாங்க.,இருக்கறம்,இருக்காங்க,0.74,
+CHN-24,Chennai,M2,correct,க1,வந்துச்சின்னு,வருன்னு,unchanged,False,வந்துச்சின்னு,வருன்னு,வந்துச்சின்னு,0.6,
+CHN-24,Chennai,M2,detect,ஒ1,வீட்டுகு,வீட்டுக்கு,caught,False,,,,,True
+CHN-24,Chennai,M2,detect,இ1,இருக்கறாங்க,இருக்கறம்,missed,False,,,,,
+CHN-24,Chennai,M2,detect,க1,வந்துச்சின்னு,வருன்னு,caught,False,,,,,False
+CHN-24,Chennai,M3,correct,ஒ1,வீட்டுகு,வீட்டுக்கு,changed_other,False,வீட்டுகு,வீட்டுக்கு,வீட்டிற்கு வர,0.73,
+CHN-24,Chennai,M3,correct,இ1,இருக்கறாங்க,இருக்கறம்,changed_other,False,இருக்கறாங்க.,இருக்கறம்,இருக்கிறார்கள்,0.7,
+CHN-24,Chennai,M3,correct,க1,வந்துச்சின்னு,வருன்னு,changed_other,False,வந்துச்சின்னு,வருன்னு,வந்துச்சு என்று,0.48,
+CHN-24,Chennai,M3,detect,ஒ1,வீட்டுகு,வீட்டுக்கு,caught,False,,,,,False
+CHN-24,Chennai,M3,detect,இ1,இருக்கறாங்க,இருக்கறம்,caught,False,,,,,False
+CHN-24,Chennai,M3,detect,க1,வந்துச்சின்னு,வருன்னு,caught,False,,,,,False
+GEN-01,General,M1,correct,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,fixed_exact,False,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,மலைப்பகுதிக்குச்,1.0,
+GEN-01,General,M1,correct,த1,நேரம் நின்றார்,நேரம் நின்றது,fixed_exact,False,நின்றார்.,நின்றது,நின்றது,1.0,
+GEN-01,General,M1,correct,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,fixed_exact,False,தொடங்கும்.,தொடங்கியது,தொடங்கியது,1.0,
+GEN-01,General,M1,detect,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,caught,False,,,,,False
+GEN-01,General,M1,detect,த1,நேரம் நின்றார்,நேரம் நின்றது,caught,False,,,,,True
+GEN-01,General,M1,detect,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,caught,False,,,,,True
+GEN-01,General,M2,correct,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,changed_other,False,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,மலைப்பகுதிகளுக்குச்,0.91,
+GEN-01,General,M2,correct,த1,நேரம் நின்றார்,நேரம் நின்றது,fixed_exact,False,நின்றார்.,நின்றது,நின்றது,1.0,
+GEN-01,General,M2,correct,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,unchanged,False,தொடங்கும்.,தொடங்கியது,தொடங்கும்,0.74,
+GEN-01,General,M2,detect,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,caught,False,,,,,False
+GEN-01,General,M2,detect,த1,நேரம் நின்றார்,நேரம் நின்றது,caught,False,,,,,True
+GEN-01,General,M2,detect,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,listed_no_change,False,,,,,
+GEN-01,General,M3,correct,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,fixed_exact,False,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,மலைப்பகுதிக்குச்,1.0,
+GEN-01,General,M3,correct,த1,நேரம் நின்றார்,நேரம் நின்றது,fixed_exact,False,நின்றார்.,நின்றது,நின்றது,1.0,
+GEN-01,General,M3,correct,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,changed_other,False,தொடங்கும்.,தொடங்கியது,தொடர்ந்தது,0.6,
+GEN-01,General,M3,detect,ஒ1,மலைப்பகுதிகுச்,மலைப்பகுதிக்குச்,caught,False,,,,,True
+GEN-01,General,M3,detect,த1,நேரம் நின்றார்,நேரம் நின்றது,caught,False,,,,,True
+GEN-01,General,M3,detect,க1,மீண்டும் தொடங்கும்,மீண்டும் தொடங்கியது,caught,False,,,,,False
+GEN-02,General,M1,correct,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,changed_other,False,வைத்திருந்தான்.,வைத்திருந்தனர்,வைத்திருந்தார்கள்,0.84,
+GEN-02,General,M1,correct,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,fixed_exact,False,உருவாக்கியிருந்தாள்.,உருவாக்கியிருந்தான்,உருவாக்கியிருந்தான்,1.0,
+GEN-02,General,M1,correct,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,fixed_exact,False,இயக்கிப்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-02,General,M1,detect,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,caught,False,,,,,True
+GEN-02,General,M1,detect,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,caught,False,,,,,True
+GEN-02,General,M1,detect,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,caught,False,,,,,False
+GEN-02,General,M2,correct,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,fixed_exact,False,வைத்திருந்தான்.,வைத்திருந்தனர்,வைத்திருந்தனர்,1.0,
+GEN-02,General,M2,correct,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,fixed_exact,False,உருவாக்கியிருந்தாள்.,உருவாக்கியிருந்தான்,உருவாக்கியிருந்தான்,1.0,
+GEN-02,General,M2,correct,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,fixed_exact,False,இயக்கிப்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-02,General,M2,detect,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,missed,False,,,,,
+GEN-02,General,M2,detect,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,caught,False,,,,,False
+GEN-02,General,M2,detect,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,caught,False,,,,,False
+GEN-02,General,M3,correct,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,fixed_exact,False,வைத்திருந்தான்.,வைத்திருந்தனர்,வைத்திருந்தனர்,1.0,
+GEN-02,General,M3,correct,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,fixed_exact,False,உருவாக்கியிருந்தாள்.,உருவாக்கியிருந்தான்,உருவாக்கியிருந்தான்,1.0,
+GEN-02,General,M3,correct,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,completed,False,இயக்கிப்.,பார்த்தனர்,இயக்கினர்,0.42,
+GEN-02,General,M3,detect,எ1,வைத்திருந்தான்,வைத்திருந்தனர்,caught,False,,,,,True
+GEN-02,General,M3,detect,ப1,உருவாக்கியிருந்தாள்,உருவாக்கியிருந்தான்,caught,False,,,,,True
+GEN-02,General,M3,detect,ச1,சாதனத்தை இயக்கிப்.,சாதனத்தை இயக்கிப் பார்த்தனர்.,caught,False,,,,,False
+GEN-03,General,M1,correct,ம1,கடல்கரையில்,கடற்கரையில்,fixed_exact,False,கடல்கரையில்,கடற்கரையில்,கடற்கரையில்,1.0,
+GEN-03,General,M1,correct,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,fixed_exact,False,பார்த்தான்.,பார்த்தாள்,பார்த்தாள்,1.0,
+GEN-03,General,M1,correct,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,changed_other,False,கிடந்தார்.,கிடந்தது,கிடைத்தது,0.82,
+GEN-03,General,M1,detect,ம1,கடல்கரையில்,கடற்கரையில்,missed,False,,,,,
+GEN-03,General,M1,detect,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,caught,False,,,,,True
+GEN-03,General,M1,detect,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,caught,False,,,,,True
+GEN-03,General,M2,correct,ம1,கடல்கரையில்,கடற்கரையில்,unchanged,False,கடல்கரையில்,கடற்கரையில்,கடல்கரையில்,0.91,
+GEN-03,General,M2,correct,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,unchanged,False,பார்த்தான்.,பார்த்தாள்,பார்த்தான்,0.9,
+GEN-03,General,M2,correct,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,fixed_exact,False,கிடந்தார்.,கிடந்தது,கிடந்தது,1.0,
+GEN-03,General,M2,detect,ம1,கடல்கரையில்,கடற்கரையில்,missed,False,,,,,
+GEN-03,General,M2,detect,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,missed,False,,,,,
+GEN-03,General,M2,detect,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,caught,False,,,,,False
+GEN-03,General,M3,correct,ம1,கடல்கரையில்,கடற்கரையில்,fixed_exact,False,கடல்கரையில்,கடற்கரையில்,கடற்கரையில்,1.0,
+GEN-03,General,M3,correct,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,fixed_exact,False,பார்த்தான்.,பார்த்தாள்,பார்த்தாள்,1.0,
+GEN-03,General,M3,correct,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,fixed_exact,False,கிடந்தார்.,கிடந்தது,கிடந்தது,1.0,
+GEN-03,General,M3,detect,ம1,கடல்கரையில்,கடற்கரையில்,missed,False,,,,,
+GEN-03,General,M3,detect,ப1,தோண்டிப் பார்த்தான்,தோண்டிப் பார்த்தாள்,caught,False,,,,,True
+GEN-03,General,M3,detect,த1,செருப்பு கிடந்தார்,செருப்பு கிடந்தது,caught,False,,,,,True
+GEN-04,General,M1,correct,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,fixed_exact,False,பழையப்,பழைய,பழைய,1.0,
+GEN-04,General,M1,correct,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,changed_other,False,இருந்தான்.,இருந்தனர்,இருந்தார்கள்,0.76,
+GEN-04,General,M1,correct,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,fixed_exact,False,வைத்தான்.,வைத்தாள்,வைத்தாள்,1.0,
+GEN-04,General,M1,detect,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,missed,False,,,,,
+GEN-04,General,M1,detect,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,caught,False,,,,,True
+GEN-04,General,M1,detect,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,caught,False,,,,,True
+GEN-04,General,M2,correct,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,unchanged,False,பழையப்,பழைய,பழையப்,0.8,
+GEN-04,General,M2,correct,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,fixed_exact,False,இருந்தான்.,இருந்தனர்,இருந்தனர்,1.0,
+GEN-04,General,M2,correct,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,fixed_exact,False,வைத்தான்.,வைத்தாள்,வைத்தாள்,1.0,
+GEN-04,General,M2,detect,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,missed,False,,,,,
+GEN-04,General,M2,detect,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,caught,False,,,,,True
+GEN-04,General,M2,detect,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,caught,False,,,,,True
+GEN-04,General,M3,correct,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,fixed_exact,False,பழையப்,பழைய,பழைய,1.0,
+GEN-04,General,M3,correct,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,fixed_exact,False,இருந்தான்.,இருந்தனர்,இருந்தனர்,1.0,
+GEN-04,General,M3,correct,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,fixed_exact,False,வைத்தான்.,வைத்தாள்,வைத்தாள்,1.0,
+GEN-04,General,M3,detect,ஒ2,பழையப் புகைப்பட,பழைய புகைப்பட,caught,False,,,,,True
+GEN-04,General,M3,detect,எ1,இளமையாக இருந்தான்,இளமையாக இருந்தனர்,caught,False,,,,,True
+GEN-04,General,M3,detect,ப1,அலமாரியில் வைத்தான்,அலமாரியில் வைத்தாள்,caught,False,,,,,True
+GEN-05,General,M1,correct,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,fixed_exact,False,சென்றேன்.,சென்றான்,சென்றான்,1.0,
+GEN-05,General,M1,correct,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,changed_other,False,விவரங்களுக்குப்,விவரங்களைப்,விவரங்களை,0.9,
+GEN-05,General,M1,correct,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,completed,False,சென்று.,பார்த்தான்,சென்றான்,0.44,
+GEN-05,General,M1,detect,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,caught,False,,,,,True
+GEN-05,General,M1,detect,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,missed,False,,,,,
+GEN-05,General,M1,detect,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,caught,False,,,,,False
+GEN-05,General,M2,correct,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,fixed_exact,False,சென்றேன்.,சென்றான்,சென்றான்,1.0,
+GEN-05,General,M2,correct,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,unchanged,False,விவரங்களுக்குப்,விவரங்களைப்,விவரங்களுக்குப்,0.77,
+GEN-05,General,M2,correct,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,completed,False,சென்று.,பார்த்தான்,சென்றான்,0.44,
+GEN-05,General,M2,detect,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,caught,False,,,,,True
+GEN-05,General,M2,detect,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,missed,False,,,,,
+GEN-05,General,M2,detect,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,listed_no_change,False,,,,,
+GEN-05,General,M3,correct,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,fixed_exact,False,சென்றேன்.,சென்றான்,சென்றான்,1.0,
+GEN-05,General,M3,correct,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,fixed_exact,False,விவரங்களுக்குப்,விவரங்களைப்,விவரங்களைப்,1.0,
+GEN-05,General,M3,correct,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,completed,False,சென்று.,பார்த்தான்,சென்றான்,0.44,
+GEN-05,General,M3,detect,இ1,அங்கு சென்றேன்,அங்கு சென்றான்,caught,False,,,,,True
+GEN-05,General,M3,detect,வ1,விவரங்களுக்குப் பதிவு,விவரங்களைப் பதிவு,missed,False,,,,,
+GEN-05,General,M3,detect,ச1,பகுதியைச் சென்று.,பகுதியைச் சென்று பார்த்தான்.,caught,False,,,,,False
+GEN-06,General,M1,correct,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,changed_other,False,எடுத்துவந்தான்.,எடுத்துவந்தனர்,எடுத்துவந்தார்கள்,0.84,
+GEN-06,General,M1,correct,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-06,General,M1,correct,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,changed_other,False,தொடர்வர்.,தொடர்ந்தனர்,தொடந்தனர்,0.9,
+GEN-06,General,M1,detect,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,caught,False,,,,,False
+GEN-06,General,M1,detect,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,caught,False,,,,,True
+GEN-06,General,M1,detect,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,caught,False,,,,,True
+GEN-06,General,M2,correct,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,changed_other,False,எடுத்துவந்தான்.,எடுத்துவந்தனர்,எடுத்து வந்தனர்,1.0,
+GEN-06,General,M2,correct,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-06,General,M2,correct,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,unchanged,False,தொடர்வர்.,தொடர்ந்தனர்,தொடர்வர்,0.74,
+GEN-06,General,M2,detect,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,caught,False,,,,,True
+GEN-06,General,M2,detect,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,missed,False,,,,,
+GEN-06,General,M2,detect,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,caught,False,,,,,True
+GEN-06,General,M3,correct,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,fixed_exact,False,எடுத்துவந்தான்.,எடுத்துவந்தனர்,எடுத்துவந்தனர்,1.0,
+GEN-06,General,M3,correct,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-06,General,M3,correct,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,fixed_exact,False,தொடர்வர்.,தொடர்ந்தனர்,தொடர்ந்தனர்,1.0,
+GEN-06,General,M3,detect,எ1,எடுத்துவந்தான்,எடுத்துவந்தனர்,caught,False,,,,,True
+GEN-06,General,M3,detect,த1,மீண்டும் வந்தார்,மீண்டும் வந்தது,caught,False,,,,,True
+GEN-06,General,M3,detect,க1,பணிகளைத் தொடர்வர்,பணிகளைத் தொடர்ந்தனர்,caught,False,,,,,True
+GEN-07,General,M1,correct,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,fixed_exact,False,அடைந்தான்.,அடைந்தாள்,அடைந்தாள்,1.0,
+GEN-07,General,M1,correct,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,changed_other,False,பயணம்சீட்டையும்,பயணச்சீட்டையும்,பயண சீட்டையும்,0.93,
+GEN-07,General,M1,correct,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,fixed_exact,False,இருக்கையில்.,அமர்ந்தாள்,அமர்ந்தாள்,1.0,
+GEN-07,General,M1,detect,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,caught,False,,,,,True
+GEN-07,General,M1,detect,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,missed,False,,,,,
+GEN-07,General,M1,detect,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,caught,False,,,,,True
+GEN-07,General,M2,correct,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,unchanged,False,அடைந்தான்.,அடைந்தாள்,அடைந்தான்,0.89,
+GEN-07,General,M2,correct,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,fixed_exact,False,பயணம்சீட்டையும்,பயணச்சீட்டையும்,பயணச்சீட்டையும்,1.0,
+GEN-07,General,M2,correct,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,unchanged,False,இருக்கையில்.,அமர்ந்தாள்,,,
+GEN-07,General,M2,detect,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,missed,False,,,,,
+GEN-07,General,M2,detect,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,caught,False,,,,,True
+GEN-07,General,M2,detect,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,listed_no_change,False,,,,,
+GEN-07,General,M3,correct,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,fixed_exact,False,அடைந்தான்.,அடைந்தாள்,அடைந்தாள்,1.0,
+GEN-07,General,M3,correct,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,fixed_exact,False,பயணம்சீட்டையும்,பயணச்சீட்டையும்,பயணச்சீட்டையும்,1.0,
+GEN-07,General,M3,correct,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,fixed_exact,False,இருக்கையில்.,அமர்ந்தாள்,அமர்ந்தாள்,1.0,
+GEN-07,General,M3,detect,ப1,நிலையத்தை அடைந்தான்,நிலையத்தை அடைந்தாள்,caught,False,,,,,True
+GEN-07,General,M3,detect,ம1,பயணம்சீட்டையும்,பயணச்சீட்டையும்,caught,False,,,,,True
+GEN-07,General,M3,detect,ச1,தனது இருக்கையில்.,தனது இருக்கையில் அமர்ந்தாள்.,caught,False,,,,,False
+GEN-08,General,M1,correct,த1,திடீரென பழுதானார்,திடீரென பழுதானது,fixed_exact,False,பழுதானார்.,பழுதானது,பழுதானது,1.0,
+GEN-08,General,M1,correct,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,fixed_exact,False,சரிசெய்வார்.,சரிசெய்தார்,சரிசெய்தார்,1.0,
+GEN-08,General,M1,correct,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,fixed_exact,False,நன்றிக்,நன்றி,நன்றி,1.0,
+GEN-08,General,M1,detect,த1,திடீரென பழுதானார்,திடீரென பழுதானது,caught,False,,,,,True
+GEN-08,General,M1,detect,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,missed,False,,,,,
+GEN-08,General,M1,detect,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,missed,False,,,,,
+GEN-08,General,M2,correct,த1,திடீரென பழுதானார்,திடீரென பழுதானது,fixed_exact,False,பழுதானார்.,பழுதானது,பழுதானது,1.0,
+GEN-08,General,M2,correct,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,unchanged,False,சரிசெய்வார்.,சரிசெய்தார்,சரிசெய்வார்,0.91,
+GEN-08,General,M2,correct,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,fixed_exact,False,நன்றிக்,நன்றி,நன்றி,1.0,
+GEN-08,General,M2,detect,த1,திடீரென பழுதானார்,திடீரென பழுதானது,caught,False,,,,,True
+GEN-08,General,M2,detect,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,listed_no_change,False,,,,,
+GEN-08,General,M2,detect,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,listed_no_change,False,,,,,
+GEN-08,General,M3,correct,த1,திடீரென பழுதானார்,திடீரென பழுதானது,fixed_exact,False,பழுதானார்.,பழுதானது,பழுதானது,1.0,
+GEN-08,General,M3,correct,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,fixed_exact,False,சரிசெய்வார்.,சரிசெய்தார்,சரிசெய்தார்,1.0,
+GEN-08,General,M3,correct,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,unchanged,False,நன்றிக்,நன்றி,நன்றிக்,0.83,
+GEN-08,General,M3,detect,த1,திடீரென பழுதானார்,திடீரென பழுதானது,caught,False,,,,,True
+GEN-08,General,M3,detect,க1,அதைச் சரிசெய்வார்,அதைச் சரிசெய்தார்,caught,False,,,,,True
+GEN-08,General,M3,detect,ஒ2,நன்றிக் கூறிவிட்டு,நன்றி கூறிவிட்டு,missed,False,,,,,
+GEN-09,General,M1,correct,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,fixed_exact,False,அமர்ந்திருந்தான்.,அமர்ந்திருந்தனர்,அமர்ந்திருந்தனர்,1.0,
+GEN-09,General,M1,correct,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,fixed_exact,False,மருத்துவருக்குச்,மருத்துவரைச்,மருத்துவரைச்,1.0,
+GEN-09,General,M1,correct,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-09,General,M1,detect,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,caught,False,,,,,False
+GEN-09,General,M1,detect,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,caught,False,,,,,True
+GEN-09,General,M1,detect,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,caught,False,,,,,False
+GEN-09,General,M2,correct,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,fixed_exact,False,அமர்ந்திருந்தான்.,அமர்ந்திருந்தனர்,அமர்ந்திருந்தனர்,1.0,
+GEN-09,General,M2,correct,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,fixed_exact,False,மருத்துவருக்குச்,மருத்துவரைச்,மருத்துவரைச்,1.0,
+GEN-09,General,M2,correct,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-09,General,M2,detect,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,caught,False,,,,,True
+GEN-09,General,M2,detect,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,missed,False,,,,,
+GEN-09,General,M2,detect,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,caught,False,,,,,False
+GEN-09,General,M3,correct,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,fixed_exact,False,அமர்ந்திருந்தான்.,அமர்ந்திருந்தனர்,அமர்ந்திருந்தனர்,1.0,
+GEN-09,General,M3,correct,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,fixed_exact,False,மருத்துவருக்குச்,மருத்துவரைச்,மருத்துவரைச்,1.0,
+GEN-09,General,M3,correct,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-09,General,M3,detect,எ1,அமர்ந்திருந்தான்,அமர்ந்திருந்தனர்,caught,False,,,,,True
+GEN-09,General,M3,detect,வ1,மருத்துவருக்குச் சந்திக்க,மருத்துவரைச் சந்திக்க,missed,False,,,,,
+GEN-09,General,M3,detect,ப1,அறைக்குச் சென்றான்,அறைக்குச் சென்றாள்,caught,False,,,,,True
+GEN-10,General,M1,correct,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,fixed_exact,False,நடைபெற்றார்.,நடைபெற்றது,நடைபெற்றது,1.0,
+GEN-10,General,M1,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,fixed_exact,False,எழுப்பினான்.,எழுப்பினர்,எழுப்பினர்,1.0,
+GEN-10,General,M1,correct,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,fixed_exact,False,குறிப்புகள்.,வழங்கப்பட்டன,வழங்கப்பட்டன,1.0,
+GEN-10,General,M1,detect,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,caught,False,,,,,True
+GEN-10,General,M1,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,True
+GEN-10,General,M1,detect,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,missed,False,,,,,
+GEN-10,General,M2,correct,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,fixed_exact,False,நடைபெற்றார்.,நடைபெற்றது,நடைபெற்றது,1.0,
+GEN-10,General,M2,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,fixed_exact,False,எழுப்பினான்.,எழுப்பினர்,எழுப்பினர்,1.0,
+GEN-10,General,M2,correct,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,fixed_exact,False,குறிப்புகள்.,வழங்கப்பட்டன,வழங்கப்பட்டன,1.0,
+GEN-10,General,M2,detect,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,caught,False,,,,,True
+GEN-10,General,M2,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,True
+GEN-10,General,M2,detect,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,caught,False,,,,,True
+GEN-10,General,M3,correct,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,fixed_exact,False,நடைபெற்றார்.,நடைபெற்றது,நடைபெற்றது,1.0,
+GEN-10,General,M3,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,fixed_exact,False,எழுப்பினான்.,எழுப்பினர்,எழுப்பினர்,1.0,
+GEN-10,General,M3,correct,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,fixed_exact,False,குறிப்புகள்.,வழங்கப்பட்டன,வழங்கப்பட்டன,1.0,
+GEN-10,General,M3,detect,த1,முகாம் நடைபெற்றார்,முகாம் நடைபெற்றது,caught,False,,,,,True
+GEN-10,General,M3,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,True
+GEN-10,General,M3,detect,ச1,தகவல் குறிப்புகள்.,தகவல் குறிப்புகள் வழங்கப்பட்டன.,caught,False,,,,,False
+GEN-11,General,M1,correct,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,fixed_exact,False,கடைகுச்,கடைக்குச்,கடைக்குச்,1.0,
+GEN-11,General,M1,correct,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,changed_other,False,பார்க்கப்பட்டார்.,பார்க்கப்பட்டது,பார்த்தார்,0.48,
+GEN-11,General,M1,correct,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-11,General,M1,detect,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,missed,False,,,,,
+GEN-11,General,M1,detect,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,caught,False,,,,,False
+GEN-11,General,M1,detect,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,caught,False,,,,,True
+GEN-11,General,M2,correct,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,fixed_exact,False,கடைகுச்,கடைக்குச்,கடைக்குச்,1.0,
+GEN-11,General,M2,correct,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,fixed_exact,False,பார்க்கப்பட்டார்.,பார்க்கப்பட்டது,பார்க்கப்பட்டது,1.0,
+GEN-11,General,M2,correct,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-11,General,M2,detect,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,caught,False,,,,,False
+GEN-11,General,M2,detect,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,caught,False,,,,,True
+GEN-11,General,M2,detect,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,caught,False,,,,,True
+GEN-11,General,M3,correct,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,fixed_exact,False,கடைகுச்,கடைக்குச்,கடைக்குச்,1.0,
+GEN-11,General,M3,correct,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,fixed_exact,False,பார்க்கப்பட்டார்.,பார்க்கப்பட்டது,பார்க்கப்பட்டது,1.0,
+GEN-11,General,M3,correct,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,fixed_exact,False,சென்றான்.,சென்றாள்,சென்றாள்,1.0,
+GEN-11,General,M3,detect,ஒ1,கடைகுச் சென்றாள்,கடைக்குச் சென்றாள்,caught,False,,,,,True
+GEN-11,General,M3,detect,த1,பார்க்கப்பட்டார்,பார்க்கப்பட்டது,caught,False,,,,,True
+GEN-11,General,M3,detect,ப1,எடுத்துச் சென்றான்,எடுத்துச் சென்றாள்,caught,False,,,,,True
+GEN-12,General,M1,correct,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,unchanged,False,சேமிப்பு,சேமிப்புத்,சேமிப்பு,0.89,
+GEN-12,General,M1,correct,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,fixed_exact,False,விளக்கினான்.,விளக்கினர்,விளக்கினர்,1.0,
+GEN-12,General,M1,correct,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,fixed_exact,False,செய்யப்படும்.,செய்யப்பட்டது,செய்யப்பட்டது,1.0,
+GEN-12,General,M1,detect,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,missed,False,,,,,
+GEN-12,General,M1,detect,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,caught,False,,,,,True
+GEN-12,General,M1,detect,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,caught,False,,,,,True
+GEN-12,General,M2,correct,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,unchanged,False,சேமிப்பு,சேமிப்புத்,சேமிப்பு,0.89,
+GEN-12,General,M2,correct,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,fixed_exact,False,விளக்கினான்.,விளக்கினர்,விளக்கினர்,1.0,
+GEN-12,General,M2,correct,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,unchanged,False,செய்யப்படும்.,செய்யப்பட்டது,செய்யப்படும்,0.8,
+GEN-12,General,M2,detect,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,missed,False,,,,,
+GEN-12,General,M2,detect,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,caught,False,,,,,False
+GEN-12,General,M2,detect,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,listed_no_change,False,,,,,
+GEN-12,General,M3,correct,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,fixed_exact,False,சேமிப்பு,சேமிப்புத்,சேமிப்புத்,1.0,
+GEN-12,General,M3,correct,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,fixed_exact,False,விளக்கினான்.,விளக்கினர்,விளக்கினர்,1.0,
+GEN-12,General,M3,correct,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,fixed_exact,False,செய்யப்படும்.,செய்யப்பட்டது,செய்யப்பட்டது,1.0,
+GEN-12,General,M3,detect,ஒ1,சேமிப்பு தொட்டிக்குச்,சேமிப்புத் தொட்டிக்குச்,missed,False,,,,,
+GEN-12,General,M3,detect,எ1,அனைவருக்கும் விளக்கினான்,அனைவருக்கும் விளக்கினர்,caught,False,,,,,True
+GEN-12,General,M3,detect,க1,முடிவு செய்யப்படும்,முடிவு செய்யப்பட்டது,caught,False,,,,,True
+GEN-13,General,M1,correct,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-13,General,M1,correct,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,fixed_exact,False,கேட்டாள்.,கேட்டார்,கேட்டார்,1.0,
+GEN-13,General,M1,correct,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,completed,False,கொண்டு.,வரப்பட்டது,வந்தார்,0.35,
+GEN-13,General,M1,detect,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,caught,False,,,,,True
+GEN-13,General,M1,detect,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,caught,False,,,,,True
+GEN-13,General,M1,detect,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,caught,False,,,,,False
+GEN-13,General,M2,correct,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-13,General,M2,correct,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,fixed_exact,False,கேட்டாள்.,கேட்டார்,கேட்டார்,1.0,
+GEN-13,General,M2,correct,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,completed,False,கொண்டு.,வரப்பட்டது,கொண்டுவரப்பட்டது,0.77,
+GEN-13,General,M2,detect,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,missed,False,,,,,
+GEN-13,General,M2,detect,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,missed,False,,,,,
+GEN-13,General,M2,detect,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,missed,False,,,,,
+GEN-13,General,M3,correct,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,fixed_exact,False,வந்தார்.,வந்தது,வந்தது,1.0,
+GEN-13,General,M3,correct,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,fixed_exact,False,கேட்டாள்.,கேட்டார்,கேட்டார்,1.0,
+GEN-13,General,M3,correct,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,completed,False,கொண்டு.,வரப்பட்டது,கொண்டுவரப்பட்டது,0.77,
+GEN-13,General,M3,detect,த1,மேசைக்கு வந்தார்,மேசைக்கு வந்தது,caught,False,,,,,True
+GEN-13,General,M3,detect,ப1,மன்னிப்பு கேட்டாள்,மன்னிப்பு கேட்டார்,caught,False,,,,,True
+GEN-13,General,M3,detect,ச1,புதிய உணவு கொண்டு.,புதிய உணவு கொண்டு வரப்பட்டது.,caught,False,,,,,True
+GEN-14,General,M1,correct,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",fixed_exact,False,நண்பர்கள்,"(adds ,)","நண்பர்கள்,",0.12,
+GEN-14,General,M1,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,fixed_exact,False,கொண்டான்.,கொண்டனர்,கொண்டனர்,1.0,
+GEN-14,General,M1,correct,க1,குறித்து பேசுவார்,குறித்து பேசினார்,fixed_exact,False,பேசுவார்.,பேசினார்,பேசினார்,1.0,
+GEN-14,General,M1,detect,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",missed,False,,,,,
+GEN-14,General,M1,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-14,General,M1,detect,க1,குறித்து பேசுவார்,குறித்து பேசினார்,caught,False,,,,,True
+GEN-14,General,M2,correct,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",fixed_exact,False,நண்பர்கள்,"(adds ,)","நண்பர்கள்,",0.12,
+GEN-14,General,M2,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,fixed_exact,False,கொண்டான்.,கொண்டனர்,கொண்டனர்,1.0,
+GEN-14,General,M2,correct,க1,குறித்து பேசுவார்,குறித்து பேசினார்,unchanged,False,பேசுவார்.,பேசினார்,பேசுவார்,0.75,
+GEN-14,General,M2,detect,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",missed,False,,,,,
+GEN-14,General,M2,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-14,General,M2,detect,க1,குறித்து பேசுவார்,குறித்து பேசினார்,listed_no_change,False,,,,,
+GEN-14,General,M3,correct,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",fixed_exact,False,நண்பர்கள்,"(adds ,)","நண்பர்கள்,",0.12,
+GEN-14,General,M3,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,changed_other,False,கொண்டான்.,கொண்டனர்,கலந்துகொண்டனர்,0.73,
+GEN-14,General,M3,correct,க1,குறித்து பேசுவார்,குறித்து பேசினார்,fixed_exact,False,பேசுவார்.,பேசினார்,பேசினார்,1.0,
+GEN-14,General,M3,detect,ந1,நண்பர்கள் வாசகர்கள்,"நண்பர்கள், வாசகர்கள்",missed,False,,,,,
+GEN-14,General,M3,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-14,General,M3,detect,க1,குறித்து பேசுவார்,குறித்து பேசினார்,caught,False,,,,,True
+GEN-15,General,M1,correct,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,fixed_exact,False,ஒப்படைத்தேன்.,ஒப்படைத்தான்,ஒப்படைத்தான்,1.0,
+GEN-15,General,M1,correct,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,fixed_exact,False,உரிமையாளருக்குத்,உரிமையாளரைத்,உரிமையாளரைத்,1.0,
+GEN-15,General,M1,correct,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,fixed_exact,False,தெரிவித்தாள்.,தெரிவித்தார்,தெரிவித்தார்,1.0,
+GEN-15,General,M1,detect,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,caught,False,,,,,True
+GEN-15,General,M1,detect,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,missed,False,,,,,
+GEN-15,General,M1,detect,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,caught,False,,,,,True
+GEN-15,General,M2,correct,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,fixed_exact,False,ஒப்படைத்தேன்.,ஒப்படைத்தான்,ஒப்படைத்தான்,1.0,
+GEN-15,General,M2,correct,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,fixed_exact,False,உரிமையாளருக்குத்,உரிமையாளரைத்,உரிமையாளரைத்,1.0,
+GEN-15,General,M2,correct,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,fixed_exact,False,தெரிவித்தாள்.,தெரிவித்தார்,தெரிவித்தார்,1.0,
+GEN-15,General,M2,detect,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,caught,False,,,,,True
+GEN-15,General,M2,detect,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,missed,False,,,,,
+GEN-15,General,M2,detect,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,missed,False,,,,,
+GEN-15,General,M3,correct,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,fixed_exact,False,ஒப்படைத்தேன்.,ஒப்படைத்தான்,ஒப்படைத்தான்,1.0,
+GEN-15,General,M3,correct,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,fixed_exact,False,உரிமையாளருக்குத்,உரிமையாளரைத்,உரிமையாளரைத்,1.0,
+GEN-15,General,M3,correct,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,fixed_exact,False,தெரிவித்தாள்.,தெரிவித்தார்,தெரிவித்தார்,1.0,
+GEN-15,General,M3,detect,இ1,நடத்துநரிடம் ஒப்படைத்தேன்,நடத்துநரிடம் ஒப்படைத்தான்,caught,False,,,,,True
+GEN-15,General,M3,detect,வ1,உரிமையாளருக்குத் தேடினார்,உரிமையாளரைத் தேடினார்,missed,False,,,,,
+GEN-15,General,M3,detect,ப1,நன்றி தெரிவித்தாள்,நன்றி தெரிவித்தார்,caught,False,,,,,False
+GEN-16,General,M1,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,changed_other,False,கொண்டான்.,கொண்டனர்,கொண்டார்கள்,0.74,
+GEN-16,General,M1,correct,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,changed_other,False,குடியிருப்பாளர்களிடையே.,பகிர்ந்தளிக்கப்பட்டது,குடியிருப்பாளர்களிடமே,0.33,
+GEN-16,General,M1,correct,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,fixed_exact,False,தொடங்கினர்.,தொடங்கின,தொடங்கின,1.0,
+GEN-16,General,M1,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,False
+GEN-16,General,M1,detect,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,missed,False,,,,,
+GEN-16,General,M1,detect,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,caught,False,,,,,True
+GEN-16,General,M2,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,fixed_exact,False,கொண்டான்.,கொண்டனர்,கொண்டனர்,1.0,
+GEN-16,General,M2,correct,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,completed,False,குடியிருப்பாளர்களிடையே.,பகிர்ந்தளிக்கப்பட்டது,உள்ளது,0.3,
+GEN-16,General,M2,correct,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,fixed_exact,False,தொடங்கினர்.,தொடங்கின,தொடங்கின,1.0,
+GEN-16,General,M2,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-16,General,M2,detect,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,listed_no_change,False,,,,,
+GEN-16,General,M2,detect,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,missed,False,,,,,
+GEN-16,General,M3,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,changed_other,False,கொண்டான்.,கொண்டனர்,கலந்துகொண்டனர்,0.73,
+GEN-16,General,M3,correct,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,fixed_exact,False,குடியிருப்பாளர்களிடையே.,பகிர்ந்தளிக்கப்பட்டது,பகிர்ந்தளிக்கப்பட்டது,1.0,
+GEN-16,General,M3,correct,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,fixed_exact,False,தொடங்கினர்.,தொடங்கின,தொடங்கின,1.0,
+GEN-16,General,M3,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-16,General,M3,detect,ச1,பொறுப்பு குடியிருப்பாளர்களிடையே.,பொறுப்பு குடியிருப்பாளர்களிடையே பகிர்ந்தளிக்கப்பட்டது.,caught,False,,,,,False
+GEN-16,General,M3,detect,த1,வளரத் தொடங்கினர்,வளரத் தொடங்கின,caught,False,,,,,True
+GEN-17,General,M1,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,changed_other,False,கொண்டான்.,கொண்டனர்,கொண்டார்கள்,0.74,
+GEN-17,General,M1,correct,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,fixed_exact,False,அறிவிக்கப்பட்டனர்.,அறிவிக்கப்பட்டன,அறிவிக்கப்பட்டன,1.0,
+GEN-17,General,M1,correct,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,unchanged,False,நடைபெறும்.,நடைபெற்றது,நடைபெறும்,0.74,
+GEN-17,General,M1,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,False
+GEN-17,General,M1,detect,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,missed,False,,,,,
+GEN-17,General,M1,detect,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,caught,False,,,,,True
+GEN-17,General,M2,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,fixed_exact,False,கொண்டான்.,கொண்டனர்,கொண்டனர்,1.0,
+GEN-17,General,M2,correct,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,fixed_exact,False,அறிவிக்கப்பட்டனர்.,அறிவிக்கப்பட்டன,அறிவிக்கப்பட்டன,1.0,
+GEN-17,General,M2,correct,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,unchanged,False,நடைபெறும்.,நடைபெற்றது,நடைபெறும்,0.74,
+GEN-17,General,M2,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-17,General,M2,detect,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,missed,False,,,,,
+GEN-17,General,M2,detect,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,missed,False,,,,,
+GEN-17,General,M3,correct,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,changed_other,False,கொண்டான்.,கொண்டனர்,கலந்துகொண்டனர்,0.73,
+GEN-17,General,M3,correct,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,fixed_exact,False,அறிவிக்கப்பட்டனர்.,அறிவிக்கப்பட்டன,அறிவிக்கப்பட்டன,1.0,
+GEN-17,General,M3,correct,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,unchanged,False,நடைபெறும்.,நடைபெற்றது,நடைபெறும்,0.74,
+GEN-17,General,M3,detect,எ1,கலந்து கொண்டான்,கலந்து கொண்டனர்,caught,False,,,,,True
+GEN-17,General,M3,detect,த1,அறிவிக்கப்பட்டனர்,அறிவிக்கப்பட்டன,caught,False,,,,,True
+GEN-17,General,M3,detect,க1,நிகழ்ச்சி நடைபெறும்,நிகழ்ச்சி நடைபெற்றது,missed,False,,,,,
+GEN-18,General,M1,correct,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,changed_other,False,திட்டமிட்டான்.,திட்டமிட்டனர்,திட்டமிட்டார்கள்,0.83,
+GEN-18,General,M1,correct,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,fixed_exact,False,எளிதாக.,இருந்தது,இருந்தது,1.0,
+GEN-18,General,M1,correct,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,unchanged,False,நிலம்பரப்பைக்,நிலப்பரப்பைக்,நிலம்பரப்பைக்,0.92,
+GEN-18,General,M1,detect,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,caught,False,,,,,True
+GEN-18,General,M1,detect,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,caught,False,,,,,True
+GEN-18,General,M1,detect,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,caught,False,,,,,True
+GEN-18,General,M2,correct,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,fixed_exact,False,திட்டமிட்டான்.,திட்டமிட்டனர்,திட்டமிட்டனர்,1.0,
+GEN-18,General,M2,correct,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,fixed_exact,False,எளிதாக.,இருந்தது,இருந்தது,1.0,
+GEN-18,General,M2,correct,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,fixed_exact,False,நிலம்பரப்பைக்,நிலப்பரப்பைக்,நிலப்பரப்பைக்,1.0,
+GEN-18,General,M2,detect,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,caught,False,,,,,True
+GEN-18,General,M2,detect,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,caught,False,,,,,True
+GEN-18,General,M2,detect,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,caught,False,,,,,True
+GEN-18,General,M3,correct,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,fixed_exact,False,திட்டமிட்டான்.,திட்டமிட்டனர்,திட்டமிட்டனர்,1.0,
+GEN-18,General,M3,correct,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,fixed_exact,False,எளிதாக.,இருந்தது,இருந்தது,1.0,
+GEN-18,General,M3,correct,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,fixed_exact,False,நிலம்பரப்பைக்,நிலப்பரப்பைக்,நிலப்பரப்பைக்,1.0,
+GEN-18,General,M3,detect,எ1,செல்லத் திட்டமிட்டான்,செல்லத் திட்டமிட்டனர்,caught,False,,,,,True
+GEN-18,General,M3,detect,ச1,பாதை எளிதாக.,பாதை எளிதாக இருந்தது.,caught,False,,,,,True
+GEN-18,General,M3,detect,ம1,நிலம்பரப்பைக்,நிலப்பரப்பைக்,caught,False,,,,,True
+GEN-19,General,M1,correct,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,changed_other,False,பார்த்தான்.,பார்த்தனர்,பார்த்தார்கள்,0.78,
+GEN-19,General,M1,correct,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,fixed_exact,False,உருவாக்கியிருந்தார்.,உருவாக்கியிருந்தது,உருவாக்கியிருந்தது,1.0,
+GEN-19,General,M1,correct,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,unchanged,False,அந்த,அந்தப்,அந்த,0.8,
+GEN-19,General,M1,detect,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,caught,False,,,,,True
+GEN-19,General,M1,detect,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,caught,False,,,,,False
+GEN-19,General,M1,detect,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,missed,False,,,,,
+GEN-19,General,M2,correct,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,fixed_exact,False,பார்த்தான்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-19,General,M2,correct,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,changed_other,False,உருவாக்கியிருந்தார்.,உருவாக்கியிருந்தது,,,
+GEN-19,General,M2,correct,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,changed_other,False,அந்த,அந்தப்,,,
+GEN-19,General,M2,detect,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,caught,False,,,,,True
+GEN-19,General,M2,detect,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,caught,False,,,,,False
+GEN-19,General,M2,detect,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,missed,False,,,,,
+GEN-19,General,M3,correct,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,fixed_exact,False,பார்த்தான்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-19,General,M3,correct,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,fixed_exact,False,உருவாக்கியிருந்தார்.,உருவாக்கியிருந்தது,உருவாக்கியிருந்தது,1.0,
+GEN-19,General,M3,correct,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,fixed_exact,False,அந்த,அந்தப்,அந்தப்,1.0,
+GEN-19,General,M3,detect,எ1,பொருட்களைப் பார்த்தான்,பொருட்களைப் பார்த்தனர்,caught,False,,,,,True
+GEN-19,General,M3,detect,த1,உருவாக்கியிருந்தார்,உருவாக்கியிருந்தது,caught,False,,,,,False
+GEN-19,General,M3,detect,ஒ1,அந்த பிரிவுக்கு,அந்தப் பிரிவுக்கு,missed,False,,,,,
+GEN-20,General,M1,correct,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,fixed_exact,False,கூறினாள்.,கூறினார்,கூறினார்,1.0,
+GEN-20,General,M1,correct,த1,நீர் தேங்கினார்,நீர் தேங்கியது,fixed_exact,False,தேங்கினார்.,தேங்கியது,தேங்கியது,1.0,
+GEN-20,General,M1,correct,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,fixed_exact,False,செல்வர்.,சென்றனர்,சென்றனர்,1.0,
+GEN-20,General,M1,detect,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,caught,False,,,,,False
+GEN-20,General,M1,detect,த1,நீர் தேங்கினார்,நீர் தேங்கியது,caught,False,,,,,True
+GEN-20,General,M1,detect,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,caught,False,,,,,True
+GEN-20,General,M2,correct,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,changed_other,False,கூறினாள்.,கூறினார்,கூறினான்,0.88,
+GEN-20,General,M2,correct,த1,நீர் தேங்கினார்,நீர் தேங்கியது,fixed_exact,False,தேங்கினார்.,தேங்கியது,தேங்கியது,1.0,
+GEN-20,General,M2,correct,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,unchanged,False,செல்வர்.,சென்றனர்,செல்வர்,0.67,
+GEN-20,General,M2,detect,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,missed,False,,,,,
+GEN-20,General,M2,detect,த1,நீர் தேங்கினார்,நீர் தேங்கியது,missed,False,,,,,
+GEN-20,General,M2,detect,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,missed,False,,,,,
+GEN-20,General,M3,correct,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,changed_other,False,கூறினாள்.,கூறினார்,கூறினான்,0.88,
+GEN-20,General,M3,correct,த1,நீர் தேங்கினார்,நீர் தேங்கியது,fixed_exact,False,தேங்கினார்.,தேங்கியது,தேங்கியது,1.0,
+GEN-20,General,M3,correct,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,fixed_exact,False,செல்வர்.,சென்றனர்,சென்றனர்,1.0,
+GEN-20,General,M3,detect,ப1,குடும்பத்தினரிடம் கூறினாள்,குடும்பத்தினரிடம் கூறினார்,caught,False,,,,,True
+GEN-20,General,M3,detect,த1,நீர் தேங்கினார்,நீர் தேங்கியது,caught,False,,,,,True
+GEN-20,General,M3,detect,க1,பணிகளுக்குச் செல்வர்,பணிகளுக்குச் சென்றனர்,caught,False,,,,,True
+GEN-21,General,M1,correct,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,fixed_exact,False,மேற்க்கொள்ள,மேற்கொள்ள,மேற்கொள்ள,1.0,
+GEN-21,General,M1,correct,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",fixed_exact,False,கையுறை,"(adds ,)","கையுறை,",0.14,
+GEN-21,General,M1,correct,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,changed_other,False,பார்த்தான்.,பார்த்தனர்,பார்த்தார்கள்,0.78,
+GEN-21,General,M1,detect,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,caught,False,,,,,True
+GEN-21,General,M1,detect,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",missed,False,,,,,
+GEN-21,General,M1,detect,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,caught,False,,,,,False
+GEN-21,General,M2,correct,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,fixed_exact,False,மேற்க்கொள்ள,மேற்கொள்ள,மேற்கொள்ள,1.0,
+GEN-21,General,M2,correct,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",unchanged,False,கையுறை,"(adds ,)",கையுறை,0.0,
+GEN-21,General,M2,correct,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,fixed_exact,False,பார்த்தான்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-21,General,M2,detect,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,caught,False,,,,,True
+GEN-21,General,M2,detect,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",listed_no_change,False,,,,,
+GEN-21,General,M2,detect,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,missed,False,,,,,
+GEN-21,General,M3,correct,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,fixed_exact,False,மேற்க்கொள்ள,மேற்கொள்ள,மேற்கொள்ள,1.0,
+GEN-21,General,M3,correct,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",fixed_exact,False,கையுறை,"(adds ,)","கையுறை,",0.14,
+GEN-21,General,M3,correct,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,fixed_exact,False,பார்த்தான்.,பார்த்தனர்,பார்த்தனர்,1.0,
+GEN-21,General,M3,detect,ஒ2,மேற்க்கொள்ள,மேற்கொள்ள,caught,False,,,,,True
+GEN-21,General,M3,detect,ந1,கையுறை தலைக்கவசம்,"கையுறை, தலைக்கவசம்",missed,False,,,,,
+GEN-21,General,M3,detect,எ1,செய்து பார்த்தான்,செய்து பார்த்தனர்,caught,False,,,,,True
+GEN-22,General,M1,correct,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,fixed_exact,False,அடைந்தேன்.,அடைந்தான்,அடைந்தான்,1.0,
+GEN-22,General,M1,correct,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,changed_other,False,பயணம்சீட்டைச்,பயணச்சீட்டைச்,பயணச் சீட்டைச்,1.0,
+GEN-22,General,M1,correct,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,changed_other,False,சென்றான்.,சென்றனர்,சென்றார்கள்,0.74,
+GEN-22,General,M1,detect,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,caught,False,,,,,True
+GEN-22,General,M1,detect,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,caught,False,,,,,False
+GEN-22,General,M1,detect,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,caught,False,,,,,False
+GEN-22,General,M2,correct,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,fixed_exact,False,அடைந்தேன்.,அடைந்தான்,அடைந்தான்,1.0,
+GEN-22,General,M2,correct,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,fixed_exact,False,பயணம்சீட்டைச்,பயணச்சீட்டைச்,பயணச்சீட்டைச்,1.0,
+GEN-22,General,M2,correct,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,fixed_exact,False,சென்றான்.,சென்றனர்,சென்றனர்,1.0,
+GEN-22,General,M2,detect,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,caught,False,,,,,True
+GEN-22,General,M2,detect,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,caught,False,,,,,True
+GEN-22,General,M2,detect,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,missed,False,,,,,
+GEN-22,General,M3,correct,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,fixed_exact,False,அடைந்தேன்.,அடைந்தான்,அடைந்தான்,1.0,
+GEN-22,General,M3,correct,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,fixed_exact,False,பயணம்சீட்டைச்,பயணச்சீட்டைச்,பயணச்சீட்டைச்,1.0,
+GEN-22,General,M3,correct,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,fixed_exact,False,சென்றான்.,சென்றனர்,சென்றனர்,1.0,
+GEN-22,General,M3,detect,இ1,நிலையத்தை அடைந்தேன்,நிலையத்தை அடைந்தான்,caught,False,,,,,True
+GEN-22,General,M3,detect,ம1,பயணம்சீட்டைச்,பயணச்சீட்டைச்,caught,False,,,,,True
+GEN-22,General,M3,detect,எ1,நோக்கிச் சென்றான்,நோக்கிச் சென்றனர்,caught,False,,,,,True
+GEN-23,General,M1,correct,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,fixed_exact,False,கற்றுக்கொண்டான்.,கற்றுக்கொண்டனர்,கற்றுக்கொண்டனர்,1.0,
+GEN-23,General,M1,correct,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,fixed_exact,False,காய்கறிகளுக்கு,காய்கறிகளை,காய்கறிகளை,1.0,
+GEN-23,General,M1,correct,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,fixed_exact,False,சுவைப்பர்.,சுவைத்தனர்,சுவைத்தனர்,1.0,
+GEN-23,General,M1,detect,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,caught,False,,,,,True
+GEN-23,General,M1,detect,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,caught,False,,,,,True
+GEN-23,General,M1,detect,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,caught,False,,,,,True
+GEN-23,General,M2,correct,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,fixed_exact,False,கற்றுக்கொண்டான்.,கற்றுக்கொண்டனர்,கற்றுக்கொண்டனர்,1.0,
+GEN-23,General,M2,correct,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,fixed_exact,False,காய்கறிகளுக்கு,காய்கறிகளை,காய்கறிகளை,1.0,
+GEN-23,General,M2,correct,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,fixed_exact,False,சுவைப்பர்.,சுவைத்தனர்,சுவைத்தனர்,1.0,
+GEN-23,General,M2,detect,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,caught,False,,,,,True
+GEN-23,General,M2,detect,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,missed,False,,,,,
+GEN-23,General,M2,detect,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,caught,False,,,,,True
+GEN-23,General,M3,correct,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,fixed_exact,False,கற்றுக்கொண்டான்.,கற்றுக்கொண்டனர்,கற்றுக்கொண்டனர்,1.0,
+GEN-23,General,M3,correct,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,fixed_exact,False,காய்கறிகளுக்கு,காய்கறிகளை,காய்கறிகளை,1.0,
+GEN-23,General,M3,correct,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,fixed_exact,False,சுவைப்பர்.,சுவைத்தனர்,சுவைத்தனர்,1.0,
+GEN-23,General,M3,detect,எ1,கற்றுக்கொண்டான்,கற்றுக்கொண்டனர்,caught,False,,,,,True
+GEN-23,General,M3,detect,வ1,காய்கறிகளுக்கு நறுக்கி,காய்கறிகளை நறுக்கி,caught,False,,,,,True
+GEN-23,General,M3,detect,க1,ஒன்றாகச் சுவைப்பர்,ஒன்றாகச் சுவைத்தனர்,caught,False,,,,,True
+GEN-24,General,M1,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,fixed_exact,False,எழுப்பினான்.,எழுப்பினர்,எழுப்பினர்,1.0,
+GEN-24,General,M1,correct,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,fixed_exact,False,இடைநிறுத்தப்பட்டார்.,இடைநிறுத்தப்பட்டது,இடைநிறுத்தப்பட்டது,1.0,
+GEN-24,General,M1,correct,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,fixed_exact,False,மீண்டும்.,தொடங்கியது,தொடங்கியது,1.0,
+GEN-24,General,M1,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,True
+GEN-24,General,M1,detect,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,caught,False,,,,,True
+GEN-24,General,M1,detect,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,missed,False,,,,,
+GEN-24,General,M2,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,changed_other,False,எழுப்பினான்.,எழுப்பினர்,கேட்டனர்,0.44,
+GEN-24,General,M2,correct,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,fixed_exact,False,இடைநிறுத்தப்பட்டார்.,இடைநிறுத்தப்பட்டது,இடைநிறுத்தப்பட்டது,1.0,
+GEN-24,General,M2,correct,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,fixed_exact,False,மீண்டும்.,தொடங்கியது,தொடங்கியது,1.0,
+GEN-24,General,M2,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,False
+GEN-24,General,M2,detect,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,caught,False,,,,,True
+GEN-24,General,M2,detect,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,caught,False,,,,,False
+GEN-24,General,M3,correct,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,changed_other,False,எழுப்பினான்.,எழுப்பினர்,எழுப்பின,0.89,
+GEN-24,General,M3,correct,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,fixed_exact,False,இடைநிறுத்தப்பட்டார்.,இடைநிறுத்தப்பட்டது,இடைநிறுத்தப்பட்டது,1.0,
+GEN-24,General,M3,correct,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,fixed_exact,False,மீண்டும்.,தொடங்கியது,தொடங்கியது,1.0,
+GEN-24,General,M3,detect,எ1,கேள்விகளை எழுப்பினான்,கேள்விகளை எழுப்பினர்,caught,False,,,,,True
+GEN-24,General,M3,detect,த1,இடைநிறுத்தப்பட்டார்,இடைநிறுத்தப்பட்டது,caught,False,,,,,True
+GEN-24,General,M3,detect,ச1,பார்வை மீண்டும்.,பார்வை மீண்டும் தொடங்கியது.,caught,False,,,,,True
+KON-01,Kongu,M1,correct,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,unchanged,False,போட்டான்.,போட்டா,போட்டான்,0.86,
+KON-01,Kongu,M1,correct,த1,இருந்தாரு,இருந்துச்சு,changed_other,False,இருந்தாரு.,இருந்துச்சு,இருந்தது,0.74,
+KON-01,Kongu,M1,correct,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",fixed_exact,False,வந்து,"(adds ,)","வந்து,",0.15,
+KON-01,Kongu,M1,detect,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,caught,False,,,,,True
+KON-01,Kongu,M1,detect,த1,இருந்தாரு,இருந்துச்சு,caught,False,,,,,False
+KON-01,Kongu,M1,detect,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",missed,False,,,,,
+KON-01,Kongu,M2,correct,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,unchanged,False,போட்டான்.,போட்டா,போட்டான்,0.86,
+KON-01,Kongu,M2,correct,த1,இருந்தாரு,இருந்துச்சு,unchanged,False,இருந்தாரு.,இருந்துச்சு,இருந்தாரு,0.7,
+KON-01,Kongu,M2,correct,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",unchanged,False,வந்து,"(adds ,)",வந்து,0.0,
+KON-01,Kongu,M2,detect,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,listed_no_change,False,,,,,
+KON-01,Kongu,M2,detect,த1,இருந்தாரு,இருந்துச்சு,missed,False,,,,,
+KON-01,Kongu,M2,detect,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",listed_no_change,False,,,,,
+KON-01,Kongu,M3,correct,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,changed_other,False,போட்டான்.,போட்டா,போட்டாள்,0.86,
+KON-01,Kongu,M3,correct,த1,இருந்தாரு,இருந்துச்சு,changed_other,False,இருந்தாரு.,இருந்துச்சு,இருந்தது,0.74,
+KON-01,Kongu,M3,correct,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",unchanged,False,வந்து,"(adds ,)",வந்து,0.0,
+KON-01,Kongu,M3,detect,ப1,சத்தம் போட்டான்,சத்தம் போட்டா,caught,False,,,,,True
+KON-01,Kongu,M3,detect,த1,இருந்தாரு,இருந்துச்சு,caught,False,,,,,False
+KON-01,Kongu,M3,detect,ந1,நடந்து வந்து “என்னடி,"நடந்து வந்து, “என்னடி",missed,False,,,,,
+KON-02,Kongu,M1,correct,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,fixed_exact,False,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,பம்ப்செட்டுக்கு,1.0,
+KON-02,Kongu,M1,correct,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,changed_other,False,போட்டான்.,போட்டானுக,போட்டாங்க,0.78,
+KON-02,Kongu,M1,correct,இ1,விளையாடுனோம்,விளையாடுனானுக,changed_other,False,விளையாடுனோம்.,விளையாடுனானுக,விளையாடினோம்,0.64,
+KON-02,Kongu,M1,correct,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,changed_other,False,ஓட்டம்பிடிப்பானுக.,ஓட்டம்பிடிச்சானுக,ஓட்டம்பிடிச்சாங்க,0.88,
+KON-02,Kongu,M1,detect,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,caught,False,,,,,True
+KON-02,Kongu,M1,detect,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,listed_no_change,False,,,,,
+KON-02,Kongu,M1,detect,இ1,விளையாடுனோம்,விளையாடுனானுக,caught,False,,,,,False
+KON-02,Kongu,M1,detect,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,caught,False,,,,,False
+KON-02,Kongu,M2,correct,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,changed_other,False,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,பம்ப்செட்டுகுப்,0.87,
+KON-02,Kongu,M2,correct,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,unchanged,False,போட்டான்.,போட்டானுக,போட்டான்,0.82,
+KON-02,Kongu,M2,correct,இ1,விளையாடுனோம்,விளையாடுனானுக,unchanged,False,விளையாடுனோம்.,விளையாடுனானுக,விளையாடுனோம்,0.72,
+KON-02,Kongu,M2,correct,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,unchanged,False,ஓட்டம்பிடிப்பானுக.,ஓட்டம்பிடிச்சானுக,ஓட்டம்பிடிப்பானுக,0.88,
+KON-02,Kongu,M2,detect,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,caught,False,,,,,True
+KON-02,Kongu,M2,detect,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,listed_no_change,False,,,,,
+KON-02,Kongu,M2,detect,இ1,விளையாடுனோம்,விளையாடுனானுக,caught,False,,,,,False
+KON-02,Kongu,M2,detect,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,caught,False,,,,,False
+KON-02,Kongu,M3,correct,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,fixed_exact,False,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,பம்ப்செட்டுக்கு,1.0,
+KON-02,Kongu,M3,correct,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,changed_other,False,போட்டான்.,போட்டானுக,போட்டார்கள்,0.7,
+KON-02,Kongu,M3,correct,இ1,விளையாடுனோம்,விளையாடுனானுக,changed_other,False,விளையாடுனோம்.,விளையாடுனானுக,விளையாடினோம்,0.64,
+KON-02,Kongu,M3,correct,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,changed_other,False,ஓட்டம்பிடிப்பானுக.,ஓட்டம்பிடிச்சானுக,ஓட்டம்பிடித்தார்கள்,0.72,
+KON-02,Kongu,M3,detect,ஒ1,பம்ப்செட்டுகு,பம்ப்செட்டுக்கு,caught,False,,,,,True
+KON-02,Kongu,M3,detect,எ1,கூச்சல் போட்டான்,கூச்சல் போட்டானுக,caught,False,,,,,False
+KON-02,Kongu,M3,detect,இ1,விளையாடுனோம்,விளையாடுனானுக,caught,False,,,,,False
+KON-02,Kongu,M3,detect,க1,ஓட்டம்பிடிப்பானுக,ஓட்டம்பிடிச்சானுக,caught,False,,,,,False
+KON-03,Kongu,M1,correct,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,fixed_exact,False,நாலாயிரத்துகு,நாலாயிரத்துக்கு,நாலாயிரத்துக்கு,1.0,
+KON-03,Kongu,M1,correct,ப1,கையில போட்டா,கையில போட்டான்,fixed_exact,False,போட்டா.,போட்டான்,போட்டான்,1.0,
+KON-03,Kongu,M1,correct,க1,துப்புவாரு,துப்புனாரு,changed_other,False,துப்புவாரு.,துப்புனாரு,காரித்துப்புவாரு,0.69,
+KON-03,Kongu,M1,detect,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,caught,False,,,,,True
+KON-03,Kongu,M1,detect,ப1,கையில போட்டா,கையில போட்டான்,missed,False,,,,,
+KON-03,Kongu,M1,detect,க1,துப்புவாரு,துப்புனாரு,missed,False,,,,,
+KON-03,Kongu,M2,correct,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,fixed_exact,False,நாலாயிரத்துகு,நாலாயிரத்துக்கு,நாலாயிரத்துக்கு,1.0,
+KON-03,Kongu,M2,correct,ப1,கையில போட்டா,கையில போட்டான்,unchanged,False,போட்டா.,போட்டான்,போட்டா,0.86,
+KON-03,Kongu,M2,correct,க1,துப்புவாரு,துப்புனாரு,unchanged,False,துப்புவாரு.,துப்புனாரு,துப்புவாரு,0.9,
+KON-03,Kongu,M2,detect,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,caught,False,,,,,True
+KON-03,Kongu,M2,detect,ப1,கையில போட்டா,கையில போட்டான்,caught,False,,,,,True
+KON-03,Kongu,M2,detect,க1,துப்புவாரு,துப்புனாரு,caught,False,,,,,False
+KON-03,Kongu,M3,correct,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,fixed_exact,False,நாலாயிரத்துகு,நாலாயிரத்துக்கு,நாலாயிரத்துக்கு,1.0,
+KON-03,Kongu,M3,correct,ப1,கையில போட்டா,கையில போட்டான்,fixed_exact,False,போட்டா.,போட்டான்,போட்டான்,1.0,
+KON-03,Kongu,M3,correct,க1,துப்புவாரு,துப்புனாரு,changed_other,False,துப்புவாரு.,துப்புனாரு,துப்புவார்,0.8,
+KON-03,Kongu,M3,detect,ஒ1,நாலாயிரத்துகு,நாலாயிரத்துக்கு,caught,False,,,,,True
+KON-03,Kongu,M3,detect,ப1,கையில போட்டா,கையில போட்டான்,caught,False,,,,,True
+KON-03,Kongu,M3,detect,க1,துப்புவாரு,துப்புனாரு,caught,False,,,,,False
+KON-04,Kongu,M1,correct,த1,காலை உதறினான்,காலை உதறிச்சு,unchanged,False,உதறினான்.,உதறிச்சு,உதறினான்,0.62,
+KON-04,Kongu,M1,correct,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,fixed_exact,False,சிரிச்சா.,சிரிச்சான்,சிரிச்சான்,1.0,
+KON-04,Kongu,M1,detect,த1,காலை உதறினான்,காலை உதறிச்சு,missed,False,,,,,
+KON-04,Kongu,M1,detect,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,caught,False,,,,,True
+KON-04,Kongu,M2,correct,த1,காலை உதறினான்,காலை உதறிச்சு,unchanged,False,உதறினான்.,உதறிச்சு,உதறினான்,0.62,
+KON-04,Kongu,M2,correct,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,fixed_exact,False,சிரிச்சா.,சிரிச்சான்,சிரிச்சான்,1.0,
+KON-04,Kongu,M2,detect,த1,காலை உதறினான்,காலை உதறிச்சு,listed_no_change,False,,,,,
+KON-04,Kongu,M2,detect,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,caught,False,,,,,False
+KON-04,Kongu,M3,correct,த1,காலை உதறினான்,காலை உதறிச்சு,changed_other,False,உதறினான்.,உதறிச்சு,உதறியது,0.67,
+KON-04,Kongu,M3,correct,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,changed_other,False,சிரிச்சா.,சிரிச்சான்,சிரித்தான்,0.8,
+KON-04,Kongu,M3,detect,த1,காலை உதறினான்,காலை உதறிச்சு,caught,False,,,,,False
+KON-04,Kongu,M3,detect,ப1,பெருமையா சிரிச்சா,பெருமையா சிரிச்சான்,caught,False,,,,,False
+KON-05,Kongu,M1,correct,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",unchanged,False,பாத்தா,"(adds ,)",பாத்தா,0.0,
+KON-05,Kongu,M1,correct,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,changed_other,False,ஓடிப்போனான்.,ஓடி போச்சுங்க,ஓடிப்போச்சு,0.78,
+KON-05,Kongu,M1,correct,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,fixed_exact,False,விடுவாரு.,விட்டாரு,விட்டாரு,1.0,
+KON-05,Kongu,M1,detect,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",listed_no_change,False,,,,,
+KON-05,Kongu,M1,detect,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,caught,False,,,,,False
+KON-05,Kongu,M1,detect,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,caught,False,,,,,False
+KON-05,Kongu,M2,correct,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",unchanged,False,பாத்தா,"(adds ,)",பாத்தா,0.0,
+KON-05,Kongu,M2,correct,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,unchanged,False,ஓடிப்போனான்.,ஓடி போச்சுங்க,ஓடிப்போனான்,0.52,
+KON-05,Kongu,M2,correct,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,unchanged,False,விடுவாரு.,விட்டாரு,விடுவாரு,0.75,
+KON-05,Kongu,M2,detect,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",missed,False,,,,,
+KON-05,Kongu,M2,detect,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,listed_no_change,False,,,,,
+KON-05,Kongu,M2,detect,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,caught,False,,,,,False
+KON-05,Kongu,M3,correct,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",unchanged,False,பாத்தா,"(adds ,)",பாத்தா,0.0,
+KON-05,Kongu,M3,correct,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,changed_other,False,ஓடிப்போனான்.,ஓடி போச்சுங்க,ஓடிப்போச்சு,0.78,
+KON-05,Kongu,M3,correct,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,fixed_exact,False,விடுவாரு.,விட்டாரு,விட்டாரு,1.0,
+KON-05,Kongu,M3,detect,ந1,பாத்தா மூலைல,"பாத்தா, மூலைல",missed,False,,,,,
+KON-05,Kongu,M3,detect,த1,ஓடிப்போனான்,ஓடி போச்சுங்க,caught,False,,,,,False
+KON-05,Kongu,M3,detect,க1,மூச்சு விடுவாரு,மூச்சு விட்டாரு,caught,False,,,,,False
+KON-06,Kongu,M1,correct,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,fixed_exact,False,உடைச்சுருவான்!”னு,உடைச்சுருவேன்னு,உடைச்சுருவேன்னு,1.0,
+KON-06,Kongu,M1,correct,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,fixed_exact,False,நின்னா.,நின்னான்,நின்னான்,1.0,
+KON-06,Kongu,M1,correct,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,fixed_exact,False,சண்டைகு,சண்டைக்குப்,சண்டைக்குப்,1.0,
+KON-06,Kongu,M1,detect,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,caught,False,,,,,False
+KON-06,Kongu,M1,detect,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,caught,False,,,,,True
+KON-06,Kongu,M1,detect,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,caught,False,,,,,True
+KON-06,Kongu,M2,correct,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,unchanged,False,உடைச்சுருவான்!”னு,உடைச்சுருவேன்னு,உடைச்சுருவான்னு,0.93,
+KON-06,Kongu,M2,correct,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,changed_other,False,நின்னா.,நின்னான்,நின்றான்,0.88,
+KON-06,Kongu,M2,correct,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,fixed_exact,False,சண்டைகு,சண்டைக்குப்,சண்டைக்குப்,1.0,
+KON-06,Kongu,M2,detect,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,missed,False,,,,,
+KON-06,Kongu,M2,detect,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,caught,False,,,,,False
+KON-06,Kongu,M2,detect,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,caught,False,,,,,False
+KON-06,Kongu,M3,correct,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,changed_other,False,உடைச்சுருவான்!”னு,உடைச்சுருவேன்னு,உடைத்துவிடுவான் என்று,0.57,
+KON-06,Kongu,M3,correct,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,changed_other,False,நின்னா.,நின்னான்,நின்றான்,0.88,
+KON-06,Kongu,M3,correct,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,fixed_exact,False,சண்டைகு,சண்டைக்குப்,சண்டைக்குப்,1.0,
+KON-06,Kongu,M3,detect,இ1,உடைச்சுருவான்,உடைச்சுருவேன்,caught,False,,,,,False
+KON-06,Kongu,M3,detect,ப1,எதிர்த்து நின்னா,எதிர்த்து நின்னான்,caught,False,,,,,False
+KON-06,Kongu,M3,detect,ஒ1,சண்டைகு பாயும்போது,சண்டைக்குப் பாயும்போது,caught,False,,,,,False
+KON-07,Kongu,M1,correct,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,unchanged,False,கத்துனான்.,கத்துனா,கத்துனான்,0.88,
+KON-07,Kongu,M1,correct,த1,பறந்தாங்க,பறந்துச்சு,unchanged,False,பறந்தாங்க.,பறந்துச்சு,பறந்தாங்க,0.63,
+KON-07,Kongu,M1,correct,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,changed_other,False,போட்டான்.,போட்டானுக,போட்டாங்க,0.78,
+KON-07,Kongu,M1,detect,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,caught,False,,,,,False
+KON-07,Kongu,M1,detect,த1,பறந்தாங்க,பறந்துச்சு,caught,False,,,,,False
+KON-07,Kongu,M1,detect,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,listed_no_change,False,,,,,
+KON-07,Kongu,M2,correct,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,changed_other,False,கத்துனான்.,கத்துனா,கத்தினான்,0.75,
+KON-07,Kongu,M2,correct,த1,பறந்தாங்க,பறந்துச்சு,unchanged,False,பறந்தாங்க.,பறந்துச்சு,பறந்தாங்க,0.63,
+KON-07,Kongu,M2,correct,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,unchanged,False,போட்டான்.,போட்டானுக,போட்டான்,0.82,
+KON-07,Kongu,M2,detect,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,caught,False,,,,,False
+KON-07,Kongu,M2,detect,த1,பறந்தாங்க,பறந்துச்சு,caught,False,,,,,False
+KON-07,Kongu,M2,detect,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,listed_no_change,False,,,,,
+KON-07,Kongu,M3,correct,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,changed_other,False,கத்துனான்.,கத்துனா,கத்தினாள்,0.75,
+KON-07,Kongu,M3,correct,த1,பறந்தாங்க,பறந்துச்சு,changed_other,False,பறந்தாங்க.,பறந்துச்சு,பறந்தன,0.62,
+KON-07,Kongu,M3,correct,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,changed_other,False,போட்டான்.,போட்டானுக,போட்டார்கள்,0.7,
+KON-07,Kongu,M3,detect,ப1,பாட்டி கத்துனான்,பாட்டி கத்துனா,caught,False,,,,,False
+KON-07,Kongu,M3,detect,த1,பறந்தாங்க,பறந்துச்சு,caught,False,,,,,False
+KON-07,Kongu,M3,detect,எ1,செம்புல போட்டான்,செம்புல போட்டானுக,caught,False,,,,,False
+KON-08,Kongu,M1,correct,ப1,கதறுனான்,கதறுனா,changed_other,False,கதறுனான்.,கதறுனா,கதறினான்,0.71,
+KON-08,Kongu,M1,correct,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,changed_other,False,ஓடுனோம்.,ஓடுனாங்க,ஓடினோம்,0.53,
+KON-08,Kongu,M1,correct,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,completed,False,கண்ணுல.,ஒத்திக்கிட்டா,வைத்தான்,0.38,
+KON-08,Kongu,M1,detect,ப1,கதறுனான்,கதறுனா,caught,False,,,,,False
+KON-08,Kongu,M1,detect,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,caught,False,,,,,False
+KON-08,Kongu,M1,detect,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,caught,False,,,,,False
+KON-08,Kongu,M2,correct,ப1,கதறுனான்,கதறுனா,fixed_exact,False,கதறுனான்.,கதறுனா,கதறுனா,1.0,
+KON-08,Kongu,M2,correct,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,unchanged,False,ஓடுனோம்.,ஓடுனாங்க,ஓடுனோம்,0.67,
+KON-08,Kongu,M2,correct,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,unchanged,False,கண்ணுல.,ஒத்திக்கிட்டா,,,
+KON-08,Kongu,M2,detect,ப1,கதறுனான்,கதறுனா,listed_no_change,False,,,,,
+KON-08,Kongu,M2,detect,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,listed_no_change,False,,,,,
+KON-08,Kongu,M2,detect,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,caught,False,,,,,False
+KON-08,Kongu,M3,correct,ப1,கதறுனான்,கதறுனா,changed_other,False,கதறுனான்.,கதறுனா,கதறினாள்,0.71,
+KON-08,Kongu,M3,correct,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,changed_other,False,ஓடுனோம்.,ஓடுனாங்க,ஓடினோம்,0.53,
+KON-08,Kongu,M3,correct,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,completed,False,கண்ணுல.,ஒத்திக்கிட்டா,ஒற்றிக்கொண்டாள்,0.64,
+KON-08,Kongu,M3,detect,ப1,கதறுனான்,கதறுனா,caught,False,,,,,False
+KON-08,Kongu,M3,detect,இ1,ரெண்டு பேரும் ஓடுனோம்,ரெண்டு பேரும் ஓடுனாங்க,caught,False,,,,,False
+KON-08,Kongu,M3,detect,ச1,எடுத்து கண்ணுல.,எடுத்து கண்ணுல ஒத்திக்கிட்டா.,caught,False,,,,,False
+KON-09,Kongu,M1,correct,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+KON-09,Kongu,M1,correct,ஒ1,பைசாவுகு,பைசாவுக்கு,changed_other,False,பைசாவுகு,பைசாவுக்கு,பைசாவுக்குக்,0.91,
+KON-09,Kongu,M1,correct,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",fixed_exact,False,வாங்கடா,"(adds ,)","வாங்கடா,",0.13,
+KON-09,Kongu,M1,correct,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,unchanged,False,போட்டீங்க!”னு,போடாதீங்கனு,போட்டீங்கனு,0.82,
+KON-09,Kongu,M1,detect,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,caught,False,,,,,True
+KON-09,Kongu,M1,detect,ஒ1,பைசாவுகு,பைசாவுக்கு,caught,False,,,,,True
+KON-09,Kongu,M1,detect,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",missed,False,,,,,
+KON-09,Kongu,M1,detect,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,caught,False,,,,,False
+KON-09,Kongu,M2,correct,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,unchanged,False,கத்துனா.,கத்துனான்,கத்துனா,0.88,
+KON-09,Kongu,M2,correct,ஒ1,பைசாவுகு,பைசாவுக்கு,unchanged,False,பைசாவுகு,பைசாவுக்கு,பைசாவுகு,0.89,
+KON-09,Kongu,M2,correct,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",fixed_exact,False,வாங்கடா,"(adds ,)","வாங்கடா,",0.13,
+KON-09,Kongu,M2,correct,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,unchanged,False,போட்டீங்க!”னு,போடாதீங்கனு,போட்டீங்கனு,0.82,
+KON-09,Kongu,M2,detect,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,caught,False,,,,,False
+KON-09,Kongu,M2,detect,ஒ1,பைசாவுகு,பைசாவுக்கு,caught,False,,,,,True
+KON-09,Kongu,M2,detect,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",missed,False,,,,,
+KON-09,Kongu,M2,detect,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,missed,False,,,,,
+KON-09,Kongu,M3,correct,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+KON-09,Kongu,M3,correct,ஒ1,பைசாவுகு,பைசாவுக்கு,fixed_exact,False,பைசாவுகு,பைசாவுக்கு,பைசாவுக்கு,1.0,
+KON-09,Kongu,M3,correct,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",fixed_exact,False,வாங்கடா,"(adds ,)","வாங்கடா,",0.13,
+KON-09,Kongu,M3,correct,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,changed_other,False,போட்டீங்க!”னு,போடாதீங்கனு,போட்டீர்கள்னு,0.67,
+KON-09,Kongu,M3,detect,ப1,மிட்டாய்க்காரன் கத்துனா,மிட்டாய்க்காரன் கத்துனான்,caught,False,,,,,False
+KON-09,Kongu,M3,detect,ஒ1,பைசாவுகு,பைசாவுக்கு,missed,False,,,,,
+KON-09,Kongu,M3,detect,ந1,வாங்கடா கூட்டம்,"வாங்கடா, கூட்டம்",missed,False,,,,,
+KON-09,Kongu,M3,detect,க1,கூட்டம் போட்டீங்க,கூட்டம் போடாதீங்க,caught,False,,,,,False
+KON-10,Kongu,M1,correct,ந1,“அடடே கன்னு,"“அடடே, கன்னு",fixed_exact,False,“அடடே,"(adds ,)","“அடடே,",0.15,
+KON-10,Kongu,M1,correct,ப1,அதட்டுனான்,அதட்டுனா,changed_other,False,அதட்டுனான்.,அதட்டுனா,னு அதட்டினார்,0.7,
+KON-10,Kongu,M1,correct,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,changed_other,False,"தொடச்சுக்கிட்டாரு,",தொடச்சுக்கையில,தொடச்சிட்டு,0.56,
+KON-10,Kongu,M1,detect,ந1,“அடடே கன்னு,"“அடடே, கன்னு",missed,False,,,,,
+KON-10,Kongu,M1,detect,ப1,அதட்டுனான்,அதட்டுனா,caught,False,,,,,False
+KON-10,Kongu,M1,detect,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,caught,False,,,,,False
+KON-10,Kongu,M2,correct,ந1,“அடடே கன்னு,"“அடடே, கன்னு",unchanged,False,“அடடே,"(adds ,)",“அடடே,0.0,
+KON-10,Kongu,M2,correct,ப1,அதட்டுனான்,அதட்டுனா,unchanged,False,அதட்டுனான்.,அதட்டுனா,அதட்டுனான்,0.89,
+KON-10,Kongu,M2,correct,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,unchanged,False,"தொடச்சுக்கிட்டாரு,",தொடச்சுக்கையில,தொடச்சுக்கிட்டாரு,0.71,
+KON-10,Kongu,M2,detect,ந1,“அடடே கன்னு,"“அடடே, கன்னு",missed,False,,,,,
+KON-10,Kongu,M2,detect,ப1,அதட்டுனான்,அதட்டுனா,caught,False,,,,,False
+KON-10,Kongu,M2,detect,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,listed_no_change,False,,,,,
+KON-10,Kongu,M3,correct,ந1,“அடடே கன்னு,"“அடடே, கன்னு",unchanged,False,“அடடே,"(adds ,)",“அடடே,0.0,
+KON-10,Kongu,M3,correct,ப1,அதட்டுனான்,அதட்டுனா,changed_other,False,அதட்டுனான்.,அதட்டுனா,என்று அதட்டினாள்,0.61,
+KON-10,Kongu,M3,correct,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,changed_other,False,"தொடச்சுக்கிட்டாரு,",தொடச்சுக்கையில,துடைத்துக்கொண்டது,0.45,
+KON-10,Kongu,M3,detect,ந1,“அடடே கன்னு,"“அடடே, கன்னு",missed,False,,,,,
+KON-10,Kongu,M3,detect,ப1,அதட்டுனான்,அதட்டுனா,caught,False,,,,,True
+KON-10,Kongu,M3,detect,த1,நக்கித் தொடச்சுக்கிட்டாரு,நக்கித் தொடச்சுக்கையில,caught,False,,,,,False
+KON-11,Kongu,M1,correct,ஒ1,அக்கரைகு,அக்கரைக்குப்,fixed_exact,False,அக்கரைகு,அக்கரைக்குப்,அக்கரைக்குப்,1.0,
+KON-11,Kongu,M1,correct,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,changed_other,False,போனாரு.,போச்சு,போய்ட்டாங்க,0.35,
+KON-11,Kongu,M1,correct,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,changed_other,False,சேர்த்தாள்.,சேர்த்தாரு,சேரச்சு,0.59,
+KON-11,Kongu,M1,detect,ஒ1,அக்கரைகு,அக்கரைக்குப்,caught,False,,,,,True
+KON-11,Kongu,M1,detect,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,caught,False,,,,,False
+KON-11,Kongu,M1,detect,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,caught,False,,,,,True
+KON-11,Kongu,M2,correct,ஒ1,அக்கரைகு,அக்கரைக்குப்,unchanged,False,அக்கரைகு,அக்கரைக்குப்,அக்கரைகு,0.8,
+KON-11,Kongu,M2,correct,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,unchanged,False,போனாரு.,போச்சு,போனாரு,0.5,
+KON-11,Kongu,M2,correct,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,unchanged,False,சேர்த்தாள்.,சேர்த்தாரு,சேர்த்தாள்,0.8,
+KON-11,Kongu,M2,detect,ஒ1,அக்கரைகு,அக்கரைக்குப்,caught,False,,,,,False
+KON-11,Kongu,M2,detect,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,listed_no_change,False,,,,,
+KON-11,Kongu,M2,detect,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,listed_no_change,False,,,,,
+KON-11,Kongu,M3,correct,ஒ1,அக்கரைகு,அக்கரைக்குப்,fixed_exact,False,அக்கரைகு,அக்கரைக்குப்,அக்கரைக்குப்,1.0,
+KON-11,Kongu,M3,correct,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,changed_other,False,போனாரு.,போச்சு,போனது,0.55,
+KON-11,Kongu,M3,correct,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,changed_other,False,சேர்த்தாள்.,சேர்த்தாரு,சேர்த்தார்,0.9,
+KON-11,Kongu,M3,detect,ஒ1,அக்கரைகு,அக்கரைக்குப்,caught,False,,,,,False
+KON-11,Kongu,M3,detect,த1,நனைஞ்சு போனாரு,நனைஞ்சு போச்சு,caught,False,,,,,False
+KON-11,Kongu,M3,detect,ப1,கொண்டுபோயிச் சேர்த்தாள்,கொண்டுபோயிச் சேர்த்தாரு,caught,False,,,,,False
+KON-12,Kongu,M1,correct,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,fixed_exact,False,கூப்பிட்டான்.,கூப்பிட்டா,கூப்பிட்டா,1.0,
+KON-12,Kongu,M1,correct,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,fixed_exact,False,வயலுகுள்ள,வயலுக்குள்ள,வயலுக்குள்ள,1.0,
+KON-12,Kongu,M1,correct,க1,விலை தேறுச்சு,விலை தேறும்,fixed_exact,False,தேறுச்சு”னு,தேறும்னு,தேறும்னு,1.0,
+KON-12,Kongu,M1,correct,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,changed_other,False,கட்டுனான்.,கட்டுனானுக,கட்டினா,0.71,
+KON-12,Kongu,M1,detect,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,caught,False,,,,,True
+KON-12,Kongu,M1,detect,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,caught,False,,,,,False
+KON-12,Kongu,M1,detect,க1,விலை தேறுச்சு,விலை தேறும்,caught,False,,,,,False
+KON-12,Kongu,M1,detect,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,caught,False,,,,,False
+KON-12,Kongu,M2,correct,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,fixed_exact,False,கூப்பிட்டான்.,கூப்பிட்டா,கூப்பிட்டா,1.0,
+KON-12,Kongu,M2,correct,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,changed_other,False,வயலுகுள்ள,வயலுக்குள்ள,வயலுக்குள்ளே,0.96,
+KON-12,Kongu,M2,correct,க1,விலை தேறுச்சு,விலை தேறும்,unchanged,False,தேறுச்சு”னு,தேறும்னு,தேறுச்சுனு,0.78,
+KON-12,Kongu,M2,correct,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,unchanged,False,கட்டுனான்.,கட்டுனானுக,கட்டுனான்,0.84,
+KON-12,Kongu,M2,detect,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,caught,False,,,,,True
+KON-12,Kongu,M2,detect,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,missed,False,,,,,
+KON-12,Kongu,M2,detect,க1,விலை தேறுச்சு,விலை தேறும்,missed,False,,,,,
+KON-12,Kongu,M2,detect,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,listed_no_change,False,,,,,
+KON-12,Kongu,M3,correct,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,changed_other,False,கூப்பிட்டான்.,கூப்பிட்டா,கூப்பிட்டாள்,0.91,
+KON-12,Kongu,M3,correct,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,unchanged,False,வயலுகுள்ள,வயலுக்குள்ள,வயலுகுள்ள,0.9,
+KON-12,Kongu,M3,correct,க1,விலை தேறுச்சு,விலை தேறும்,fixed_exact,False,தேறுச்சு”னு,தேறும்னு,தேறும்னு,1.0,
+KON-12,Kongu,M3,correct,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,changed_other,False,கட்டுனான்.,கட்டுனானுக,கட்டினாள்,0.63,
+KON-12,Kongu,M3,detect,ப1,பாட்டி கூப்பிட்டான்,பாட்டி கூப்பிட்டா,caught,False,,,,,True
+KON-12,Kongu,M3,detect,ஒ1,வயலுகுள்ள,வயலுக்குள்ள,caught,False,,,,,True
+KON-12,Kongu,M3,detect,க1,விலை தேறுச்சு,விலை தேறும்,caught,False,,,,,True
+KON-12,Kongu,M3,detect,எ1,மூட்டை கட்டுனான்,மூட்டை கட்டுனானுக,caught,False,,,,,False
+KON-13,Kongu,M1,correct,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,changed_other,False,சலிச்சுக்கிட்டாள்.,சலிச்சுக்கிட்டாரு,சலிச்சுக்கிட்டா,0.94,
+KON-13,Kongu,M1,correct,இ1,மேல வந்தேன்,மேல வந்தாரு,changed_other,False,வந்தேன்.,வந்தாரு,வந்தார்,0.86,
+KON-13,Kongu,M1,correct,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,changed_other,False,பீறிட்டு.,அடிச்சது,பீறிட்டுது,0.44,
+KON-13,Kongu,M1,detect,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,caught,False,,,,,False
+KON-13,Kongu,M1,detect,இ1,மேல வந்தேன்,மேல வந்தாரு,caught,False,,,,,False
+KON-13,Kongu,M1,detect,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,listed_no_change,False,,,,,
+KON-13,Kongu,M2,correct,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,unchanged,False,சலிச்சுக்கிட்டாள்.,சலிச்சுக்கிட்டாரு,சலிச்சுக்கிட்டாள்,0.88,
+KON-13,Kongu,M2,correct,இ1,மேல வந்தேன்,மேல வந்தாரு,unchanged,False,வந்தேன்.,வந்தாரு,வந்தேன்,0.57,
+KON-13,Kongu,M2,correct,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,unchanged,False,பீறிட்டு.,அடிச்சது,,,
+KON-13,Kongu,M2,detect,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,caught,False,,,,,False
+KON-13,Kongu,M2,detect,இ1,மேல வந்தேன்,மேல வந்தாரு,listed_no_change,False,,,,,
+KON-13,Kongu,M2,detect,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,listed_no_change,False,,,,,
+KON-13,Kongu,M3,correct,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,unchanged,False,சலிச்சுக்கிட்டாள்.,சலிச்சுக்கிட்டாரு,சலிச்சுக்கிட்டாள்,0.88,
+KON-13,Kongu,M3,correct,இ1,மேல வந்தேன்,மேல வந்தாரு,changed_other,False,வந்தேன்.,வந்தாரு,வந்தார்,0.86,
+KON-13,Kongu,M3,correct,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,changed_other,False,பீறிட்டு.,அடிச்சது,பீறிட்டது,0.47,
+KON-13,Kongu,M3,detect,ப1,சலிச்சுக்கிட்டாள்,சலிச்சுக்கிட்டாரு,caught,False,,,,,False
+KON-13,Kongu,M3,detect,இ1,மேல வந்தேன்,மேல வந்தாரு,caught,False,,,,,False
+KON-13,Kongu,M3,detect,ச1,தண்ணி பீறிட்டு.,தண்ணி பீறிட்டு அடிச்சது.,caught,False,,,,,False
+KON-14,Kongu,M1,correct,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,changed_other,False,கெடந்தாங்க.,கெடந்தது,கிடந்தாங்க,0.56,
+KON-14,Kongu,M1,correct,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,changed_other,False,உக்காந்தான்.,உக்காந்தானுக,உக்காந்தாங்க,0.83,
+KON-14,Kongu,M1,correct,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,changed_other,False,அள்ளிப்போட்டான்.,அள்ளிப்போட்டா,அள்ளிப் போட்டா,1.0,
+KON-14,Kongu,M1,detect,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,caught,False,,,,,False
+KON-14,Kongu,M1,detect,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,caught,False,,,,,False
+KON-14,Kongu,M1,detect,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,caught,False,,,,,False
+KON-14,Kongu,M2,correct,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,unchanged,False,கெடந்தாங்க.,கெடந்தது,கெடந்தாங்க,0.67,
+KON-14,Kongu,M2,correct,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,unchanged,False,உக்காந்தான்.,உக்காந்தானுக,உக்காந்தான்,0.87,
+KON-14,Kongu,M2,correct,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,unchanged,False,அள்ளிப்போட்டான்.,அள்ளிப்போட்டா,அள்ளிப்போட்டான்,0.93,
+KON-14,Kongu,M2,detect,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,listed_no_change,False,,,,,
+KON-14,Kongu,M2,detect,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,listed_no_change,False,,,,,
+KON-14,Kongu,M2,detect,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,listed_no_change,False,,,,,
+KON-14,Kongu,M3,correct,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,changed_other,False,கெடந்தாங்க.,கெடந்தது,கிடந்தன,0.67,
+KON-14,Kongu,M3,correct,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,changed_other,False,உக்காந்தான்.,உக்காந்தானுக,உக்காந்தானுங்க,0.92,
+KON-14,Kongu,M3,correct,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,changed_other,False,அள்ளிப்போட்டான்.,அள்ளிப்போட்டா,அள்ளிப்போட்டாள்,0.93,
+KON-14,Kongu,M3,detect,த1,குமிஞ்சு கெடந்தாங்க,குமிஞ்சு கெடந்தது,caught,False,,,,,False
+KON-14,Kongu,M3,detect,எ1,உரிக்க உக்காந்தான்,உரிக்க உக்காந்தானுக,caught,False,,,,,False
+KON-14,Kongu,M3,detect,ப1,அள்ளிப்போட்டான்,அள்ளிப்போட்டா,caught,False,,,,,True
+KON-15,Kongu,M1,correct,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",unchanged,False,“ஏடி,"(adds ,)",“ஏடி,0.0,
+KON-15,Kongu,M1,correct,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,unchanged,False,ஊதுனான்.,ஊதுனா,ஊதுனான்,0.83,
+KON-15,Kongu,M1,correct,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,changed_other,False,ஆரம்பிப்பா.,ஆரம்பிச்சா,ஆரம்பிப்பான்,0.73,
+KON-15,Kongu,M1,detect,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",missed,False,,,,,
+KON-15,Kongu,M1,detect,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,caught,False,,,,,False
+KON-15,Kongu,M1,detect,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,caught,False,,,,,False
+KON-15,Kongu,M2,correct,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",unchanged,False,“ஏடி,"(adds ,)",“ஏடி,0.0,
+KON-15,Kongu,M2,correct,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,unchanged,False,ஊதுனான்.,ஊதுனா,ஊதுனான்,0.83,
+KON-15,Kongu,M2,correct,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,unchanged,False,ஆரம்பிப்பா.,ஆரம்பிச்சா,ஆரம்பிப்பா,0.8,
+KON-15,Kongu,M2,detect,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",missed,False,,,,,
+KON-15,Kongu,M2,detect,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,missed,False,,,,,
+KON-15,Kongu,M2,detect,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,listed_no_change,False,,,,,
+KON-15,Kongu,M3,correct,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",fixed_exact,False,“ஏடி,"(adds ,)","“ஏடி,",0.17,
+KON-15,Kongu,M3,correct,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,changed_other,False,ஊதுனான்.,ஊதுனா,ஊதினான்,0.67,
+KON-15,Kongu,M3,correct,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,changed_other,False,ஆரம்பிப்பா.,ஆரம்பிச்சா,ஆரம்பிப்பாள்,0.73,
+KON-15,Kongu,M3,detect,ந1,“ஏடி வெறகு,"“ஏடி, வெறகு",missed,False,,,,,
+KON-15,Kongu,M3,detect,ப1,வச்சு ஊதுனான்,வச்சு ஊதுனா,caught,False,,,,,False
+KON-15,Kongu,M3,detect,க1,கிண்ட ஆரம்பிப்பா,கிண்ட ஆரம்பிச்சா,caught,False,,,,,False
+KON-16,Kongu,M1,correct,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,changed_other,False,இருந்தான்.,இருந்தானுக,இருந்தாங்க,0.8,
+KON-16,Kongu,M1,correct,ஒ1,தாகத்துகு,தாகத்துக்கு,changed_other,False,"தாகத்துகு,",தாகத்துக்கு,தாகத்துக்கே,0.91,
+KON-16,Kongu,M1,correct,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,unchanged,False,ஒருத்தன்,ஒருத்தி,ஒருத்தன்,0.8,
+KON-16,Kongu,M1,detect,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,missed,False,,,,,
+KON-16,Kongu,M1,detect,ஒ1,தாகத்துகு,தாகத்துக்கு,caught,False,,,,,True
+KON-16,Kongu,M1,detect,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,missed,False,,,,,
+KON-16,Kongu,M2,correct,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,unchanged,False,இருந்தான்.,இருந்தானுக,இருந்தான்,0.84,
+KON-16,Kongu,M2,correct,ஒ1,தாகத்துகு,தாகத்துக்கு,fixed_exact,False,"தாகத்துகு,",தாகத்துக்கு,தாகத்துக்கு,1.0,
+KON-16,Kongu,M2,correct,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,unchanged,False,ஒருத்தன்,ஒருத்தி,ஒருத்தன்,0.8,
+KON-16,Kongu,M2,detect,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,caught,False,,,,,False
+KON-16,Kongu,M2,detect,ஒ1,தாகத்துகு,தாகத்துக்கு,caught,False,,,,,True
+KON-16,Kongu,M2,detect,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,listed_no_change,False,,,,,
+KON-16,Kongu,M3,correct,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,changed_other,False,இருந்தான்.,இருந்தானுக,இருந்தாங்க,0.8,
+KON-16,Kongu,M3,correct,ஒ1,தாகத்துகு,தாகத்துக்கு,fixed_exact,False,"தாகத்துகு,",தாகத்துக்கு,தாகத்துக்கு,1.0,
+KON-16,Kongu,M3,correct,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,unchanged,False,ஒருத்தன்,ஒருத்தி,ஒருத்தன்,0.8,
+KON-16,Kongu,M3,detect,எ1,நட்டுக்கிட்டு இருந்தான்,நட்டுக்கிட்டு இருந்தானுக,caught,False,,,,,False
+KON-16,Kongu,M3,detect,ஒ1,தாகத்துகு,தாகத்துக்கு,caught,False,,,,,True
+KON-16,Kongu,M3,detect,ப1,ஒருத்தன் கேட்க,ஒருத்தி கேட்க,caught,False,,,,,False
+KON-17,Kongu,M1,correct,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,changed_other,False,காத்தேன்டா”னு,காக்குறேன்டானு,காக்கேன்டானு,0.92,
+KON-17,Kongu,M1,correct,க1,கெளம்புவாரு,கெளம்புனாரு,changed_other,False,கெளம்புவாரு.,கெளம்புனாரு,கெளம்பாரு,0.9,
+KON-17,Kongu,M1,correct,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,unchanged,False,ஓடிப்போனாங்க.,ஓடி போச்சுங்க,ஓடிப்போனாங்க,0.67,
+KON-17,Kongu,M1,detect,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,caught,False,,,,,False
+KON-17,Kongu,M1,detect,க1,கெளம்புவாரு,கெளம்புனாரு,caught,False,,,,,False
+KON-17,Kongu,M1,detect,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,missed,False,,,,,
+KON-17,Kongu,M2,correct,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,unchanged,False,காத்தேன்டா”னு,காக்குறேன்டானு,காத்தேன்டானு,0.77,
+KON-17,Kongu,M2,correct,க1,கெளம்புவாரு,கெளம்புனாரு,unchanged,False,கெளம்புவாரு.,கெளம்புனாரு,கெளம்புவாரு,0.91,
+KON-17,Kongu,M2,correct,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,unchanged,False,ஓடிப்போனாங்க.,ஓடி போச்சுங்க,ஓடிப்போனாங்க,0.67,
+KON-17,Kongu,M2,detect,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,missed,False,,,,,
+KON-17,Kongu,M2,detect,க1,கெளம்புவாரு,கெளம்புனாரு,listed_no_change,False,,,,,
+KON-17,Kongu,M2,detect,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,listed_no_change,False,,,,,
+KON-17,Kongu,M3,correct,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,changed_other,False,காத்தேன்டா”னு,காக்குறேன்டானு,காக்கிறேன்டா என்று,0.84,
+KON-17,Kongu,M3,correct,க1,கெளம்புவாரு,கெளம்புனாரு,changed_other,False,கெளம்புவாரு.,கெளம்புனாரு,கிளம்புவார்,0.73,
+KON-17,Kongu,M3,correct,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,changed_other,False,ஓடிப்போனாங்க.,ஓடி போச்சுங்க,ஓடிப்போயின,0.45,
+KON-17,Kongu,M3,detect,க1,காவல் காத்தேன்டா,காவல் காக்குறேன்டா,caught,False,,,,,False
+KON-17,Kongu,M3,detect,க1,கெளம்புவாரு,கெளம்புனாரு,caught,False,,,,,False
+KON-17,Kongu,M3,detect,த1,ஓடிப்போனாங்க,ஓடி போச்சுங்க,caught,False,,,,,False
+KON-18,Kongu,M1,correct,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,changed_other,False,இறங்குனான்.,எறங்குனானுக,இறங்கினான்,0.67,
+KON-18,Kongu,M1,correct,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",changed_other,False,ஓடுதுடா,"(adds ,)",,,
+KON-18,Kongu,M1,correct,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,fixed_exact,False,கரைகு,கரைக்கு,கரைக்கு,1.0,
+KON-18,Kongu,M1,detect,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,caught,False,,,,,False
+KON-18,Kongu,M1,detect,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",caught,False,,,,,True
+KON-18,Kongu,M1,detect,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,caught,False,,,,,False
+KON-18,Kongu,M2,correct,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,unchanged,False,இறங்குனான்.,எறங்குனானுக,இறங்குனான்,0.76,
+KON-18,Kongu,M2,correct,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",unchanged,False,ஓடுதுடா,"(adds ,)",ஓடுதுடா,0.0,
+KON-18,Kongu,M2,correct,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,unchanged,False,கரைகு,கரைக்கு,கரைகு,0.83,
+KON-18,Kongu,M2,detect,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,listed_no_change,False,,,,,
+KON-18,Kongu,M2,detect,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",missed,False,,,,,
+KON-18,Kongu,M2,detect,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,missed,False,,,,,
+KON-18,Kongu,M3,correct,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,changed_other,False,இறங்குனான்.,எறங்குனானுக,இறங்கினான்,0.67,
+KON-18,Kongu,M3,correct,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",changed_other,False,ஓடுதுடா,"(adds ,)",,,
+KON-18,Kongu,M3,correct,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,changed_other,False,கரைகு,கரைக்கு,கரைக்குத்,0.88,
+KON-18,Kongu,M3,detect,எ1,பிடிக்க இறங்குனான்,பிடிக்க எறங்குனானுக,caught,False,,,,,False
+KON-18,Kongu,M3,detect,ந1,ஓடுதுடா கச்சையை,"ஓடுதுடா, கச்சையை",missed,False,,,,,
+KON-18,Kongu,M3,detect,ஒ1,கரைகு தூக்கி,கரைக்கு தூக்கி,caught,False,,,,,True
+KON-19,Kongu,M1,correct,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,changed_other,False,கெடந்தாரு.,கெடந்தது,கெடந்துருக்கு,0.67,
+KON-19,Kongu,M1,correct,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,fixed_exact,False,கேட்டா.,கேட்டான்,கேட்டான்,1.0,
+KON-19,Kongu,M1,correct,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,changed_other,False,பேசுவாரு.,பேசினாரு,பேசுவார்,0.62,
+KON-19,Kongu,M1,detect,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,caught,False,,,,,False
+KON-19,Kongu,M1,detect,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,missed,False,,,,,
+KON-19,Kongu,M1,detect,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,caught,False,,,,,False
+KON-19,Kongu,M2,correct,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,changed_other,False,கெடந்தாரு.,கெடந்தது,கிடந்தாரு,0.71,
+KON-19,Kongu,M2,correct,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,unchanged,False,கேட்டா.,கேட்டான்,கேட்டா,0.86,
+KON-19,Kongu,M2,correct,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,unchanged,False,பேசுவாரு.,பேசினாரு,பேசுவாரு,0.75,
+KON-19,Kongu,M2,detect,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,listed_no_change,False,,,,,
+KON-19,Kongu,M2,detect,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,missed,False,,,,,
+KON-19,Kongu,M2,detect,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,listed_no_change,False,,,,,
+KON-19,Kongu,M3,correct,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,changed_other,False,கெடந்தாரு.,கெடந்தது,கிடந்தது,0.88,
+KON-19,Kongu,M3,correct,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,fixed_exact,False,கேட்டா.,கேட்டான்,கேட்டான்,1.0,
+KON-19,Kongu,M3,correct,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,changed_other,False,பேசுவாரு.,பேசினாரு,பேசுவார்,0.62,
+KON-19,Kongu,M3,detect,த1,சாஞ்சு கெடந்தாரு,சாஞ்சு கெடந்தது,caught,False,,,,,False
+KON-19,Kongu,M3,detect,ப1,மருமகன் கேட்டா,மருமகன் கேட்டான்,caught,False,,,,,True
+KON-19,Kongu,M3,detect,க1,பெருமையா பேசுவாரு,பெருமையா பேசினாரு,caught,False,,,,,False
+KON-20,Kongu,M1,correct,த1,இழுக்கிறாங்க,இழுக்குது,unchanged,False,இழுக்கிறாங்க.,இழுக்குது,இழுக்கிறாங்க,0.57,
+KON-20,Kongu,M1,correct,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,fixed_exact,False,மாட்டுகு,மாட்டுக்கு,மாட்டுக்கு,1.0,
+KON-20,Kongu,M1,correct,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,unchanged,False,வச்சான்.,வச்சா,வச்சான்,0.83,
+KON-20,Kongu,M1,detect,த1,இழுக்கிறாங்க,இழுக்குது,caught,False,,,,,True
+KON-20,Kongu,M1,detect,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,caught,False,,,,,True
+KON-20,Kongu,M1,detect,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,missed,False,,,,,
+KON-20,Kongu,M2,correct,த1,இழுக்கிறாங்க,இழுக்குது,unchanged,False,இழுக்கிறாங்க.,இழுக்குது,இழுக்கிறாங்க,0.57,
+KON-20,Kongu,M2,correct,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,changed_other,False,மாட்டுகு,மாட்டுக்கு,மாட்டுகளுக்குத்,0.8,
+KON-20,Kongu,M2,correct,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,unchanged,False,வச்சான்.,வச்சா,வச்சான்,0.83,
+KON-20,Kongu,M2,detect,த1,இழுக்கிறாங்க,இழுக்குது,missed,False,,,,,
+KON-20,Kongu,M2,detect,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,missed,False,,,,,
+KON-20,Kongu,M2,detect,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,listed_no_change,False,,,,,
+KON-20,Kongu,M3,correct,த1,இழுக்கிறாங்க,இழுக்குது,changed_other,False,இழுக்கிறாங்க.,இழுக்குது,இழுக்கின்றன,0.6,
+KON-20,Kongu,M3,correct,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,changed_other,False,மாட்டுகு,மாட்டுக்கு,மாடுகளுக்குத்,0.7,
+KON-20,Kongu,M3,correct,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,changed_other,False,வச்சான்.,வச்சா,வைத்தான்,0.46,
+KON-20,Kongu,M3,detect,த1,இழுக்கிறாங்க,இழுக்குது,caught,False,,,,,False
+KON-20,Kongu,M3,detect,ஒ1,மாட்டுகு தண்ணி,மாட்டுக்கு தண்ணி,caught,False,,,,,True
+KON-20,Kongu,M3,detect,ப1,எடுத்து வச்சான்,எடுத்து வச்சா,caught,False,,,,,False
+KON-21,Kongu,M1,correct,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,changed_other,False,உக்காந்திருந்தான்.,உக்காந்திருந்தானுக,உக்காந்திருந்தாங்க,0.89,
+KON-21,Kongu,M1,correct,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",fixed_exact,True,பொன்னையா,"(adds ,)","பொன்னையா,",0.12,
+KON-21,Kongu,M1,correct,க1,கேட்பாரு,கேட்டாரு,changed_other,False,கேட்பாரு.,கேட்டாரு,கேப்பாரு,0.75,
+KON-21,Kongu,M1,detect,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,caught,False,,,,,False
+KON-21,Kongu,M1,detect,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",missed,True,,,,,
+KON-21,Kongu,M1,detect,க1,கேட்பாரு,கேட்டாரு,caught,False,,,,,False
+KON-21,Kongu,M2,correct,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,changed_other,False,உக்காந்திருந்தான்.,உக்காந்திருந்தானுக,உக்காந்திருந்தாங்க,0.89,
+KON-21,Kongu,M2,correct,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",unchanged,True,பொன்னையா,"(adds ,)",பொன்னையா,0.0,
+KON-21,Kongu,M2,correct,க1,கேட்பாரு,கேட்டாரு,unchanged,False,கேட்பாரு.,கேட்டாரு,கேட்பாரு,0.88,
+KON-21,Kongu,M2,detect,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,listed_no_change,False,,,,,
+KON-21,Kongu,M2,detect,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",listed_no_change,True,,,,,
+KON-21,Kongu,M2,detect,க1,கேட்பாரு,கேட்டாரு,listed_no_change,False,,,,,
+KON-21,Kongu,M3,correct,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,changed_other,False,உக்காந்திருந்தான்.,உக்காந்திருந்தானுக,உட்கார்ந்திருந்தார்கள்,0.75,
+KON-21,Kongu,M3,correct,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",fixed_exact,True,பொன்னையா,"(adds ,)","பொன்னையா,",0.12,
+KON-21,Kongu,M3,correct,க1,கேட்பாரு,கேட்டாரு,changed_other,False,கேட்பாரு.,கேட்டாரு,கேட்பார்,0.75,
+KON-21,Kongu,M3,detect,எ1,உக்காந்திருந்தான்,உக்காந்திருந்தானுக,caught,False,,,,,False
+KON-21,Kongu,M3,detect,ந1,பொன்னையா இந்த,"பொன்னையா, இந்த",missed,True,,,,,
+KON-21,Kongu,M3,detect,க1,கேட்பாரு,கேட்டாரு,caught,False,,,,,False
+KON-22,Kongu,M1,correct,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,changed_other,False,கெடந்தான்.,கெடந்தானுக,இருந்தாங்க,0.5,
+KON-22,Kongu,M1,correct,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",fixed_exact,False,வையுடா,"(adds ,)",வையுடா;,0.0,
+KON-22,Kongu,M1,correct,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,completed,False,சுருண்டு.,படுத்துட்டானுக,சுருண்டாங்க,0.48,
+KON-22,Kongu,M1,detect,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,caught,False,,,,,False
+KON-22,Kongu,M1,detect,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",missed,False,,,,,
+KON-22,Kongu,M1,detect,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,missed,False,,,,,
+KON-22,Kongu,M2,correct,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,changed_other,False,கெடந்தான்.,கெடந்தானுக,கிடந்தான்,0.74,
+KON-22,Kongu,M2,correct,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",unchanged,False,வையுடா,"(adds ,)",வையுடா,0.0,
+KON-22,Kongu,M2,correct,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,completed,False,சுருண்டு.,படுத்துட்டானுக,கிடந்தான்,0.43,
+KON-22,Kongu,M2,detect,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,caught,False,,,,,False
+KON-22,Kongu,M2,detect,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",missed,False,,,,,
+KON-22,Kongu,M2,detect,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,caught,False,,,,,False
+KON-22,Kongu,M3,correct,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,changed_other,False,கெடந்தான்.,கெடந்தானுக,கிடந்தார்கள்,0.64,
+KON-22,Kongu,M3,correct,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",unchanged,False,வையுடா,"(adds ,)",வையுடா,0.0,
+KON-22,Kongu,M3,correct,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,completed,False,சுருண்டு.,படுத்துட்டானுக,சுருண்டார்கள்,0.44,
+KON-22,Kongu,M3,detect,எ1,நனைஞ்சு கெடந்தான்,நனைஞ்சு கெடந்தானுக,caught,False,,,,,False
+KON-22,Kongu,M3,detect,ந1,வையுடா அப்புறம்,"வையுடா, அப்புறம்",missed,False,,,,,
+KON-22,Kongu,M3,detect,ச1,களத்துமேட்டுல சுருண்டு.,களத்துமேட்டுல சுருண்டு படுத்துட்டானுக.,caught,False,,,,,False
+KON-23,Kongu,M1,correct,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,changed_other,False,நின்னான்.,நின்னானுக,நின்னாங்க,0.78,
+KON-23,Kongu,M1,correct,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,changed_other,False,வந்தா.,வந்தான்,,,
+KON-23,Kongu,M1,correct,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,changed_other,False,சொல்லுவாரு.,சொன்னாரு,சொல்லுவார்,0.56,
+KON-23,Kongu,M1,detect,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,listed_no_change,False,,,,,
+KON-23,Kongu,M1,detect,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,listed_no_change,False,,,,,
+KON-23,Kongu,M1,detect,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,listed_no_change,False,,,,,
+KON-23,Kongu,M2,correct,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,unchanged,False,நின்னான்.,நின்னானுக,நின்னான்,0.82,
+KON-23,Kongu,M2,correct,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,unchanged,False,வந்தா.,வந்தான்,வந்தா,0.83,
+KON-23,Kongu,M2,correct,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,unchanged,False,சொல்லுவாரு.,சொன்னாரு,சொல்லுவாரு,0.67,
+KON-23,Kongu,M2,detect,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,missed,False,,,,,
+KON-23,Kongu,M2,detect,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,listed_no_change,False,,,,,
+KON-23,Kongu,M2,detect,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,listed_no_change,False,,,,,
+KON-23,Kongu,M3,correct,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,changed_other,False,நின்னான்.,நின்னானுக,நின்றனர்,0.59,
+KON-23,Kongu,M3,correct,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,fixed_exact,False,வந்தா.,வந்தான்,வந்தான்,1.0,
+KON-23,Kongu,M3,correct,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,changed_other,False,சொல்லுவாரு.,சொன்னாரு,சொல்வார்,0.62,
+KON-23,Kongu,M3,detect,எ1,சண்டை போட்டுட்டு நின்னான்,சண்டை போட்டுட்டு நின்னானுக,caught,False,,,,,False
+KON-23,Kongu,M3,detect,ப1,எகிறிட்டு வந்தா,எகிறிட்டு வந்தான்,caught,False,,,,,True
+KON-23,Kongu,M3,detect,க1,தீர்ப்பைச் சொல்லுவாரு,தீர்ப்பைச் சொன்னாரு,caught,False,,,,,False
+KON-24,Kongu,M1,correct,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,fixed_exact,False,தாளிச்சான்.,தாளிச்சா,தாளிச்சா,1.0,
+KON-24,Kongu,M1,correct,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",unchanged,False,“மருமகனே,"(adds ,)",“மருமகனே,0.0,
+KON-24,Kongu,M1,correct,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,changed_other,False,ஊத்துனேன்.,ஊத்துனா,ஊத்தினேன்,0.62,
+KON-24,Kongu,M1,detect,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,caught,False,,,,,True
+KON-24,Kongu,M1,detect,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",caught,False,,,,,True
+KON-24,Kongu,M1,detect,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,missed,False,,,,,
+KON-24,Kongu,M2,correct,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,unchanged,False,தாளிச்சான்.,தாளிச்சா,தாளிச்சான்,0.89,
+KON-24,Kongu,M2,correct,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",unchanged,False,“மருமகனே,"(adds ,)",“மருமகனே,0.0,
+KON-24,Kongu,M2,correct,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,unchanged,False,ஊத்துனேன்.,ஊத்துனா,ஊத்துனேன்,0.75,
+KON-24,Kongu,M2,detect,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,listed_no_change,False,,,,,
+KON-24,Kongu,M2,detect,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",missed,False,,,,,
+KON-24,Kongu,M2,detect,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,caught,False,,,,,False
+KON-24,Kongu,M3,correct,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,fixed_exact,False,தாளிச்சான்.,தாளிச்சா,தாளிச்சா,1.0,
+KON-24,Kongu,M3,correct,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",unchanged,False,“மருமகனே,"(adds ,)",“மருமகனே,0.0,
+KON-24,Kongu,M3,correct,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,unchanged,False,ஊத்துனேன்.,ஊத்துனா,ஊத்துனேன்,0.75,
+KON-24,Kongu,M3,detect,ப1,சட்டையில தாளிச்சான்,சட்டையில தாளிச்சா,caught,False,,,,,True
+KON-24,Kongu,M3,detect,ந1,“மருமகனே இந்தாடா,"“மருமகனே, இந்தாடா",missed,False,,,,,
+KON-24,Kongu,M3,detect,இ1,ஆணத்தை ஊத்துனேன்,ஆணத்தை ஊத்துனா,missed,False,,,,,
+MDU-01,Madurai,M1,correct,ப1,னு கத்துனா,னு கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+MDU-01,Madurai,M1,correct,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,fixed_exact,False,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,கூட்டத்துக்குள்ள,1.0,
+MDU-01,Madurai,M1,correct,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",unchanged,True,வந்து,"(adds ,)",வந்து,0.0,
+MDU-01,Madurai,M1,correct,க1,னு சொல்லுவான்,னு சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+MDU-01,Madurai,M1,detect,ப1,னு கத்துனா,னு கத்துனான்,caught,False,,,,,True
+MDU-01,Madurai,M1,detect,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,missed,False,,,,,
+MDU-01,Madurai,M1,detect,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",missed,True,,,,,
+MDU-01,Madurai,M1,detect,க1,னு சொல்லுவான்,னு சொன்னான்,missed,False,,,,,
+MDU-01,Madurai,M2,correct,ப1,னு கத்துனா,னு கத்துனான்,unchanged,False,கத்துனா.,கத்துனான்,கத்துனா,0.88,
+MDU-01,Madurai,M2,correct,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,fixed_exact,False,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,கூட்டத்துக்குள்ள,1.0,
+MDU-01,Madurai,M2,correct,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",unchanged,True,வந்து,"(adds ,)",வந்து,0.0,
+MDU-01,Madurai,M2,correct,க1,னு சொல்லுவான்,னு சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+MDU-01,Madurai,M2,detect,ப1,னு கத்துனா,னு கத்துனான்,caught,False,,,,,False
+MDU-01,Madurai,M2,detect,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,caught,False,,,,,False
+MDU-01,Madurai,M2,detect,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",missed,True,,,,,
+MDU-01,Madurai,M2,detect,க1,னு சொல்லுவான்,னு சொன்னான்,missed,False,,,,,
+MDU-01,Madurai,M3,correct,ப1,னு கத்துனா,னு கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,என்று கத்தினான்,0.7,
+MDU-01,Madurai,M3,correct,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,changed_other,False,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,கூட்டத்துக்குள் நுழைந்து,0.77,
+MDU-01,Madurai,M3,correct,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",unchanged,True,வந்து,"(adds ,)",வந்து,0.0,
+MDU-01,Madurai,M3,correct,க1,னு சொல்லுவான்,னு சொன்னான்,fixed_exact,False,சொல்லுவான்.,சொன்னான்,என்று சொன்னான்,0.76,
+MDU-01,Madurai,M3,detect,ப1,னு கத்துனா,னு கத்துனான்,caught,False,,,,,False
+MDU-01,Madurai,M3,detect,ஒ1,கூட்டத்துகுள்ள,கூட்டத்துக்குள்ள,caught,False,,,,,False
+MDU-01,Madurai,M3,detect,ந1,திரும்பி வந்து “அண்ணச்சி,"திரும்பி வந்து, “அண்ணச்சி",missed,True,,,,,
+MDU-01,Madurai,M3,detect,க1,னு சொல்லுவான்,னு சொன்னான்,caught,False,,,,,True
+MDU-02,Madurai,M1,correct,ப1,னு சொன்னான்,னு சொன்னா,fixed_exact,False,சொன்னான்.,சொன்னா,சொன்னா,1.0,
+MDU-02,Madurai,M1,correct,ந1,“அட அது,"“அட, அது",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+MDU-02,Madurai,M1,correct,க1,னு இழுப்பான்,னு இழுத்தான்,fixed_exact,False,இழுப்பான்.,இழுத்தான்,இழுத்தான்,1.0,
+MDU-02,Madurai,M1,detect,ப1,னு சொன்னான்,னு சொன்னா,caught,False,,,,,True
+MDU-02,Madurai,M1,detect,ந1,“அட அது,"“அட, அது",missed,False,,,,,
+MDU-02,Madurai,M1,detect,க1,னு இழுப்பான்,னு இழுத்தான்,missed,False,,,,,
+MDU-02,Madurai,M2,correct,ப1,னு சொன்னான்,னு சொன்னா,unchanged,False,சொன்னான்.,சொன்னா,சொன்னான்,0.86,
+MDU-02,Madurai,M2,correct,ந1,“அட அது,"“அட, அது",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+MDU-02,Madurai,M2,correct,க1,னு இழுப்பான்,னு இழுத்தான்,unchanged,False,இழுப்பான்.,இழுத்தான்,இழுப்பான்,0.78,
+MDU-02,Madurai,M2,detect,ப1,னு சொன்னான்,னு சொன்னா,listed_no_change,False,,,,,
+MDU-02,Madurai,M2,detect,ந1,“அட அது,"“அட, அது",missed,False,,,,,
+MDU-02,Madurai,M2,detect,க1,னு இழுப்பான்,னு இழுத்தான்,caught,False,,,,,False
+MDU-02,Madurai,M3,correct,ப1,னு சொன்னான்,னு சொன்னா,changed_other,False,சொன்னான்.,சொன்னா,என்று சொன்னாள்,0.63,
+MDU-02,Madurai,M3,correct,ந1,“அட அது,"“அட, அது",unchanged,False,“அட,"(adds ,)",“அட,0.0,
+MDU-02,Madurai,M3,correct,க1,னு இழுப்பான்,னு இழுத்தான்,fixed_exact,False,இழுப்பான்.,இழுத்தான்,என்று இழுத்தான்,0.78,
+MDU-02,Madurai,M3,detect,ப1,னு சொன்னான்,னு சொன்னா,caught,False,,,,,True
+MDU-02,Madurai,M3,detect,ந1,“அட அது,"“அட, அது",missed,False,,,,,
+MDU-02,Madurai,M3,detect,க1,னு இழுப்பான்,னு இழுத்தான்,caught,False,,,,,True
+MDU-03,Madurai,M1,correct,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,changed_other,False,விழுந்துக்கிட்டிருந்தாரு.,விழுந்துக்கிட்டிருந்துச்சு,விழுந்துக்கிட்டிருந்தது,0.9,
+MDU-03,Madurai,M1,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கிட்டிருந்தாங்க,0.95,
+MDU-03,Madurai,M1,correct,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,completed,False,நடக்கப்.,போனாய்ங்க,ஆரம்பிச்சாங்க,0.45,
+MDU-03,Madurai,M1,detect,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-03,Madurai,M1,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-03,Madurai,M1,detect,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,caught,False,,,,,False
+MDU-03,Madurai,M2,correct,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,changed_other,False,விழுந்துக்கிட்டிருந்தாரு.,விழுந்துக்கிட்டிருந்துச்சு,விழுந்துகிட்டுருந்தது,0.81,
+MDU-03,Madurai,M2,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கிட்டுருந்தாங்க,0.91,
+MDU-03,Madurai,M2,correct,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,unchanged,False,நடக்கப்.,போனாய்ங்க,,,
+MDU-03,Madurai,M2,detect,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-03,Madurai,M2,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-03,Madurai,M2,detect,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,missed,False,,,,,
+MDU-03,Madurai,M3,correct,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,changed_other,False,விழுந்துக்கிட்டிருந்தாரு.,விழுந்துக்கிட்டிருந்துச்சு,விழுந்துகொண்டிருந்தது,0.77,
+MDU-03,Madurai,M3,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கொண்டிருந்தான்,0.79,
+MDU-03,Madurai,M3,correct,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,completed,False,நடக்கப்.,போனாய்ங்க,நடந்தனர்,0.24,
+MDU-03,Madurai,M3,detect,த1,விழுந்துக்கிட்டிருந்தாரு,விழுந்துக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-03,Madurai,M3,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-03,Madurai,M3,detect,ச1,சுத்தி நடக்கப்.,சுத்தி நடக்கப் போனாய்ங்க.,caught,False,,,,,False
+MDU-04,Madurai,M1,correct,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,fixed_exact,False,இளநீருக்கு,இளநீரை,இளநீரை,1.0,
+MDU-04,Madurai,M1,correct,ப1,னு சொன்னாள்,னு சொன்னாரு,changed_other,False,சொன்னாள்.,சொன்னாரு,சொன்னார்,0.88,
+MDU-04,Madurai,M1,correct,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,changed_other,False,எடுப்பாரு.,எடுத்தாரு,எடுத்தார்,0.89,
+MDU-04,Madurai,M1,detect,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,caught,False,,,,,True
+MDU-04,Madurai,M1,detect,ப1,னு சொன்னாள்,னு சொன்னாரு,missed,False,,,,,
+MDU-04,Madurai,M1,detect,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,caught,False,,,,,False
+MDU-04,Madurai,M2,correct,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,unchanged,False,இளநீருக்கு,இளநீரை,இளநீருக்கு,0.62,
+MDU-04,Madurai,M2,correct,ப1,னு சொன்னாள்,னு சொன்னாரு,changed_other,False,சொன்னாள்.,சொன்னாரு,சொன்னார்,0.88,
+MDU-04,Madurai,M2,correct,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,changed_other,False,எடுப்பாரு.,எடுத்தாரு,எடுப்பார்,0.67,
+MDU-04,Madurai,M2,detect,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,listed_no_change,False,,,,,
+MDU-04,Madurai,M2,detect,ப1,னு சொன்னாள்,னு சொன்னாரு,caught,False,,,,,False
+MDU-04,Madurai,M2,detect,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,caught,False,,,,,False
+MDU-04,Madurai,M3,correct,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,fixed_exact,False,இளநீருக்கு,இளநீரை,இளநீரை,1.0,
+MDU-04,Madurai,M3,correct,ப1,னு சொன்னாள்,னு சொன்னாரு,changed_other,False,சொன்னாள்.,சொன்னாரு,சொன்னார்,0.88,
+MDU-04,Madurai,M3,correct,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,changed_other,False,எடுப்பாரு.,எடுத்தாரு,எடுத்தார்,0.89,
+MDU-04,Madurai,M3,detect,வ1,ஒரு இளநீருக்கு எடுத்துப்,ஒரு இளநீரை எடுத்துப்,missed,False,,,,,
+MDU-04,Madurai,M3,detect,ப1,னு சொன்னாள்,னு சொன்னாரு,caught,False,,,,,False
+MDU-04,Madurai,M3,detect,க1,அருவாளை எடுப்பாரு,அருவாளை எடுத்தாரு,caught,False,,,,,False
+MDU-05,Madurai,M1,correct,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,changed_other,False,நின்னாரு.,நின்னுச்சு,நின்னது,0.71,
+MDU-05,Madurai,M1,correct,ந1,“யோவ் இதுல,"“யோவ், இதுல",fixed_exact,False,“யோவ்,"(adds ,)","“யோவ்,",0.15,
+MDU-05,Madurai,M1,correct,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,fixed_exact,False,நீட்டினேன்.,நீட்டினான்,நீட்டினான்,1.0,
+MDU-05,Madurai,M1,detect,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,caught,False,,,,,False
+MDU-05,Madurai,M1,detect,ந1,“யோவ் இதுல,"“யோவ், இதுல",missed,False,,,,,
+MDU-05,Madurai,M1,detect,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,caught,False,,,,,True
+MDU-05,Madurai,M2,correct,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,changed_other,False,நின்னாரு.,நின்னுச்சு,நின்னுருச்சு,0.91,
+MDU-05,Madurai,M2,correct,ந1,“யோவ் இதுல,"“யோவ், இதுல",unchanged,False,“யோவ்,"(adds ,)",“யோவ்,0.0,
+MDU-05,Madurai,M2,correct,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,unchanged,False,நீட்டினேன்.,நீட்டினான்,நீட்டினேன்,0.9,
+MDU-05,Madurai,M2,detect,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,caught,False,,,,,False
+MDU-05,Madurai,M2,detect,ந1,“யோவ் இதுல,"“யோவ், இதுல",missed,False,,,,,
+MDU-05,Madurai,M2,detect,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,listed_no_change,False,,,,,
+MDU-05,Madurai,M3,correct,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,changed_other,False,நின்னாரு.,நின்னுச்சு,நின்றது,0.59,
+MDU-05,Madurai,M3,correct,ந1,“யோவ் இதுல,"“யோவ், இதுல",unchanged,False,“யோவ்,"(adds ,)",“யோவ்,0.0,
+MDU-05,Madurai,M3,correct,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,fixed_exact,False,நீட்டினேன்.,நீட்டினான்,நீட்டினான்,1.0,
+MDU-05,Madurai,M3,detect,த1,கூட்டம் நின்னாரு,கூட்டம் நின்னுச்சு,caught,False,,,,,False
+MDU-05,Madurai,M3,detect,ந1,“யோவ் இதுல,"“யோவ், இதுல",missed,False,,,,,
+MDU-05,Madurai,M3,detect,இ1,டம்ளரை நீட்டினேன்,டம்ளரை நீட்டினான்,caught,False,,,,,False
+MDU-06,Madurai,M1,correct,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+MDU-06,Madurai,M1,correct,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,changed_other,False,சிரிச்சான்.,சிரிச்சாய்ங்க,சிரிச்சாங்க,0.92,
+MDU-06,Madurai,M1,correct,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,completed,False,தொட்டு.,தப்பிச்சான்,தொட்டான்,0.53,
+MDU-06,Madurai,M1,detect,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,caught,False,,,,,True
+MDU-06,Madurai,M1,detect,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,caught,False,,,,,False
+MDU-06,Madurai,M1,detect,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,caught,False,,,,,False
+MDU-06,Madurai,M2,correct,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,unchanged,False,கத்துனா.,கத்துனான்,கத்துனா,0.88,
+MDU-06,Madurai,M2,correct,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,unchanged,False,சிரிச்சான்.,சிரிச்சாய்ங்க,சிரிச்சான்,0.78,
+MDU-06,Madurai,M2,correct,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,unchanged,False,தொட்டு.,தப்பிச்சான்,,,
+MDU-06,Madurai,M2,detect,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,listed_no_change,False,,,,,
+MDU-06,Madurai,M2,detect,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,listed_no_change,False,,,,,
+MDU-06,Madurai,M2,detect,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,listed_no_change,False,,,,,
+MDU-06,Madurai,M3,correct,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+MDU-06,Madurai,M3,correct,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,changed_other,False,சிரிச்சான்.,சிரிச்சாய்ங்க,சிரித்தார்கள்,0.62,
+MDU-06,Madurai,M3,correct,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,completed,False,தொட்டு.,தப்பிச்சான்,தொட்டான்,0.53,
+MDU-06,Madurai,M3,detect,ப1,னு பாண்டி கத்துனா,னு பாண்டி கத்துனான்,caught,False,,,,,False
+MDU-06,Madurai,M3,detect,எ1,எல்லாரும் சிரிச்சான்,எல்லாரும் சிரிச்சாய்ங்க,caught,False,,,,,False
+MDU-06,Madurai,M3,detect,ச1,கோட்டைத் தொட்டு.,கோட்டைத் தொட்டு தப்பிச்சான்.,caught,False,,,,,False
+MDU-07,Madurai,M1,correct,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,fixed_exact,False,வாங்குறான்”னு,வாங்குறாங்கனு,வாங்குறாங்கனு,1.0,
+MDU-07,Madurai,M1,correct,ப1,னு சொன்னான்,னு சொன்னா,fixed_exact,False,சொன்னான்.,சொன்னா,சொன்னா,1.0,
+MDU-07,Madurai,M1,correct,க1,னு கேப்பா,னு கேட்டா,fixed_exact,False,கேப்பா.,கேட்டா,கேட்டா,1.0,
+MDU-07,Madurai,M1,detect,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,caught,False,,,,,True
+MDU-07,Madurai,M1,detect,ப1,னு சொன்னான்,னு சொன்னா,missed,False,,,,,
+MDU-07,Madurai,M1,detect,க1,னு கேப்பா,னு கேட்டா,caught,False,,,,,False
+MDU-07,Madurai,M2,correct,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,fixed_exact,False,வாங்குறான்”னு,வாங்குறாங்கனு,வாங்குறாங்கனு,1.0,
+MDU-07,Madurai,M2,correct,ப1,னு சொன்னான்,னு சொன்னா,fixed_exact,False,சொன்னான்.,சொன்னா,சொன்னா,1.0,
+MDU-07,Madurai,M2,correct,க1,னு கேப்பா,னு கேட்டா,fixed_exact,False,கேப்பா.,கேட்டா,கேட்டா,1.0,
+MDU-07,Madurai,M2,detect,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,caught,False,,,,,False
+MDU-07,Madurai,M2,detect,ப1,னு சொன்னான்,னு சொன்னா,caught,False,,,,,True
+MDU-07,Madurai,M2,detect,க1,னு கேப்பா,னு கேட்டா,caught,False,,,,,True
+MDU-07,Madurai,M3,correct,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,changed_other,False,வாங்குறான்”னு,வாங்குறாங்கனு,வாங்குகிறார்கள் என்று,0.73,
+MDU-07,Madurai,M3,correct,ப1,னு சொன்னான்,னு சொன்னா,changed_other,False,சொன்னான்.,சொன்னா,என்று சொன்னாள்,0.63,
+MDU-07,Madurai,M3,correct,க1,னு கேப்பா,னு கேட்டா,changed_other,False,கேப்பா.,கேட்டா,என்று கேட்டாள்,0.63,
+MDU-07,Madurai,M3,detect,எ1,இதைத்தான் வாங்குறான்,இதைத்தான் வாங்குறாங்க,caught,False,,,,,False
+MDU-07,Madurai,M3,detect,ப1,னு சொன்னான்,னு சொன்னா,caught,False,,,,,True
+MDU-07,Madurai,M3,detect,க1,னு கேப்பா,னு கேட்டா,caught,False,,,,,False
+MDU-08,Madurai,M1,correct,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",fixed_exact,False,“டேய்,"(adds ,)","“டேய்,",0.15,
+MDU-08,Madurai,M1,correct,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,fixed_exact,False,எச்சரிப்பாரு.,எச்சரிச்சாரு,எச்சரிச்சாரு,1.0,
+MDU-08,Madurai,M1,correct,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-08,Madurai,M1,detect,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",missed,False,,,,,
+MDU-08,Madurai,M1,detect,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,missed,False,,,,,
+MDU-08,Madurai,M1,detect,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,missed,False,,,,,
+MDU-08,Madurai,M2,correct,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",unchanged,False,“டேய்,"(adds ,)",“டேய்,0.0,
+MDU-08,Madurai,M2,correct,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,unchanged,False,எச்சரிப்பாரு.,எச்சரிச்சாரு,எச்சரிப்பாரு,0.83,
+MDU-08,Madurai,M2,correct,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-08,Madurai,M2,detect,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",missed,False,,,,,
+MDU-08,Madurai,M2,detect,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,caught,False,,,,,False
+MDU-08,Madurai,M2,detect,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,caught,False,,,,,True
+MDU-08,Madurai,M3,correct,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",unchanged,False,“டேய்,"(adds ,)",“டேய்,0.0,
+MDU-08,Madurai,M3,correct,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,changed_other,False,எச்சரிப்பாரு.,எச்சரிச்சாரு,என்று எச்சரித்தார்,0.62,
+MDU-08,Madurai,M3,correct,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-08,Madurai,M3,detect,ந1,“டேய் கொம்புல,"“டேய், கொம்புல",missed,False,,,,,
+MDU-08,Madurai,M3,detect,க1,னு எச்சரிப்பாரு,னு எச்சரிச்சாரு,caught,False,,,,,False
+MDU-08,Madurai,M3,detect,ப1,வீராப்பா சொன்னா,வீராப்பா சொன்னான்,caught,False,,,,,True
+MDU-09,Madurai,M1,correct,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,changed_other,False,வாங்குனேன்.,வாங்குனான்,வாங்கினேன்,0.8,
+MDU-09,Madurai,M1,correct,ச1,னு சவால்.,னு சவால் விட்டான்.,completed,False,சவால்.,விட்டான்,போட்டான்,0.75,
+MDU-09,Madurai,M1,correct,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,changed_other,False,நடந்துபோனாள்.,நடந்துபோனாரு,நடந்துபோனார்,0.92,
+MDU-09,Madurai,M1,detect,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,caught,False,,,,,False
+MDU-09,Madurai,M1,detect,ச1,னு சவால்.,னு சவால் விட்டான்.,missed,False,,,,,
+MDU-09,Madurai,M1,detect,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,caught,False,,,,,False
+MDU-09,Madurai,M2,correct,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,unchanged,False,வாங்குனேன்.,வாங்குனான்,வாங்குனேன்,0.9,
+MDU-09,Madurai,M2,correct,ச1,னு சவால்.,னு சவால் விட்டான்.,completed,False,சவால்.,விட்டான்,விட்டார்,0.88,
+MDU-09,Madurai,M2,correct,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,unchanged,False,நடந்துபோனாள்.,நடந்துபோனாரு,நடந்துபோனாள்,0.83,
+MDU-09,Madurai,M2,detect,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,missed,False,,,,,
+MDU-09,Madurai,M2,detect,ச1,னு சவால்.,னு சவால் விட்டான்.,missed,False,,,,,
+MDU-09,Madurai,M2,detect,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,listed_no_change,False,,,,,
+MDU-09,Madurai,M3,correct,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,changed_other,False,வாங்குனேன்.,வாங்குனான்,வாங்கினான்,0.9,
+MDU-09,Madurai,M3,correct,ச1,னு சவால்.,னு சவால் விட்டான்.,fixed_exact,False,சவால்.,விட்டான்,விட்டான்,1.0,
+MDU-09,Madurai,M3,correct,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,changed_other,False,நடந்துபோனாள்.,நடந்துபோனாரு,என்று நடந்துபோனார்,0.76,
+MDU-09,Madurai,M3,detect,இ1,மூச்சு வாங்குனேன்,மூச்சு வாங்குனான்,caught,False,,,,,False
+MDU-09,Madurai,M3,detect,ச1,னு சவால்.,னு சவால் விட்டான்.,caught,False,,,,,True
+MDU-09,Madurai,M3,detect,ப1,னு நடந்துபோனாள்,னு நடந்துபோனாரு,caught,False,,,,,False
+MDU-10,Madurai,M1,correct,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,changed_other,False,வயலுகு,வயலுக்கு,வயலுக்குவர்ற,0.8,
+MDU-10,Madurai,M1,correct,ப1,னு எகிறினா,னு எகிறினான்,fixed_exact,False,எகிறினா.,எகிறினான்,எகிறினான்,1.0,
+MDU-10,Madurai,M1,correct,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,changed_other,False,தந்தேன்”னாரு.,தாறேன்னாரு,,,
+MDU-10,Madurai,M1,detect,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,caught,False,,,,,True
+MDU-10,Madurai,M1,detect,ப1,னு எகிறினா,னு எகிறினான்,caught,False,,,,,True
+MDU-10,Madurai,M1,detect,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,caught,False,,,,,False
+MDU-10,Madurai,M2,correct,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,fixed_exact,False,வயலுகு,வயலுக்கு,வயலுக்கு,1.0,
+MDU-10,Madurai,M2,correct,ப1,னு எகிறினா,னு எகிறினான்,fixed_exact,False,எகிறினா.,எகிறினான்,எகிறினான்,1.0,
+MDU-10,Madurai,M2,correct,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,unchanged,False,தந்தேன்”னாரு.,தாறேன்னாரு,தந்தேன்னாரு,0.76,
+MDU-10,Madurai,M2,detect,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,caught,False,,,,,True
+MDU-10,Madurai,M2,detect,ப1,னு எகிறினா,னு எகிறினான்,listed_no_change,False,,,,,
+MDU-10,Madurai,M2,detect,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,listed_no_change,False,,,,,
+MDU-10,Madurai,M3,correct,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,fixed_exact,False,வயலுகு,வயலுக்கு,வயலுக்கு,1.0,
+MDU-10,Madurai,M3,correct,ப1,னு எகிறினா,னு எகிறினான்,fixed_exact,False,எகிறினா.,எகிறினான்,எகிறினான்,1.0,
+MDU-10,Madurai,M3,correct,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,changed_other,False,தந்தேன்”னாரு.,தாறேன்னாரு,தருகிறேன் என்றார்,0.62,
+MDU-10,Madurai,M3,detect,ஒ1,என் வயலுகு வர்ற,என் வயலுக்கு வர்ற,caught,False,,,,,True
+MDU-10,Madurai,M3,detect,ப1,னு எகிறினா,னு எகிறினான்,caught,False,,,,,True
+MDU-10,Madurai,M3,detect,க1,பிரிச்சுத் தந்தேன்,பிரிச்சுத் தாறேன்,caught,False,,,,,False
+MDU-11,Madurai,M1,correct,ப1,னு கேட்டான்,னு கேட்டா,fixed_exact,False,கேட்டான்.,கேட்டா,கேட்டா,1.0,
+MDU-11,Madurai,M1,correct,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,changed_other,False,தேடிக்கிட்டிருக்கான்”னு,தேடிக்கிட்டிருக்கேன்னு,தேடிக்கிட்டிருந்தேன்னு,0.91,
+MDU-11,Madurai,M1,correct,க1,னு சொல்லுவான்,னு சொன்னான்,fixed_exact,False,சொல்லுவான்.,சொன்னான்,சொன்னான்,1.0,
+MDU-11,Madurai,M1,detect,ப1,னு கேட்டான்,னு கேட்டா,caught,False,,,,,True
+MDU-11,Madurai,M1,detect,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,caught,False,,,,,False
+MDU-11,Madurai,M1,detect,க1,னு சொல்லுவான்,னு சொன்னான்,caught,False,,,,,True
+MDU-11,Madurai,M2,correct,ப1,னு கேட்டான்,னு கேட்டா,fixed_exact,False,கேட்டான்.,கேட்டா,கேட்டா,1.0,
+MDU-11,Madurai,M2,correct,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,changed_other,False,தேடிக்கிட்டிருக்கான்”னு,தேடிக்கிட்டிருக்கேன்னு,தேடிக்கிட்டு இருக்கேன்னு,0.93,
+MDU-11,Madurai,M2,correct,க1,னு சொல்லுவான்,னு சொன்னான்,changed_other,False,சொல்லுவான்.,சொன்னான்,சொல்றான்,0.75,
+MDU-11,Madurai,M2,detect,ப1,னு கேட்டான்,னு கேட்டா,listed_no_change,False,,,,,
+MDU-11,Madurai,M2,detect,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,listed_no_change,False,,,,,
+MDU-11,Madurai,M2,detect,க1,னு சொல்லுவான்,னு சொன்னான்,listed_no_change,False,,,,,
+MDU-11,Madurai,M3,correct,ப1,னு கேட்டான்,னு கேட்டா,changed_other,False,கேட்டான்.,கேட்டா,என்று கேட்டாள்,0.63,
+MDU-11,Madurai,M3,correct,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,changed_other,False,தேடிக்கிட்டிருக்கான்”னு,தேடிக்கிட்டிருக்கேன்னு,தேடிக்கொண்டிருக்கிறேன் என்று,0.82,
+MDU-11,Madurai,M3,correct,க1,னு சொல்லுவான்,னு சொன்னான்,fixed_exact,False,சொல்லுவான்.,சொன்னான்,என்று சொன்னான்,0.76,
+MDU-11,Madurai,M3,detect,ப1,னு கேட்டான்,னு கேட்டா,caught,False,,,,,True
+MDU-11,Madurai,M3,detect,இ1,தேடிக்கிட்டிருக்கான்,தேடிக்கிட்டிருக்கேன்,caught,False,,,,,False
+MDU-11,Madurai,M3,detect,க1,னு சொல்லுவான்,னு சொன்னான்,caught,False,,,,,True
+MDU-12,Madurai,M1,correct,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,changed_other,False,கூடியிருந்தான்.,கூடியிருந்தாய்ங்க,கூடியிருந்தாங்க,0.94,
+MDU-12,Madurai,M1,correct,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",unchanged,True,பெரியவரு,"(adds ,)",பெரியவரு,0.0,
+MDU-12,Madurai,M1,correct,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,fixed_exact,False,எழுவாரு.,எழுந்தாரு,எழுந்தாரு,1.0,
+MDU-12,Madurai,M1,detect,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,caught,False,,,,,False
+MDU-12,Madurai,M1,detect,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",missed,True,,,,,
+MDU-12,Madurai,M1,detect,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,caught,False,,,,,False
+MDU-12,Madurai,M2,correct,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,changed_other,False,கூடியிருந்தான்.,கூடியிருந்தாய்ங்க,கூடியிருந்தாங்க,0.94,
+MDU-12,Madurai,M2,correct,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",unchanged,True,பெரியவரு,"(adds ,)",பெரியவரு,0.0,
+MDU-12,Madurai,M2,correct,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,unchanged,False,எழுவாரு.,எழுந்தாரு,எழுவாரு,0.75,
+MDU-12,Madurai,M2,detect,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,caught,False,,,,,False
+MDU-12,Madurai,M2,detect,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",missed,True,,,,,
+MDU-12,Madurai,M2,detect,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,caught,False,,,,,False
+MDU-12,Madurai,M3,correct,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,changed_other,False,கூடியிருந்தான்.,கூடியிருந்தாய்ங்க,கூடியிருந்தனர்,0.77,
+MDU-12,Madurai,M3,correct,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",changed_other,True,பெரியவரு,"(adds ,)",,,
+MDU-12,Madurai,M3,correct,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,changed_other,False,எழுவாரு.,எழுந்தாரு,எழுவார்,0.62,
+MDU-12,Madurai,M3,detect,எ1,எல்லாரும் கூடியிருந்தான்,எல்லாரும் கூடியிருந்தாய்ங்க,caught,False,,,,,False
+MDU-12,Madurai,M3,detect,ந1,பெரியவரு “அதனாலதான்,"பெரியவரு, “அதனாலதான்",missed,True,,,,,
+MDU-12,Madurai,M3,detect,க1,பெரியவரு எழுவாரு,பெரியவரு எழுந்தாரு,caught,False,,,,,False
+MDU-13,Madurai,M1,correct,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,changed_other,False,வழக்கத்துகு,வழக்கத்துக்கு,வழக்கத்துக்குமேல,0.9,
+MDU-13,Madurai,M1,correct,ப1,னு கத்துனா,னு கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,கத்தினான்,0.89,
+MDU-13,Madurai,M1,correct,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,unchanged,False,ஒழுங்காக ஏறுவீங்க”னு,ஒழுங்கா ஏறுங்கனு,ஒழுங்காக ஏறுவீங்கனு,0.91,
+MDU-13,Madurai,M1,detect,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,caught,False,,,,,True
+MDU-13,Madurai,M1,detect,ப1,னு கத்துனா,னு கத்துனான்,caught,False,,,,,True
+MDU-13,Madurai,M1,detect,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,caught,False,,,,,False
+MDU-13,Madurai,M2,correct,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,fixed_exact,False,வழக்கத்துகு,வழக்கத்துக்கு,வழக்கத்துக்கு,1.0,
+MDU-13,Madurai,M2,correct,ப1,னு கத்துனா,னு கத்துனான்,unchanged,False,கத்துனா.,கத்துனான்,கத்துனா,0.88,
+MDU-13,Madurai,M2,correct,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,unchanged,False,ஒழுங்காக ஏறுவீங்க”னு,ஒழுங்கா ஏறுங்கனு,ஒழுங்காக ஏறுவீங்கனு,0.91,
+MDU-13,Madurai,M2,detect,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,caught,False,,,,,True
+MDU-13,Madurai,M2,detect,ப1,னு கத்துனா,னு கத்துனான்,listed_no_change,False,,,,,
+MDU-13,Madurai,M2,detect,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,listed_no_change,False,,,,,
+MDU-13,Madurai,M3,correct,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,changed_other,False,வழக்கத்துகு,வழக்கத்துக்கு,வழக்கத்தைவிட அதிகமாக,0.62,
+MDU-13,Madurai,M3,correct,ப1,னு கத்துனா,னு கத்துனான்,changed_other,False,கத்துனா.,கத்துனான்,என்று கத்தினான்,0.7,
+MDU-13,Madurai,M3,correct,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,changed_other,False,ஒழுங்காக ஏறுவீங்க”னு,ஒழுங்கா ஏறுங்கனு,ஒழுங்காக ஏறுவீங்க என்று,0.83,
+MDU-13,Madurai,M3,detect,ஒ1,வழக்கத்துகு மேல,வழக்கத்துக்கு மேல,caught,False,,,,,True
+MDU-13,Madurai,M3,detect,ப1,னு கத்துனா,னு கத்துனான்,caught,False,,,,,False
+MDU-13,Madurai,M3,detect,க1,ஒழுங்காக ஏறுவீங்க,ஒழுங்கா ஏறுங்க,caught,False,,,,,False
+MDU-14,Madurai,M1,correct,எ1,இறங்குனான்,இறங்குனாய்ங்க,changed_other,False,இறங்குனான்.,இறங்குனாய்ங்க,இறங்கினான்,0.7,
+MDU-14,Madurai,M1,correct,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,completed,True,மீனு.,சிக்கிச்சு,மீன்,0.14,
+MDU-14,Madurai,M1,correct,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,changed_other,False,சந்தோஷப்பட்டா.,சந்தோஷப்பட்டான்,சந்தோஷப்பட்றான்,0.93,
+MDU-14,Madurai,M1,detect,எ1,இறங்குனான்,இறங்குனாய்ங்க,caught,False,,,,,False
+MDU-14,Madurai,M1,detect,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,caught,True,,,,,False
+MDU-14,Madurai,M1,detect,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,caught,False,,,,,True
+MDU-14,Madurai,M2,correct,எ1,இறங்குனான்,இறங்குனாய்ங்க,unchanged,False,இறங்குனான்.,இறங்குனாய்ங்க,இறங்குனான்,0.78,
+MDU-14,Madurai,M2,correct,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,unchanged,True,மீனு.,சிக்கிச்சு,,,
+MDU-14,Madurai,M2,correct,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,fixed_exact,False,சந்தோஷப்பட்டா.,சந்தோஷப்பட்டான்,சந்தோஷப்பட்டான்,1.0,
+MDU-14,Madurai,M2,detect,எ1,இறங்குனான்,இறங்குனாய்ங்க,caught,False,,,,,False
+MDU-14,Madurai,M2,detect,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,caught,True,,,,,False
+MDU-14,Madurai,M2,detect,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,caught,False,,,,,False
+MDU-14,Madurai,M3,correct,எ1,இறங்குனான்,இறங்குனாய்ங்க,changed_other,False,இறங்குனான்.,இறங்குனாய்ங்க,இறங்கினார்கள்,0.69,
+MDU-14,Madurai,M3,correct,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,completed,True,மீனு.,சிக்கிச்சு,கிடைத்தன,0.33,
+MDU-14,Madurai,M3,correct,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,fixed_exact,False,சந்தோஷப்பட்டா.,சந்தோஷப்பட்டான்,என்று சந்தோஷப்பட்டான்,0.86,
+MDU-14,Madurai,M3,detect,எ1,இறங்குனான்,இறங்குனாய்ங்க,caught,False,,,,,False
+MDU-14,Madurai,M3,detect,ச1,மூணு மீனு.,மூணு மீனு சிக்கிச்சு.,caught,True,,,,,False
+MDU-14,Madurai,M3,detect,ப1,னு சந்தோஷப்பட்டா,னு சந்தோஷப்பட்டான்,caught,False,,,,,True
+MDU-15,Madurai,M1,correct,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,fixed_exact,False,களத்துகுள்ள,களத்துக்குள்ள,களத்துக்குள்ள,1.0,
+MDU-15,Madurai,M1,correct,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,changed_other,False,பாய்ஞ்சா.,பாய்ஞ்சான்,பாய்ந்தான்,0.8,
+MDU-15,Madurai,M1,correct,க1,இறங்குவான்,இறங்கினான்,fixed_exact,False,இறங்குவான்.,இறங்கினான்,இறங்கினான்,1.0,
+MDU-15,Madurai,M1,detect,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,caught,False,,,,,True
+MDU-15,Madurai,M1,detect,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,missed,False,,,,,
+MDU-15,Madurai,M1,detect,க1,இறங்குவான்,இறங்கினான்,missed,False,,,,,
+MDU-15,Madurai,M2,correct,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,fixed_exact,False,களத்துகுள்ள,களத்துக்குள்ள,களத்துக்குள்ள,1.0,
+MDU-15,Madurai,M2,correct,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,fixed_exact,False,பாய்ஞ்சா.,பாய்ஞ்சான்,பாய்ஞ்சான்,1.0,
+MDU-15,Madurai,M2,correct,க1,இறங்குவான்,இறங்கினான்,unchanged,False,இறங்குவான்.,இறங்கினான்,இறங்குவான்,0.8,
+MDU-15,Madurai,M2,detect,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,caught,False,,,,,True
+MDU-15,Madurai,M2,detect,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,caught,False,,,,,True
+MDU-15,Madurai,M2,detect,க1,இறங்குவான்,இறங்கினான்,listed_no_change,False,,,,,
+MDU-15,Madurai,M3,correct,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,changed_other,False,களத்துகுள்ள,களத்துக்குள்ள,களத்துக்குள்,0.96,
+MDU-15,Madurai,M3,correct,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,changed_other,False,பாய்ஞ்சா.,பாய்ஞ்சான்,பாய்ந்தான்,0.8,
+MDU-15,Madurai,M3,correct,க1,இறங்குவான்,இறங்கினான்,unchanged,False,இறங்குவான்.,இறங்கினான்,இறங்குவான்,0.8,
+MDU-15,Madurai,M3,detect,ஒ1,களத்துகுள்ள,களத்துக்குள்ள,caught,False,,,,,True
+MDU-15,Madurai,M3,detect,ப1,முன்னாடி பாய்ஞ்சா,முன்னாடி பாய்ஞ்சான்,caught,False,,,,,False
+MDU-15,Madurai,M3,detect,க1,இறங்குவான்,இறங்கினான்,missed,False,,,,,
+MDU-16,Madurai,M1,correct,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,fixed_exact,False,சந்தேகப்பட்டா.,சந்தேகப்பட்டான்,சந்தேகப்பட்டான்,1.0,
+MDU-16,Madurai,M1,correct,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",unchanged,False,சிரிச்சு,"(adds ,)",சிரிச்சு,0.0,
+MDU-16,Madurai,M1,correct,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,fixed_exact,False,ஆரம்பிப்பான்.,ஆரம்பிச்சான்,ஆரம்பிச்சான்,1.0,
+MDU-16,Madurai,M1,detect,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,caught,False,,,,,True
+MDU-16,Madurai,M1,detect,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",missed,False,,,,,
+MDU-16,Madurai,M1,detect,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,caught,False,,,,,False
+MDU-16,Madurai,M2,correct,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,fixed_exact,False,சந்தேகப்பட்டா.,சந்தேகப்பட்டான்,சந்தேகப்பட்டான்,1.0,
+MDU-16,Madurai,M2,correct,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",unchanged,False,சிரிச்சு,"(adds ,)",சிரிச்சு,0.0,
+MDU-16,Madurai,M2,correct,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,unchanged,False,ஆரம்பிப்பான்.,ஆரம்பிச்சான்,ஆரம்பிப்பான்,0.83,
+MDU-16,Madurai,M2,detect,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,caught,False,,,,,True
+MDU-16,Madurai,M2,detect,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",missed,False,,,,,
+MDU-16,Madurai,M2,detect,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,listed_no_change,False,,,,,
+MDU-16,Madurai,M3,correct,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,fixed_exact,False,சந்தேகப்பட்டா.,சந்தேகப்பட்டான்,என்று சந்தேகப்பட்டான்,0.86,
+MDU-16,Madurai,M3,correct,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",changed_other,False,சிரிச்சு,"(adds ,)",,,
+MDU-16,Madurai,M3,correct,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,changed_other,False,ஆரம்பிப்பான்.,ஆரம்பிச்சான்,ஆரம்பித்தான்,0.83,
+MDU-16,Madurai,M3,detect,ப1,னு சந்தேகப்பட்டா,னு சந்தேகப்பட்டான்,caught,False,,,,,True
+MDU-16,Madurai,M3,detect,ந1,சிரிச்சு “நீங்க,"சிரிச்சு, “நீங்க",missed,False,,,,,
+MDU-16,Madurai,M3,detect,க1,பேச ஆரம்பிப்பான்,பேச ஆரம்பிச்சான்,caught,False,,,,,False
+MDU-17,Madurai,M1,correct,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,changed_other,False,இறங்குனாரு.,இறங்குனுச்சு,இறங்கினாங்க,0.61,
+MDU-17,Madurai,M1,correct,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,fixed_exact,False,வீட்டுகு,வீட்டுக்குக்,வீட்டுக்குக்,1.0,
+MDU-17,Madurai,M1,correct,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,changed_other,False,பார்த்தான்.,பார்த்தாய்ங்க,பார்த்தாங்க,0.92,
+MDU-17,Madurai,M1,detect,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,caught,False,,,,,False
+MDU-17,Madurai,M1,detect,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,caught,False,,,,,False
+MDU-17,Madurai,M1,detect,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,caught,False,,,,,False
+MDU-17,Madurai,M2,correct,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,unchanged,False,இறங்குனாரு.,இறங்குனுச்சு,இறங்குனாரு,0.73,
+MDU-17,Madurai,M2,correct,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,unchanged,False,வீட்டுகு,வீட்டுக்குக்,வீட்டுகு,0.8,
+MDU-17,Madurai,M2,correct,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,changed_other,False,பார்த்தான்.,பார்த்தாய்ங்க,பார்த்தாங்க,0.92,
+MDU-17,Madurai,M2,detect,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,caught,False,,,,,False
+MDU-17,Madurai,M2,detect,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,missed,False,,,,,
+MDU-17,Madurai,M2,detect,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,caught,False,,,,,False
+MDU-17,Madurai,M3,correct,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,changed_other,False,இறங்குனாரு.,இறங்குனுச்சு,இறங்கியது,0.57,
+MDU-17,Madurai,M3,correct,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,changed_other,False,வீட்டுகு,வீட்டுக்குக்,வீட்டுக்கு,0.91,
+MDU-17,Madurai,M3,correct,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,changed_other,False,பார்த்தான்.,பார்த்தாய்ங்க,பார்த்தார்கள்,0.77,
+MDU-17,Madurai,M3,detect,த1,குடும்பமே இறங்குனாரு,குடும்பமே இறங்குனுச்சு,caught,False,,,,,False
+MDU-17,Madurai,M3,detect,ஒ1,வீட்டுகு கொண்டுபோங்க,வீட்டுக்குக் கொண்டுபோங்க,caught,False,,,,,False
+MDU-17,Madurai,M3,detect,எ1,வேலை பார்த்தான்,வேலை பார்த்தாய்ங்க,caught,False,,,,,False
+MDU-18,Madurai,M1,correct,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,fixed_exact,False,விலகினான்.,விலகிச்சு,விலகிச்சு,1.0,
+MDU-18,Madurai,M1,correct,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,fixed_exact,False,அதட்டினா.,அதட்டினான்,அதட்டினான்,1.0,
+MDU-18,Madurai,M1,correct,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,fixed_exact,False,பண்றேன்”னு.,சொன்னான்,சொன்னான்,1.0,
+MDU-18,Madurai,M1,detect,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,caught,False,,,,,True
+MDU-18,Madurai,M1,detect,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,caught,False,,,,,False
+MDU-18,Madurai,M1,detect,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,missed,False,,,,,
+MDU-18,Madurai,M2,correct,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,changed_other,False,விலகினான்.,விலகிச்சு,விலகியது,0.71,
+MDU-18,Madurai,M2,correct,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,changed_other,False,அதட்டினா.,அதட்டினான்,அதட்டினார்,0.9,
+MDU-18,Madurai,M2,correct,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,unchanged,False,பண்றேன்”னு.,சொன்னான்,,,
+MDU-18,Madurai,M2,detect,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,caught,False,,,,,False
+MDU-18,Madurai,M2,detect,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,caught,False,,,,,False
+MDU-18,Madurai,M2,detect,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,missed,False,,,,,
+MDU-18,Madurai,M3,correct,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,changed_other,False,விலகினான்.,விலகிச்சு,விலகியது,0.71,
+MDU-18,Madurai,M3,correct,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,fixed_exact,False,அதட்டினா.,அதட்டினான்,அதட்டினான்,1.0,
+MDU-18,Madurai,M3,correct,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,completed,False,பண்றேன்”னு.,சொன்னான்,என்றான்,0.67,
+MDU-18,Madurai,M3,detect,த1,மரம் கொஞ்சம் விலகினான்,மரம் கொஞ்சம் விலகிச்சு,caught,False,,,,,False
+MDU-18,Madurai,M3,detect,ப1,பெரியசாமி அதட்டினா,பெரியசாமி அதட்டினான்,caught,False,,,,,False
+MDU-18,Madurai,M3,detect,ச1,கவனமா பண்றேன்”னு.,கவனமா பண்றேன்”னு சொன்னான்.,missed,False,,,,,
+MDU-19,Madurai,M1,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கிட்டிருந்தாங்க,0.95,
+MDU-19,Madurai,M1,correct,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",unchanged,False,மற்றவன்,"(adds ,)",மற்றவன்,0.0,
+MDU-19,Madurai,M1,correct,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,fixed_exact,False,சொல்லிட்டான்.,சொல்லிட்டேன்,சொல்லிட்டேன்,1.0,
+MDU-19,Madurai,M1,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-19,Madurai,M1,detect,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",missed,False,,,,,
+MDU-19,Madurai,M1,detect,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,missed,False,,,,,
+MDU-19,Madurai,M2,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கொண்டிருந்தனர்,0.74,
+MDU-19,Madurai,M2,correct,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",changed_other,False,மற்றவன்,"(adds ,)",,,
+MDU-19,Madurai,M2,correct,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,fixed_exact,False,சொல்லிட்டான்.,சொல்லிட்டேன்,சொல்லிட்டேன்,1.0,
+MDU-19,Madurai,M2,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-19,Madurai,M2,detect,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",missed,False,,,,,
+MDU-19,Madurai,M2,detect,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,caught,False,,,,,False
+MDU-19,Madurai,M3,correct,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,changed_other,False,பேசிக்கிட்டிருந்தான்.,பேசிக்கிட்டிருந்தாய்ங்க,பேசிக்கொண்டிருந்தனர்,0.74,
+MDU-19,Madurai,M3,correct,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",unchanged,False,மற்றவன்,"(adds ,)",மற்றவன்,0.0,
+MDU-19,Madurai,M3,correct,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,changed_other,False,சொல்லிட்டான்.,சொல்லிட்டேன்,சொல்லிவிட்டான்,0.85,
+MDU-19,Madurai,M3,detect,எ1,பேசிக்கிட்டிருந்தான்,பேசிக்கிட்டிருந்தாய்ங்க,caught,False,,,,,False
+MDU-19,Madurai,M3,detect,ந1,மற்றவன் “நேத்தே,"மற்றவன், “நேத்தே",listed_no_change,False,,,,,
+MDU-19,Madurai,M3,detect,இ1,நேத்தே சொல்லிட்டான்,நேத்தே சொல்லிட்டேன்,caught,False,,,,,False
+MDU-20,Madurai,M1,correct,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,changed_other,False,இலைகளுக்கு,இலைகளைத்,இலைகளைக்,0.88,
+MDU-20,Madurai,M1,correct,ப1,னு சொன்னா,னு சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-20,Madurai,M1,correct,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,fixed_exact,False,சொல்லுவான்.,சொன்னான்,சொன்னான்,1.0,
+MDU-20,Madurai,M1,detect,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,missed,False,,,,,
+MDU-20,Madurai,M1,detect,ப1,னு சொன்னா,னு சொன்னான்,caught,False,,,,,False
+MDU-20,Madurai,M1,detect,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,caught,False,,,,,False
+MDU-20,Madurai,M2,correct,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,unchanged,False,இலைகளுக்கு,இலைகளைத்,இலைகளுக்கு,0.67,
+MDU-20,Madurai,M2,correct,ப1,னு சொன்னா,னு சொன்னான்,unchanged,False,சொன்னா.,சொன்னான்,சொன்னா,0.86,
+MDU-20,Madurai,M2,correct,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,unchanged,False,சொல்லுவான்.,சொன்னான்,சொல்லுவான்,0.67,
+MDU-20,Madurai,M2,detect,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,caught,False,,,,,False
+MDU-20,Madurai,M2,detect,ப1,னு சொன்னா,னு சொன்னான்,caught,False,,,,,False
+MDU-20,Madurai,M2,detect,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,caught,False,,,,,False
+MDU-20,Madurai,M3,correct,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,fixed_exact,False,இலைகளுக்கு,இலைகளைத்,இலைகளைத்,1.0,
+MDU-20,Madurai,M3,correct,ப1,னு சொன்னா,னு சொன்னான்,changed_other,False,சொன்னா.,சொன்னான்,என்று சொன்னார்,0.67,
+MDU-20,Madurai,M3,correct,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,changed_other,False,சொல்லுவான்.,சொன்னான்,சொன்னார்,0.88,
+MDU-20,Madurai,M3,detect,வ1,இலைகளுக்கு தனித்தனியா,இலைகளைத் தனித்தனியா,missed,False,,,,,
+MDU-20,Madurai,M3,detect,ப1,னு சொன்னா,னு சொன்னான்,caught,False,,,,,True
+MDU-20,Madurai,M3,detect,க1,திறக்கச் சொல்லுவான்,திறக்கச் சொன்னான்,caught,False,,,,,True
+MDU-21,Madurai,M1,correct,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,unchanged,False,கேட்டுக்கிட்டிருந்தாரு.,கேட்டுக்கிட்டிருந்துச்சு,கேட்டுக்கிட்டிருந்தாரு,0.87,
+MDU-21,Madurai,M1,correct,ப1,னு கேட்டா,னு கேட்டான்,unchanged,False,கேட்டா.,கேட்டான்,கேட்டா,0.86,
+MDU-21,Madurai,M1,correct,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,changed_other,False,வாங்கிக்கிட்டுப்.,போனான்,வாங்கிக்கிட்டான்,0.27,
+MDU-21,Madurai,M1,detect,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-21,Madurai,M1,detect,ப1,னு கேட்டா,னு கேட்டான்,caught,False,,,,,False
+MDU-21,Madurai,M1,detect,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,caught,False,,,,,False
+MDU-21,Madurai,M2,correct,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,changed_other,False,கேட்டுக்கிட்டிருந்தாரு.,கேட்டுக்கிட்டிருந்துச்சு,கேட்டுக்கிட்டு இருந்தாரு,0.81,
+MDU-21,Madurai,M2,correct,ப1,னு கேட்டா,னு கேட்டான்,changed_other,False,கேட்டா.,கேட்டான்,கேட்டாரு,0.75,
+MDU-21,Madurai,M2,correct,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,completed,False,வாங்கிக்கிட்டுப்.,போனான்,போனாரு,0.67,
+MDU-21,Madurai,M2,detect,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-21,Madurai,M2,detect,ப1,னு கேட்டா,னு கேட்டான்,missed,False,,,,,
+MDU-21,Madurai,M2,detect,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,caught,False,,,,,False
+MDU-21,Madurai,M3,correct,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,changed_other,False,கேட்டுக்கிட்டிருந்தாரு.,கேட்டுக்கிட்டிருந்துச்சு,கேட்டுக்கொண்டிருந்தது,0.8,
+MDU-21,Madurai,M3,correct,ப1,னு கேட்டா,னு கேட்டான்,changed_other,False,கேட்டா.,கேட்டான்,என்று கேட்டார்,0.67,
+MDU-21,Madurai,M3,correct,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,completed,False,வாங்கிக்கிட்டுப்.,போனான்,வாங்கிக்கொண்டார்,0.18,
+MDU-21,Madurai,M3,detect,த1,கேட்டுக்கிட்டிருந்தாரு,கேட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-21,Madurai,M3,detect,ப1,னு கேட்டா,னு கேட்டான்,caught,False,,,,,False
+MDU-21,Madurai,M3,detect,ச1,ரசீதை வாங்கிக்கிட்டுப்.,ரசீதை வாங்கிக்கிட்டுப் போனான்.,caught,False,,,,,False
+MDU-22,Madurai,M1,correct,இ1,அவன் பதறினேன்,அவன் பதறினான்,fixed_exact,False,பதறினேன்.,பதறினான்,பதறினான்,1.0,
+MDU-22,Madurai,M1,correct,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,fixed_exact,False,நின்னாள்.,நின்னாரு,நின்னாரு,1.0,
+MDU-22,Madurai,M1,correct,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",fixed_exact,False,“தம்பி,"(adds ,)","“தம்பி,",0.14,
+MDU-22,Madurai,M1,detect,இ1,அவன் பதறினேன்,அவன் பதறினான்,caught,False,,,,,False
+MDU-22,Madurai,M1,detect,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,caught,False,,,,,False
+MDU-22,Madurai,M1,detect,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",missed,False,,,,,
+MDU-22,Madurai,M2,correct,இ1,அவன் பதறினேன்,அவன் பதறினான்,fixed_exact,False,பதறினேன்.,பதறினான்,பதறினான்,1.0,
+MDU-22,Madurai,M2,correct,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,fixed_exact,False,நின்னாள்.,நின்னாரு,நின்னாரு,1.0,
+MDU-22,Madurai,M2,correct,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",unchanged,False,“தம்பி,"(adds ,)",“தம்பி,0.0,
+MDU-22,Madurai,M2,detect,இ1,அவன் பதறினேன்,அவன் பதறினான்,caught,False,,,,,True
+MDU-22,Madurai,M2,detect,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,caught,False,,,,,False
+MDU-22,Madurai,M2,detect,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",missed,False,,,,,
+MDU-22,Madurai,M3,correct,இ1,அவன் பதறினேன்,அவன் பதறினான்,fixed_exact,False,பதறினேன்.,பதறினான்,பதறினான்,1.0,
+MDU-22,Madurai,M3,correct,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,changed_other,False,நின்னாள்.,நின்னாரு,நின்றார்,0.75,
+MDU-22,Madurai,M3,correct,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",unchanged,False,“தம்பி,"(adds ,)",“தம்பி,0.0,
+MDU-22,Madurai,M3,detect,இ1,அவன் பதறினேன்,அவன் பதறினான்,caught,False,,,,,True
+MDU-22,Madurai,M3,detect,ப1,எடுத்துக்கிட்டு நின்னாள்,எடுத்துக்கிட்டு நின்னாரு,caught,False,,,,,False
+MDU-22,Madurai,M3,detect,ந1,“தம்பி நீங்க,"“தம்பி, நீங்க",missed,False,,,,,
+MDU-23,Madurai,M1,correct,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,unchanged,False,இறக்கப்பட்டுக்கிட்டிருந்தாங்க.,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,0.88,
+MDU-23,Madurai,M1,correct,ப1,னு சொன்னா,னு சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-23,Madurai,M1,correct,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,fixed_exact,False,முடிச்சான்.,முடிச்சாங்க,முடிச்சாங்க,1.0,
+MDU-23,Madurai,M1,detect,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-23,Madurai,M1,detect,ப1,னு சொன்னா,னு சொன்னான்,missed,False,,,,,
+MDU-23,Madurai,M1,detect,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,caught,False,,,,,True
+MDU-23,Madurai,M2,correct,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,changed_other,False,இறக்கப்பட்டுக்கிட்டிருந்தாங்க.,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,இறக்கப்பட்டுக்கிட்டு இருந்தாங்க,0.83,
+MDU-23,Madurai,M2,correct,ப1,னு சொன்னா,னு சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,சொன்னான்,1.0,
+MDU-23,Madurai,M2,correct,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,fixed_exact,False,முடிச்சான்.,முடிச்சாங்க,முடிச்சாங்க,1.0,
+MDU-23,Madurai,M2,detect,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-23,Madurai,M2,detect,ப1,னு சொன்னா,னு சொன்னான்,missed,False,,,,,
+MDU-23,Madurai,M2,detect,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,listed_no_change,False,,,,,
+MDU-23,Madurai,M3,correct,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,changed_other,False,இறக்கப்பட்டுக்கிட்டிருந்தாங்க.,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,இறக்கப்பட்டுக்கொண்டிருந்தன,0.82,
+MDU-23,Madurai,M3,correct,ப1,னு சொன்னா,னு சொன்னான்,fixed_exact,False,சொன்னா.,சொன்னான்,வேண்டும் என்று சொன்னான்,0.55,
+MDU-23,Madurai,M3,correct,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,changed_other,False,முடிச்சான்.,முடிச்சாங்க,முடித்தனர்,0.57,
+MDU-23,Madurai,M3,detect,த1,இறக்கப்பட்டுக்கிட்டிருந்தாங்க,இறக்கப்பட்டுக்கிட்டிருந்துச்சு,caught,False,,,,,False
+MDU-23,Madurai,M3,detect,ப1,னு சொன்னா,னு சொன்னான்,caught,False,,,,,True
+MDU-23,Madurai,M3,detect,எ1,விலையை முடிச்சான்,விலையை முடிச்சாங்க,caught,False,,,,,False
+MDU-24,Madurai,M1,correct,ப1,னு கேட்டாள்,னு கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,கேட்டா,0.86,
+MDU-24,Madurai,M1,correct,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,unchanged,False,தின்னப் போறேன்”னு,தின்ன போறாய்ங்கனு,தின்னப் போறேன்னு,0.71,
+MDU-24,Madurai,M1,correct,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,completed,False,கட்டிக்.,குடுத்தாரு,கட்டினா,0.47,
+MDU-24,Madurai,M1,detect,ப1,னு கேட்டாள்,னு கேட்டாரு,missed,False,,,,,
+MDU-24,Madurai,M1,detect,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,listed_no_change,False,,,,,
+MDU-24,Madurai,M1,detect,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,caught,False,,,,,False
+MDU-24,Madurai,M2,correct,ப1,னு கேட்டாள்,னு கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,கேட்டான்,0.75,
+MDU-24,Madurai,M2,correct,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,unchanged,False,தின்னப் போறேன்”னு,தின்ன போறாய்ங்கனு,தின்னப் போறேன்னு,0.71,
+MDU-24,Madurai,M2,correct,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,unchanged,False,கட்டிக்.,குடுத்தாரு,,,
+MDU-24,Madurai,M2,detect,ப1,னு கேட்டாள்,னு கேட்டாரு,missed,False,,,,,
+MDU-24,Madurai,M2,detect,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,missed,False,,,,,
+MDU-24,Madurai,M2,detect,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,caught,False,,,,,False
+MDU-24,Madurai,M3,correct,ப1,னு கேட்டாள்,னு கேட்டாரு,changed_other,False,கேட்டாள்.,கேட்டாரு,என்று கேட்டார்,0.67,
+MDU-24,Madurai,M3,correct,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,changed_other,False,தின்னப் போறேன்”னு,தின்ன போறாய்ங்கனு,தின்னப் போகிறேன் என்று,0.61,
+MDU-24,Madurai,M3,correct,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,completed,False,கட்டிக்.,குடுத்தாரு,கட்டினார்,0.53,
+MDU-24,Madurai,M3,detect,ப1,னு கேட்டாள்,னு கேட்டாரு,caught,False,,,,,False
+MDU-24,Madurai,M3,detect,இ1,சேர்ந்து தின்னப் போறேன்,சேர்ந்து தின்ன போறாய்ங்க,caught,False,,,,,False
+MDU-24,Madurai,M3,detect,ச1,பொட்டலத்தைக் கட்டிக்.,பொட்டலத்தைக் கட்டிக் குடுத்தாரு.,caught,False,,,,,False

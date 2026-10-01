@@ -1,0 +1,32 @@
+[
+  {
+    "code": "M1",
+    "provider": "openai",
+    "model": "gpt-5",
+    "api_key_env": "OPENAI_API_KEY",
+    "token_param": "max_completion_tokens",
+    "omit_temperature": true,
+    "max_tokens": 16000,
+    "note": "reasoning model: temperature fixed at default; reasoning tokens count against max_tokens"
+  },
+  {
+    "code": "M2",
+    "provider": "openai",
+    "base_url": "https://api.sarvam.ai/v1",
+    "model": "sarvam-105b",
+    "api_key_env": "SARVAM_API_KEY",
+    "max_tokens": 4000,
+    "note": "Indic-specific. reasoning_effort=null disables reasoning. With reasoning on (default, low) about 14 attempts returned no answer within 3000-12000 tokens; probe run confirmed only null works.",
+    "extra_body": {
+      "reasoning_effort": null
+    }
+  },
+  {
+    "code": "M3",
+    "provider": "google",
+    "model": "gemini-2.5-flash",
+    "api_key_env": "GEMINI_API_KEY",
+    "max_tokens": 8192,
+    "note": "thinking tokens count against maxOutputTokens; 1500 truncated the answers"
+  }
+]

@@ -1,0 +1,3 @@
+seeded errors located: 294 of 294
+seeded errors whose erroneous word also occurs elsewhere in the passage (ambiguous): 5
+items where reference edits != expected: 0

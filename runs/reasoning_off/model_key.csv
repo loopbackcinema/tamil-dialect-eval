@@ -1,0 +1,4 @@
+﻿model_code,model_real,provider,temperature,max_tokens,settings,last_run_started_utc
+M1,gpt-5,openai,default,4000,"{""extra_body"": {""reasoning_effort"": ""minimal""}, ""gen_extra"": {}, ""max_tokens"": 4000, ""omit_temperature"": true}",2026-09-30T20:24:32.729558+00:00
+M2,sarvam-105b,openai,0,4000,"{""extra_body"": {""reasoning_effort"": null}, ""gen_extra"": {}, ""max_tokens"": 4000, ""omit_temperature"": false}",2026-09-30T20:24:32.729558+00:00
+M3,gemini-2.5-flash,google,0,4000,"{""extra_body"": {}, ""gen_extra"": {""thinkingConfig"": {""thinkingBudget"": 0}}, ""max_tokens"": 4000, ""omit_temperature"": false}",2026-09-30T20:24:32.729558+00:00
