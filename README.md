@@ -13,11 +13,11 @@ readers' judgements behind the paper.
 | `data/items.json` | the 96 passages: reference text, text with seeded errors, each seeded error and its type |
 | `data/prompts_used.txt` | the two prompts, verbatim (frozen before the run) |
 | `code/` | run, score, compare and adjudication scripts; `models.json` and `models_parity.json` are the two conditions |
-| `runs/main/runs_log.jsonl` | every call of the default-reasoning run (failed attempts are kept as lines; the last successful line per item/model/task is the response) |
+| `runs/main/runs_log.jsonl` | every call of the main-condition run (failed attempts are kept as lines; the last successful line per item/model/task is the response) |
 | `runs/reasoning_off/runs_raw.csv` | the reasoning-off run |
 | `runs/sarvam_reasoning_low/` | Sarvam-105b with reasoning on: 85 of 192 calls returned no answer (supplementary) |
 | `scores/` | automatic scores for both conditions |
-| `adjudication/` | readers' judgements, pseudonymised (R1–R5) |
+| `adjudication/` | readers' judgements, pseudonymised (R1–R6) |
 | `results/`, `figures/` | result workbooks and figures |
 
 ## Reproduce
