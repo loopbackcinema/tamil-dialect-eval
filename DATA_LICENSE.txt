@@ -1,3 +1,17 @@
-All rights reserved pending a release decision.
-The passages, seeded errors and judgements in this repository may not be copied, redistributed or used to train
-models until a licence is chosen and published. Reviewers and collaborators may inspect them for evaluation of the paper.
+Data licence
+============
+The data in this repository (passages and seeded errors in data/, prompts,
+raw model responses in runs/, scores in scores/, pseudonymised reader
+judgements in adjudication/, results and figures) are released under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt the data for any purpose, including commercial use,
+provided you give appropriate credit, link to the licence and indicate if you
+made changes. Please cite the repository and the accompanying paper (see
+CITATION.cff).
+
+The code in code/ is released under the MIT licence (see LICENSE).
+
+The passages were written by native-speaker writers who gave their consent for
+this release.
