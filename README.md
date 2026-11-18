@@ -5,7 +5,7 @@ Madurai Tamil and in written Tamil as control), 294 seeded grammatical errors, t
 two reasoning conditions. This repository holds the data, prompts, code, raw model responses, scores and the
 readers' judgements behind the paper.
 
-**Status: private working archive. Not yet licensed for reuse (see `DATA_LICENSE.txt`).**
+**Status: public archive accompanying the paper. Data: CC BY 4.0 (see `DATA_LICENSE.txt`). Code: MIT.**
 
 ## Layout
 | path | content |
