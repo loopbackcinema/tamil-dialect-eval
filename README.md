@@ -7,6 +7,8 @@ readers' judgements behind the paper.
 
 **Status: public archive accompanying the paper. Data: CC BY 4.0 (see `DATA_LICENSE.txt`). Code: MIT.** DOI: https://doi.org/10.5281/zenodo.24346687
 
+Also available at: [Hugging Face](https://huggingface.co/datasets/FeelEd/tamil-dialect-eval) · [Zenodo](https://doi.org/10.5281/zenodo.24346687) · [AIKosh](https://aikosh.indiaai.gov.in/web/datasets/details/tamil_dialect_eval.html)
+
 ## Layout
 | path | content |
 |---|---|
