@@ -27,8 +27,8 @@ were reviewed by one cross-variety reviewer. The seeded errors were designed wit
 evaluated. Writers assigned their rights in the passages to the dataset compiler under a written agreement.
 
 ## Judgements
-Five readers judged (a) words that the models flagged but that were not seeded errors and (b) repairs that differed
-from the reference form. Reader identities are withheld; labels carry a pseudonym (R1–R5). Column `source` shows
+Six readers judged (a) words that the models flagged but that were not seeded errors and (b) repairs that differed
+from the reference form. Reader identities are withheld; labels carry a pseudonym (R1–R6). Column `source` shows
 whether a label was given word by word (`explicit`), as a summary statement for many words (`blanket`) or as one
 paragraph for a group (`holistic`).
 
